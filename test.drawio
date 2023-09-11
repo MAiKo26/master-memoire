@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2023-06-28T10:09:18.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wCRgqlDesqXoXww7ZkUA" version="21.5.1" type="device">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j0mSN_hkMS0gH7QX-8KP-18" value="Ubuntu Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="390" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j0mSN_hkMS0gH7QX-8KP-19" value="KVM Hyperviseur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="300" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j0mSN_hkMS0gH7QX-8KP-20" value="OCS + GLPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j0mSN_hkMS0gH7QX-8KP-22" value="DHCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j0mSN_hkMS0gH7QX-8KP-23" value="Odoo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j0mSN_hkMS0gH7QX-8KP-24" value="LDAP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j0mSN_hkMS0gH7QX-8KP-25" value="Asterisk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
