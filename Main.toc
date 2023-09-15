@@ -29,32 +29,43 @@
 \contentsline {section}{\numberline {2.5}Conclusion}{43}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Déploiement du Système d'information}{44}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{44}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Les solutions choisies}{44}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Déploiement de solutions choisies}{46}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}La Couche Hardware}{46}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}La Couche Virtualization}{48}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}La Couche Applicatif}{50}{subsection.3.3.3}%
-\contentsline {subsubsection}{DHCP}{50}{section*.8}%
-\contentsline {subsubsection}{VoIP/Téléphonie}{53}{section*.9}%
-\contentsline {subsubsection}{ERP/CRM}{54}{section*.10}%
-\contentsline {subsubsection}{GLPI}{55}{section*.11}%
-\contentsline {subsubsection}{openLDAP}{57}{section*.12}%
-\contentsline {section}{\numberline {3.4}Conclusion}{58}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Intégration des objets connectés}{60}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Objets connectés}{61}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Imprimantes}{62}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Camera de Surveillance}{63}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Machine de Pointage}{64}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Les Lampes et le Theromstat}{65}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Solution avec Raspberry Pi}{67}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Installation Raspberry Pi OS}{67}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Installation Node-RED}{69}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Préparation de Node-RED}{71}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Sécurité de Node-RED}{73}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Réalisation en Node-RED}{76}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Intégration dans le parc informatique}{87}{subsection.4.3.6}%
-\contentsline {section}{\numberline {4.4}Conclusion}{88}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion Générale }{90}{chapter.5}%
-\contentsline {chapter}{Bibliographie}{92}{chapter*.13}%
-\contentsline {chapter}{Acronyme}{94}{chapter*.14}%
+\contentsline {section}{\numberline {3.2}Les besoins de notre système d'information}{44}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Les solutions choisies}{45}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}OS Serveur}{45}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Virtualisation}{46}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Protocole de communication}{47}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}ERP/CRM}{48}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Système de téléphonie IP}{49}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Gestion de parc et d'inventaires}{50}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Gestion des identités et contrôle d'accès}{51}{subsection.3.3.7}%
+\contentsline {section}{\numberline {3.4}Déploiement des solutions choisies}{52}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}La Couche physique}{52}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}La Couche virtualisation}{55}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}La Couche applicative}{57}{subsection.3.4.3}%
+\contentsline {subsubsection}{DHCP}{57}{section*.8}%
+\contentsline {subsubsection}{VoIP/Téléphonie}{60}{section*.9}%
+\contentsline {subsubsection}{ERP/CRM}{60}{section*.10}%
+\contentsline {subsubsection}{GLPI}{61}{section*.11}%
+\contentsline {subsubsection}{OpenLDAP}{62}{section*.12}%
+\contentsline {subsubsection}{Les machines virtuelles de nos applications}{62}{section*.13}%
+\contentsline {section}{\numberline {3.5}Conclusion}{63}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Intégration des objets connectés}{64}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{64}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Définition des objets connectés}{65}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Intégration des Dispositifs Entreprise}{66}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'Intégration}{66}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Intégration des Caméras de Surveillance}{67}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Intégration des Systèmes de Pointage}{67}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Gestion Intelligente de l'Éclairage}{68}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Solution Proposée}{69}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Solution avec Raspberry Pi et Node-RED}{69}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Définition de Raspberry Pi et Node-RED}{69}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Installation Raspberry Pi OS et Node-RED}{69}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Configuration de Node-RED}{74}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Sécurité de Node-RED}{76}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Réalisation en Node-RED}{79}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Intégration dans le parc informatique}{90}{subsection.4.4.6}%
+\contentsline {section}{\numberline {4.5}Conclusion}{91}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Conclusion Générale }{93}{chapter.5}%
+\contentsline {chapter}{Bibliographie}{96}{chapter*.14}%
+\contentsline {chapter}{Acronyme}{98}{chapter*.15}%

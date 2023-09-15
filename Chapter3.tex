@@ -6,45 +6,39 @@
 \section{Introduction}
 
 
-Le déploiement du système d'information est une étape cruciale pour toute entreprise moderne. Afin de répondre aux besoins spécifiques de Zeta Engineering, nous avons identifié les éléments essentiels à intégrer dans notre système d'information, tels que les protocoles de communication et les serveurs. Par la suite, l'équipe informatique se concentrera sur l'amélioration progressive du SI, en effectuant des ajustements et des optimisations. \\
+Le déploiement du système d'information est une étape cruciale pour toute entreprise moderne. Afin de répondre aux besoins spécifiques de Zeta Engineering, nous avons identifié les éléments essentiels à intégrer dans notre système d'information, tels que les protocoles de communication et les serveurs. Par la suite, l'équipe informatique se concentrera sur l'amélioration progressive du SI, en effectuant des ajustements et des optimisations.
 
 
-Dans ce chapitre, nous détaillons les différentes étapes du déploiement de ce système d'information, en commençant par l'installation et la configuration des serveurs nécessaires à leur fonctionnement. Nous expliquons également les choix techniques que nous avons effectués pour répondre aux exigences de l'entreprise et assurer une infrastructure robuste et sécurisée \cite{opg}. \\
+Dans ce chapitre, nous détaillons les différentes étapes du déploiement de ce système d'information, en commençant par l'installation et la configuration des serveurs nécessaires à leur fonctionnement. Nous expliquons également les choix techniques que nous avons effectués pour répondre aux exigences de l'entreprise et assurer une infrastructure robuste et sécurisée \cite{opg}.
 
 
-\section{Les solutions choisies}
+\section{Les besoins de notre système d'information}
 
-Dans cette section nous montons les solutions essentielles choisies pour intégrer à notre entreprise le système d'information.
+
+
+Dans cette section, nous montons les besoins essentielles choisies pour notre entreprise.
+
+
 
 \begin{table}[H]
 \begin{center}
-\begin{tabular}{|c{3cm}|c{3cm}|l{10cm}|}
+\begin{tabular}{|c{3cm}|l{10cm}|}
 \hline
-\textbf{Besoin}         & \textbf{Solution choisie}   & \begin{center} \textbf{Description} \end{center} \\
+\textbf{Besoin} & \begin{center} \textbf{Description} \end{center} \\
 \hline
-OS Serveur & Ubuntu Server 22.04 &Nous choisissons Ubuntu Server 22.04 pour ses excellentes performances, sa stabilité et sa compatibilité avec un large éventail de logiciels et de technologies. 
-
-Ubuntu Server est une distribution Linux légère spécialement conçue pour les serveurs, ce qui en fait un choix idéal pour notre environnement.
- \\
+OS Serveur & Système d'exploitation spécialement conçu pour les serveurs, offrant des fonctionnalités de stabilité, de performance et de compatibilité avec divers logiciels et technologies. \\
 \hline
-Virtualisation & KVM & Nous avons choisi KVM (Kernel-based Virtual Machine) pour sa performance et sa compatibilité avec Ubuntu Server, afin d’héberger nos machines virtuelles (VM). 
-
-KVM est une solution de virtualisation open source qui permet d’exécuter des systèmes virtuels sur un serveur physique.
- \\
+Virtualisation & Permettre l'exécution de systèmes virtuels sur différents systèmes d'exploitation en simulant du matériel standardisé. \\
 \hline
-Protocole de communication & ISC DHCP & Offre des fonctionnalités avancées pour la configuration et la gestion des adresses IP. ISC DHCP est souvent utilisé comme serveur DHCP dans les environnements Linux, notamment sur la distribution Ubuntu. \\
+Protocole de communication & Ensemble de règles et de conventions permettant à différents composants du réseau de communiquer entre eux de manière cohérente. \\
 \hline
-ERP/CRM & Odoo & Odoo est une suite logicielle open-source complète qui propose des modules de gestion d'entreprise, y compris des fonctionnalités ERP (Enterprise Resource Planning) et CRM (Customer Relationship Management). 
-
-Odoo offre une large gamme de fonctionnalités et de modules couvrant différents aspects de la gestion d'entreprise, tels que la comptabilité, la gestion des ventes, la gestion des stocks, la gestion des ressources humaines, le marketing, etc. Les modules ERP d'Odoo permettent de gérer efficacement les opérations et les processus internes de l'entreprise, tandis que les modules CRM offrent des outils pour gérer les relations avec les clients et optimiser les activités de vente et de marketing.
-
-Le choix d'Odoo en tant que solution ERP/CRM s'explique par plusieurs raisons. Tout d'abord, Odoo est un logiciel open-source, ce qui signifie qu'il est librement accessible et modifiable, offrant ainsi une flexibilité et une personnalisation accrues. De plus, Odoo dispose d'une communauté active qui contribue au développement et à l'amélioration continue du logiciel, ce qui garantit une évolution constante et des mises à jour régulières. \\
+ERP/CRM & Plateforme intégrée de gestion d'entreprise qui offre des fonctionnalités pour la gestion des ressources, des ventes, des finances, des ressources humaines et bien plus encore. \\
 \hline
-Protocole VOIP & Asterisk & Gérer les appels téléphoniques, y compris la gestion des lignes et d'autres fonctionnalités avancées. Il prend en charge différents protocoles de communication, tels que SIP et RTP, permettant ainsi la mise en place de communications vocales à travers le réseau IP. \\
+Système de téléphonie IP & Gérer les appels téléphoniques, y compris la gestion des lignes et d'autres fonctionnalités avancées. Il prend en charge différents protocoles de communication, tels que SIP et RTP, permettant ainsi la mise en place de communications vocales à travers le réseau IP. \\
 \hline
-Gestion de parc et d'inventaires & GLPI & Suivre et gérer les actifs matériels et logiciels d'une organisation, y compris les utilisateurs, les ordinateurs, les périphériques et les licences logicielles. \\
+Gestion de parc et d'inventaires & Suivre et gérer les actifs matériels et logiciels d'une organisation, y compris les utilisateurs, les ordinateurs, les périphériques et les licences logicielles. \\
 \hline
-Gestion des identités et contrôle d'accès & OpenLDAP & Gérer les utilisateurs, les ordinateurs et les groupes au sein d'un réseau. Fournir des fonctionnalités d'authentification, de contrôle d'accès et de gestion des politiques de sécurité. \\
+Gestion des identités et contrôle d'accès & Gérer les utilisateurs, les ordinateurs et les groupes au sein d'un réseau. Fournir des fonctionnalités d'authentification, de contrôle d'accès et de gestion des politiques de sécurité. \\
 \hline
 \end{tabular}
 \caption{Les solutions choisies pour le système d'information}
@@ -53,63 +47,215 @@ Gestion des identités et contrôle d'accès & OpenLDAP & Gérer les utilisateur
 \end{table}
 
 
-\section{Déploiement de solutions choisies}
+\section{Les solutions choisies}
 
-Dans cette section nous allons 
+Dans cette section, nous présentons les solutions essentielles que nous avons choisies pour intégrer le système d’information de notre entreprise.
+
+\subsection{OS Serveur}
+
+Pour le système d'exploitation de nos serveurs, nous optons pour Ubuntu Server 22.04 en raison de ses excellentes performances, de sa stabilité et de sa compatibilité avec un large éventail de logiciels et de technologies. Ubuntu Server est une distribution Linux légère spécialement conçue pour les serveurs, ce qui en fait un choix idéal pour notre environnement.
+
+Ubuntu Server 22.04 est la dernière version de la distribution serveur d'Ubuntu, basée sur le système d'exploitation Linux. Elle offre de nombreuses fonctionnalités et améliorations par rapport aux versions précédentes, notamment :
+
+\begin{itemize}
+
+\item Performances améliorées : Ubuntu Server 22.04 est optimisé pour fournir des performances élevées, ce qui permet de gérer efficacement les charges de travail les plus exigeantes. \\
+
+\item Sécurité renforcée : La distribution intègre des fonctionnalités de sécurité avancées, telles que la prise en charge du chiffrement des données, les mises à jour automatiques et la gestion des certificats, afin de garantir la confidentialité et l'intégrité des données.\\
+
+\item Support à long terme : Ubuntu Server 22.04 bénéficie d'un support à long terme (LTS) de cinq ans, ce qui signifie que des mises à jour de sécurité et des correctifs seront disponibles pendant une période prolongée, assurant ainsi la stabilité et la fiabilité du système.\\
+
+\item Écosystème riche : Ubuntu Server est soutenu par une vaste communauté d'utilisateurs et de développeurs, ce qui garantit un support et une documentation abondants, ainsi qu'un large éventail de logiciels et d'outils disponibles pour répondre aux besoins spécifiques du serveur.\\
+\end{itemize}
+
+\subsection{Virtualisation}
+
+Pour la virtualisation de nos serveurs, nous optons pour KVM en raison de ses avantages significatifs. KVM, ou Kernel-based Virtual Machine, est une technologie de virtualisation open source qui permet d'exécuter plusieurs machines virtuelles sur un seul serveur physique. Cette solution offre les avantages suivants :
+
+\begin{itemize}
+
+\item Efficacité et performance : KVM est intégré au noyau Linux, ce qui lui confère une efficacité exceptionnelle et des performances élevées. Il exploite pleinement les ressources matérielles du serveur, offrant ainsi une expérience de virtualisation fluide.\\
+
+\item Isolation et sécurité : KVM assure une isolation totale entre les machines virtuelles, garantissant ainsi la sécurité des données et des applications. Chaque machine virtuelle fonctionne de manière indépendante des autres, ce qui réduit les risques de failles de sécurité.\\
+
+\item Compatibilité : KVM est compatible avec une variété de systèmes d'exploitation invités, ce qui permet d'exécuter différents environnements logiciels au sein de machines virtuelles distinctes.\\
+
+\item Évolutivité : La virtualisation avec KVM est hautement évolutive. Nous pouvons ajouter ou supprimer des machines virtuelles en fonction des besoins de votre entreprise sans perturber les opérations en cours.\\
+
+\end{itemize}
+\subsection{Protocole de communication}
+
+Pour gérer les adresses IP de notre réseau, nous optons pour ISC DHCP (Internet Systems Consortium - Dynamic Host Configuration Protocol). ISC DHCP est un protocole de communication qui joue un rôle essentiel dans l'attribution automatique des adresses IP aux dispositifs connectés à notre réseau. Voici les raisons de ce choix :
+
+\begin{itemize}
+
+\item Fiabilité : ISC DHCP est largement reconnu pour sa fiabilité. Il assure une distribution efficace des adresses IP tout en minimisant les conflits d'adresses et les interruptions de réseau.\\
+
+\item Facilité de gestion : La configuration et la gestion d'ISC DHCP sont conviviales, ce qui simplifie la maintenance de notre réseau. Nous pouvons aisément définir des plages d'adresses, des options de configuration personnalisées et surveiller l'état du service DHCP.\\
+
+\item Prise en charge des protocoles : ISC DHCP prend en charge plusieurs protocoles de communication, notamment IPv4 et IPv6. Cela garantit la compatibilité avec divers dispositifs et systèmes d'exploitation.\\
+
+\item Évolutivité : Notre choix d'ISC DHCP est évolutif, ce qui signifie que nous pouvons facilement adapter notre réseau aux besoins croissants de notre entreprise en ajoutant de nouveaux dispositifs sans soucis de gestion des adresses IP.\\
+
+\end{itemize}
+
+Ce protocole de communication joue un rôle crucial dans l'attribution et la gestion des adresses IP au sein de notre réseau, assurant ainsi une connectivité fiable pour tous nos dispositifs.
+
+\subsection{ERP/CRM}
+
+Pour les plates-formes ERP/CRM, nous sélectionnons Odoo. Odoo est une solution intégrée de gestion d'entreprise qui offre une gamme complète de fonctionnalités pour la gestion des ressources, des ventes, des finances, des ressources humaines et bien plus encore. Notre choix d'Odoo repose sur plusieurs avantages clés :
+
+\begin{itemize}
+
+\item Intégration complète : Odoo propose une intégration complète de toutes les fonctions essentielles de l'entreprise. Cela signifie que nous pouvons gérer divers aspects de notre entreprise, tels que la comptabilité, les ventes, les stocks et la gestion des projets, à partir d'une seule plate-forme centralisée.\\
+
+\item Personnalisation : Odoo est hautement personnalisable, ce qui nous permet d'adapter la plate-forme à nos besoins spécifiques. Nous pouvons personnaliser les flux de travail, les rapports et les tableaux de bord pour répondre à nos exigences métier uniques.\\
+
+\item Facilité d'utilisation : Odoo est réputé pour sa convivialité. Notre équipe pourra rapidement prendre en main la plate-forme, ce qui réduira la courbe d'apprentissage et favorisera une utilisation optimale.\\
+
+\item Communauté active : Odoo bénéficie d'une communauté mondiale active d'utilisateurs et de développeurs. Cela signifie que nous avons accès à une vaste base de connaissances, à des modules complémentaires personnalisés et à un support communautaire en cas de besoin.\\
+
+\end{itemize}
+
+Avec Odoo comme plate-forme ERP/CRM, nous disposons d'un outil puissant pour optimiser nos opérations commerciales, améliorer notre gestion des clients et devenir plus efficaces dans l'ensemble de notre entreprise.\\
+
+
+
+\subsection{Système de téléphonie IP}
+
+Pour le système VOIP, nous choisissons qui est une solution de téléphonie IP qui permet de gérer efficacement les appels téléphoniques au sein de notre entreprise. Notre choix d'Asterisk repose sur plusieurs avantages clés :
+
+\begin{itemize}
+
+\item Flexibilité : Asterisk est connu pour sa grande flexibilité. Il prend en charge différents protocoles de communication, tels que SIP et RTP, ce qui nous permet de mettre en place des communications vocales à travers notre réseau IP.\\
+
+\item Fonctionnalités avancées : Asterisk offre un large éventail de fonctionnalités avancées pour la gestion des appels téléphoniques. Cela inclut la gestion des lignes, la messagerie vocale, la conférence téléphonique et bien plus encore.\\
+
+\item Personnalisation : Asterisk est hautement personnalisable. Nous pouvons adapter le système selon nos besoins spécifiques, ce qui nous permet de créer une solution de téléphonie sur mesure pour notre entreprise.\\
+
+\item Économies de coûts : En utilisant Asterisk, nous réalisons des économies significatives sur nos coûts de communication. La téléphonie IP est généralement plus abordable que les systèmes de téléphonie traditionnels.\\
+
+\end{itemize}
+
+Avec Asterisk comme solution de téléphonie IP, nous avons la possibilité de mettre en place une infrastructure de communication vocale moderne et flexible pour répondre aux besoins de notre entreprise.\\
+
+
+
+
+
+\subsection{Gestion de parc et d'inventaires}
+
+Pour la gestion de parc et d'inventaires, nous choisissons GLPI avec l'intégration de FusionInventory. Cette solution nous permet de suivre et de gérer efficacement les actifs matériels et logiciels au sein de notre organisation. Notre choix de GLPI et FusionInventory repose sur plusieurs avantages clés :
+
+\begin{itemize}
+
+\item Suivi complet des actifs : GLPI nous offre la possibilité de suivre de manière exhaustive tous les actifs de notre parc, y compris les ordinateurs, les périphériques, les logiciels, et bien plus encore. Cela garantit une gestion précise de nos ressources.\\
+
+\item Gestion des utilisateurs : GLPI nous permet de gérer les utilisateurs au sein de notre réseau de manière efficace. Nous pouvons attribuer des actifs aux utilisateurs et suivre leur utilisation de manière transparente.\\
+
+\item Automatisation des tâches : FusionInventory, intégré à GLPI, automatise de nombreuses tâches de gestion, telles que l'inventaire des actifs et la gestion des mises à jour. Cela nous fait gagner du temps et améliore la précision des données.\\
+
+\item Personnalisation : GLPI est hautement personnalisable pour répondre à nos besoins spécifiques. Nous pouvons adapter les champs et les processus pour une gestion des actifs sur mesure.\\
+
+\end{itemize}
+
+Avec GLPI et FusionInventory, nous avons la capacité de gérer de manière efficace l'ensemble de nos actifs, de suivre les changements, et d'optimiser l'utilisation de nos ressources.\\
+
+
+
+
+\subsection{Gestion des identités et contrôle d'accès}
+
+Pour la gestion des identités et le contrôle d'accès, nous optons pour OpenLDAP en raison de sa nature open-source, de sa flexibilité et de sa robustesse. OpenLDAP est une solution de répertoire qui nous permet de gérer les identités des utilisateurs, les groupes et les autorisations d'accès au sein de notre infrastructure informatique. Voici quelques-unes des raisons pour lesquelles nous avons choisi OpenLDAP :\\
+
+\begin{itemize}
+
+\item Gratuit et open-source : OpenLDAP est une solution open-source, ce qui signifie qu'elle est gratuite à utiliser. Cela s'aligne avec notre objectif de minimiser les coûts tout en bénéficiant de fonctionnalités avancées.\\
+
+\item Personnalisable : OpenLDAP est hautement personnalisable, ce qui nous permet de configurer des schémas et des attributs spécifiques en fonction de nos besoins. Nous pouvons adapter la structure du répertoire pour refléter notre organisation.\\
+
+\item Interopérabilité : OpenLDAP prend en charge les protocoles LDAP standard, ce qui facilite l'intégration avec d'autres applications et services. Nous pouvons l'utiliser pour centraliser l'authentification et l'autorisation à travers diverses plates-formes.\\
+
+\item Sécurité : OpenLDAP offre des fonctionnalités de sécurité robustes, telles que l'authentification forte, le chiffrement des données et la gestion des politiques d'accès. Cela garantit la protection de nos données sensibles.\\
+
+\item Communauté active : OpenLDAP bénéficie d'une communauté active d'utilisateurs et de développeurs, ce qui signifie que nous pouvons trouver un support, des ressources et des mises à jour régulières.\\
+
+\end{itemize}
+
+Avec OpenLDAP, nous pouvons mettre en place un système de gestion des identités solide et sécurisé, qui répond à nos besoins de contrôle d'accès et d'authentification au sein de notre infrastructure informatique.
+
+
+
+
+
+
+\section{Déploiement des solutions choisies}
+
+Nos solutions choisies se répartissent en trois couches distinctes, comme illustré dans la figure \ref{fig:diagramme-SI}. La couche inférieure représente la couche physique, où nous installons le système d'exploitation serveur. Au-dessus, nous avons la couche de virtualisation, où nous créons des environnements virtuels pour nos applications. Enfin, la couche supérieure est la couche applicative, où nous déployons nos machines virtuelles et exécutons nos applications.
 
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/diagsi.png}
-    \caption{Diagramme du Système d'information}
-    \label{fig:diagramme-SI}
+\centering
+\includegraphics[width=16cm]{Images/diagsi.png}
+\caption{Diagramme du système d'information}
+\label{fig:diagramme-SI}
 \end{figure}
 
 
-\subsection{La Couche Hardware}
 
 
-Voici notre connexion à notre serveur Ubuntu 22.04 grâce à Putty en figure \ref{fig:putty-connection}. \\
 
+
+\subsection{La Couche physique}
+
+La configuration de la couche physique de notre infrastructure s'est déroulée en suivant scrupuleusement le guide d'installation d'Ubuntu Server 22.04 \cite{linuxgenie_ubuntu2204}. 
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/zetaserver.png}
-    \caption{Connexion à Ubuntu Server 22.04 via Putty}
-    \label{fig:putty-connection}
+  \centering
+  \includegraphics[width=15cm]{Images/ubuntu-install.png}
+  \caption{Connexion à Ubuntu Server 22.04 via Putty}
+  \label{fig:ubuntu-install}
 \end{figure}
 
-Ci-dessous \ref{fig:neofetch-result}, nous pouvons voir le résultat de la commande "neofetch" exécutée sur notre serveur Ubuntu. \\
+La Figure \ref{fig:ubuntu-install} présente notre procédure de connexion à Ubuntu Server 22.04 à l'aide de l'outil Putty. Cette étape est cruciale pour établir une liaison avec notre serveur Ubuntu.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/neofetchzetasrv.png}
-    \caption{Résultat de la commande "neofetch" sur Ubuntu Server 22.04}
-    \label{fig:neofetch-result}
+  \centering
+  \includegraphics[width=15cm]{Images/zetaserver.png}
+  \caption{Interface Putty pour la connexion à Ubuntu Server 22.04}
+  \label{fig:putty-interface}
 \end{figure}
 
+Sur la Figure \ref{fig:putty-interface}, nous exposons en détail l'interface de Putty, l'outil que nous employons pour effectuer la connexion à notre serveur Ubuntu 22.04. Cette interface est l'interface de contrôle permettant la gestion à distance de notre serveur.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=15cm]{Images/neofetchzetasrv1.png}
+  \caption{Résultat de la commande "neofetch" sur Ubuntu Server 22.04}
+  \label{fig:neofetch-result}
+\end{figure}
+
+La Figure \ref{fig:neofetch-result} affiche le résultat détaillé de l'exécution de la commande "neofetch" sur notre serveur Ubuntu 22.04. Cette commande nous a permis d'obtenir des informations système essentielles pour assurer le bon fonctionnement de notre infrastructure.
 
 
+\subsection{La Couche virtualisation}
 
-\subsection{La Couche Virtualization}
+Avant d'installer KVM, nous effectuons des vérifications pour garantir la compatibilité matérielle. 
 
-Avant d'installer KVM, nous avons effectué les vérifications suivantes pour nous assurer de la compatibilité matérielle. \\
+Tout d'abord, nous exécutons la commande \textbf{egrep -c '(vmx|svm)' /proc/cpuinfo} pour vérifier la présence des instructions de virtualisation matérielles (VT-x pour Intel ou AMD-V pour AMD) sur le processeur. Un résultat supérieur à zéro indique que le processeur prend en charge la virtualisation matérielle.
 
-1. Nous avons exécuté la commande \textit{`egrep -c '(vmx|svm)' /proc/cpuinfo` } pour vérifier la présence des instructions de virtualisation matérielles (VT-x pour Intel ou AMD-V pour AMD) sur le processeur. Un résultat supérieur à zéro indique que le processeur prend en charge la virtualisation matérielle. \\
+Ensuite, nous utilisons la commande \textbf{kvm-ok} pour vérifier si les modules de virtualisation étaient correctement chargés dans le système et si la virtualisation était prise en charge.
 
-2. Nous avons utilisé la commande \textit{`kvm-ok`} pour vérifier si les modules de virtualisation étaient chargés correctement dans le système et si la virtualisation était supportée. \\
+Une fois ces vérifications réussies, nous procédons à l'installation des packages nécessaires en exécutant la commande suivante :
 
-Une fois que nous réussissons ces vérifications, nous procédons à l'installation des paquets nécessaires en exécutant la commande suivante.
+\textbf{"sudo apt install -y qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-clients bridge-utils"}
 
-\textit{`sudo apt install -y qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-clients bridge-utils` v}
-
-
-Ci-dessous, nous constatons les captures d'écran illustrant les étapes d'installation de KVM et de vérification de l'état du service libvirtd dans les figures  \ref{fig:kvm-installation} et \ref{fig:libvirtd-status}.
+Ci-dessous, nous pouvons voir que les figures \ref{fig:kvm-installation} et \ref{fig:libvirtd-status} illustrant les étapes d'installation de KVM et la vérification de l'état du service libvirtd  .
 
 \begin{figure}[H]
  \centering
     \includegraphics[width=15cm]{Images/installkvm1.png}
-    \caption{Installation des paquets KVM}
+    \caption{Installation des packages KVM}
     \label{fig:kvm-installation}
 \end{figure}
 
@@ -120,126 +266,105 @@ Ci-dessous, nous constatons les captures d'écran illustrant les étapes d'insta
     \label{fig:libvirtd-status}
 \end{figure}
 
-
-
-
-Enfin, grâce à l'utilisation de Xming et de Putty, nous pouvons accéder au gestionnaire graphique Virt-Manager à distance depuis notre utilisateur Windows et gérer et administrer nos VMs de manière efficace comme le montre \ref{fig:virt-manager-access}. Cela nous permet de configurer nos machines virtuelles de manière conviviale. \\
-
+Enfin, grâce à l'utilisation de Xming et de PuTTY, nous pouvons accéder au gestionnaire graphique Virt-Manager à distance depuis notre utilisateur Windows, comme illustré dans la figure \ref{fig:virt-manager-access}. Cela nous permet de configurer nos machines virtuelles de manière conviviale.
 
 \begin{figure}[H]
  \centering
     \includegraphics[width=15cm]{Images/resultvirtmanager.png}
-    \caption{Accès à Virt-Manager via Xming et Putty}
+    \caption{Accès à Virt-Manager via Xming et PuTTY}
     \label{fig:virt-manager-access}
 \end{figure}
 
-
-
-\subsection{La Couche Applicatif}
-
+\subsection{La Couche applicative}
 
 \subsubsection{DHCP}
 
-Pour mettre en place et configurer un serveur DHCP sur une machine virtuelle Linux, nous avons suivi les étapes suivantes.\\
+Pour mettre en place et configurer un serveur DHCP sur une machine virtuelle Linux, nous avons suivi les étapes suivantes \cite{linuxhint_dhcp_server}.
 
-Tout d'abord, nous avons effectué une mise à jour du système Linux en exécutant la commande "apt-get update" dans la figure \ref{fig:update-linux}. \\
+Tout d'abord, nous effectuons une mise à jour du système Linux en exécutant la commande \textbf{"apt-get update"} comme illustré dans la figure \ref{fig:update-linux}.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/dhcp1.png}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/dhcp1.png}
     \caption{Mise à jour du système Linux}
     \label{fig:update-linux}
 \end{figure}
 
-Ensuite, nous avons redémarré le service isc-dhcp pour appliquer les modifications \ref{fig:restart-isc-dhcp}. \\
+Ensuite, nous redémarrons le service isc-dhcp pour appliquer les modifications, comme le montre la figure \ref{fig:restart-isc-dhcp}.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/dhcp2.png}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/dhcp2.png}
     \caption{Redémarrage du service isc-dhcp}
     \label{fig:restart-isc-dhcp}
 \end{figure}
 
-Nous avons ensuite procédé à la configuration du fichier dhcpd.conf à l'aide de l'éditeur de texte gedit \ref{fig:dhcpd-conf-configuration}. \\
+Nous procédons ensuite à la configuration du fichier dhcpd.conf à l'aide de l'éditeur de texte gedit, comme indiqué dans la figure \ref{fig:dhcpd-conf-configuration}.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/dhcp3.png}
-    \caption{Configuration du fichier dhcpd.conf}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/dhcp3.png}
+    \caption{Configuration du fichier \texttt{dhcpd.conf}}
     \label{fig:dhcpd-conf-configuration}
 \end{figure}
 
-Voici un exemple de fichier de configuration dhcpd.conf.\\
+La figure  \ref{fig:dhcpd-conf-example} illustre un exemple de fichier de configuration \texttt{dhcpd.conf}.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/dhcp4.png}
-    \caption{Exemple de fichier de configuration dhcpd.conf}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/dhcp4.png}
+    \caption{Exemple de fichier de configuration \texttt{dhcpd.conf}}
     \label{fig:dhcpd-conf-example}
 \end{figure}
 
-Enfin, nous avons vérifié que le serveur DHCP ISC était en cours d'exécution en utilisant la commande systemctl status isc-dhcp-server.service .\\
+Enfin, nous vérifions que le serveur DHCP ISC était en cours d'exécution en utilisant la commande \textbf{"systemctl status isc-dhcp-server.service"}, comme montré dans la figure \ref{fig:isc-dhcp-service-status}.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/dhcp5.png}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/dhcp5.png}
     \caption{État du service ISC DHCP}
     \label{fig:isc-dhcp-service-status}
 \end{figure}
 
-Ainsi, nous avons réussi à mettre en place et configurer un serveur DHCP sur notre machine virtuelle Linux. Cela nous permettra de fournir automatiquement des adresses IP et d'autres informations de configuration réseau aux clients DHCP de notre réseau. \\
-
-
+Ainsi, nous réussissons  à mettre en place et configurer un serveur DHCP sur notre machine virtuelle Linux. Cela nous permettra de fournir automatiquement des adresses IP et d'autres informations de configuration réseau aux clients DHCP de notre réseau.
 
 \subsubsection{VoIP/Téléphonie}
 
-Étant donné que notre entreprise dispose d'une équipe de centre d'appels, il est essentiel d'avoir une solution de téléphonie centralisée comme Asterisk sur notre serveur. Asterisk est un logiciel de téléphonie open source qui permet de gérer les appels téléphoniques, les files d'attente, les routages, etc. Nous avons procédé à la configuration et à l'installation d'Asterisk selon les étapes suivantes.\\
-
-Voici notre installation d'Asterisk sur notre machine virtuelle Ubuntu. \\
+Après avoir suivi les étapes d'installation d'Asterisk \cite{asterisk-install-vegastack}, comme illustré dans la figure \ref{fig:asterisk-server1}, notre système Asterisk fonctionne correctement.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/AsteriskServer1.png}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/AsteriskServer1.png}
     \caption{Installation d'Asterisk sur Ubuntu}
     \label{fig:asterisk-server1}
 \end{figure}
 
 
-
 \subsubsection{ERP/CRM}
 
-
-
-Voici un aperçu de notre installation d'Odoo sur notre machine virtuelle Ubuntu. \\
+L'installation d'Odoo \cite{odoo16-ubuntu-install} sur notre machine virtuelle Ubuntu est présentée dans la figure \ref{fig:odoo-installation}.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/OdooServer1.png}
-    \caption{Installation d'Odoo sur Ubuntu}
-    \label{fig:odoo-installation}
+\centering
+\includegraphics[width=15cm]{Images/OdooServer1.png}
+\caption{Installation d'Odoo sur Ubuntu}
+\label{fig:odoo-installation}
 \end{figure}
 
-Et voici la confirmation du bon fonctionnement d'Odoo avec le tableau de bord accessible depuis notre navigateur, où les modules CRM sont installés. \\
+De plus, la confirmation du bon fonctionnement d'Odoo est illustrée dans la figure \ref{fig:odoo-dashboard}. 
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/OdooServer2.png}
-    \caption{Tableau de bord d'Odoo avec les modules CRM installés}
-    \label{fig:odoo-dashboard}
+\centering
+\includegraphics[width=15cm]{Images/OdooServer2.png}
+\caption{Tableau de bord d'Odoo avec les modules CRM installés}
+\label{fig:odoo-dashboard}
 \end{figure}
-
-Grâce à Odoo, nous pouvons gérer efficacement nos processus d'entreprise, améliorer nos relations avec les clients et optimiser nos activités de vente et de marketing. La flexibilité, la personnalisation et la communauté active d'Odoo en font une solution ERP/CRM puissante et adaptée à nos besoins. \\
 
 
 
 \subsubsection{GLPI}
-GLPI (Gestionnaire Libre de Parc Informatique) est une plateforme open-source largement utilisée pour la gestion des services informatiques et des actifs informatiques. L'un des plugins les plus populaires de GLPI est FusionInventory, qui permet la collecte automatisée des informations sur le matériel et les logiciels du parc informatique. \\
 
-FusionInventory s'intègre parfaitement à GLPI, offrant ainsi une solution complète pour la gestion centralisée des équipements informatiques. Les informations collectées par FusionInventory, telles que les détails matériels, les logiciels installés et les configurations, sont automatiquement importées dans la base de données de GLPI. \\
-
-Cette intégration permet d'avoir une vue d'ensemble complète et à jour du parc informatique de l'entreprise dans le tableau de bord de GLPI. Les responsables informatiques peuvent ainsi avoir une vision claire de tous les équipements, leur localisation, leur état, les utilisateurs associés, etc. \\
-
-Voici un aperçu du tableau de bord de GLPI, où toutes les informations sur les équipements peuvent être consultées et gérées efficacement. \\
+L'installation de GLPI \cite{glpi-install-tecmint} est suivie d'un aperçu du tableau de bord de GLPI, où toutes les informations sur les équipements peuvent être consultées et gérées efficacement, comme montré dans la figure \ref{fig:glpi-dashboard}.
 
 \begin{figure}[H]
 \centering
@@ -248,25 +373,12 @@ Voici un aperçu du tableau de bord de GLPI, où toutes les informations sur les
 \label{fig:glpi-dashboard}
 \end{figure}
 
-Grâce à GLPI et FusionInventory, les avantages suivants sont obtenus. \\
 
-1. Gestion centralisée des actifs : Tous les équipements, qu'il s'agisse de postes de travail, de serveurs, d'imprimantes ou de périphériques, sont regroupés dans une seule interface. Cela facilite la recherche, la gestion et la maintenance de l'ensemble du parc informatique. \\
 
-2. Automatisation de l'inventaire : Les informations sur le matériel et les logiciels sont collectées automatiquement, réduisant ainsi les erreurs et les efforts manuels. Cela permet d'avoir une base de données à jour et précise de tous les équipements. \\
 
-3. Suivi des incidents et des problèmes : Avec GLPI, il est possible de lier les équipements aux tickets d'assistance, facilitant ainsi la résolution des incidents et le suivi des problèmes techniques. \\
+\subsubsection{OpenLDAP}
 
-4. Gestion des contrats et des licences : GLPI permet de gérer les contrats de maintenance, les licences logicielles et les garanties associées aux équipements du parc informatique. Cela facilite la gestion des renouvellements, des échéances et des coûts associés. \\
-
-En résumé, l'intégration de FusionInventory avec GLPI offre une solution complète pour la gestion des actifs informatiques et des services informatiques. Elle permet une meilleure visibilité du parc informatique, une automatisation de l'inventaire, une gestion efficace des incidents et des problèmes, ainsi qu'une gestion simplifiée des contrats et des licences. \\
-
-\subsubsection{openLDAP}
-
-OpenLDAP, un logiciel open-source, est utilisé dans notre système SI pour la gestion des identités et des accès des utilisateurs. Il fournit un serveur d'annuaire LDAP (Lightweight Directory Access Protocol) permettant d'accéder et de gérer les informations de manière centralisée. LDAP est un protocole de communication utilisé pour cette gestion. \\
-
-OpenLDAP offre une gamme de fonctionnalités pour la gestion des utilisateurs, des groupes et des autorisations. Cela facilite l'administration des comptes utilisateurs, la mise en place de politiques de sécurité et la gestion des droits d'accès aux ressources informatiques. En intégrant openLDAP à notre système SI, nous pouvons gérer efficacement les identités et les accès des utilisateurs. \\
-
-Le tableau de bord de phpLDAPAdmin, une interface graphique pour la gestion de l'annuaire LDAP, est présenté ci-dessous. Cependant, il n'a pas encore été configuré et distribué sur tous les postes clients. \\
+Après avoir suivi les étapes pour installer OpenLDAP \cite{patil2020openldap}, nous présentons le tableau de bord de phpLDAPAdmin, une interface graphique pour la gestion de l'annuaire LDAP \ref{fig:ldap-dashboard}.
 
 \begin{figure}[H]
 \centering
@@ -275,10 +387,26 @@ Le tableau de bord de phpLDAPAdmin, une interface graphique pour la gestion de l
 \label{fig:ldap-dashboard}
 \end{figure}
 
-OpenLDAP est reconnu pour ses performances, sa fiabilité et sa flexibilité. Il peut être intégré à d'autres systèmes d'authentification, tels que Kerberos, pour renforcer la sécurité des accès. Sa compatibilité avec de nombreux systèmes et applications facilite son déploiement dans des environnements hétérogènes. En choisissant openLDAP comme solution de gestion des identités et des accès, nous bénéficions d'un système solide et éprouvé pour centraliser et gérer les informations des utilisateurs, renforçant ainsi la sécurité de notre système SI.\\
+\subsubsection{Les machines virtuelles de nos applications}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{Images/virsh-listall.png}
+\caption{Liste des machines virtuelles déployées}
+\label{fig:vm-list}
+\end{figure}
+
+La Figure \ref{fig:vm-list} présente la liste complète de nos VMs actuellement déployées, chacune d'entre elles étant dédiée à l'une de nos applications. Ce déploiement nous permet de garantir l'isolation des ressources et de maintenir la disponibilité de nos applications de manière efficace.
+
+
 
 \section{Conclusion}
 
-Le déploiement du système d'information de Zeta Engineering a suivi un processus structuré, avec une sélection soignée des éléments techniques, incluant Ubuntu Server 22.04 comme système d'exploitation serveur, KVM pour la virtualisation, ISC DHCP pour la gestion des adresses IP, Odoo pour la gestion d'entreprise, et Asterisk pour les appels téléphoniques. Ces choix techniques ont abouti à une infrastructure solide et sécurisée. L'installation et la configuration ont suivi des étapes précises, garantissant performance, stabilité et compatibilité avec les besoins de l'entreprise. 
+Le système d'information de Zeta Engineering est déployé de manière structurée, en utilisant des solutions adaptées : Ubuntu Server 22.04 comme OS serveur, KVM pour la virtualisation, DHCP ISC DHCP pour la gestion des IP, Odoo pour la gestion d'entreprise, Asterisk pour les appels, GLPI et FusionInventory pour l'inventaire, et OpenLDAP pour l'identité.\\
 
-En conclusion, ce déploiement offre une base solide pour l'équipe informatique qui pourra désormais se concentrer sur l'amélioration continue du système d'information pour répondre aux besoins évolutifs de l'entreprise. En conclusion, il constitue une étape essentielle pour assurer le bon fonctionnement et la performance de Zeta Engineering.
+L'installation et la configuration suivent des étapes précises. Ubuntu Server est choisi pour sa performance et sa compatibilité. KVM héberge les VM, DHCP ISC DHCP gère les IP, Odoo centralise la gestion, et Asterisk prend en charge les appels.\\
+
+Ce déploiement crée une base solide et sécurisée. L'équipe informatique peut maintenant optimiser le système pour les besoins en constante évolution de l'entreprise.\\
+
+En conclusion, ce déploiement assure le fonctionnement efficace et fiable de Zeta Engineering.\\

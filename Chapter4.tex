@@ -10,115 +10,91 @@ Les objets connectés sont des dispositifs électroniques qui peuvent communique
 
 Ils jouent un rôle important dans la création de systèmes intelligents et autonomes, qui peuvent améliorer l'efficacité, la sécurité et la qualité de vie dans de nombreux domaines. \\
 
-Dans ce chapitre, nous examinerons les différentes technologies et protocoles utilisés pour l'intégration des objets connectés, ainsi que les défis et les opportunités qu'elle présente. \\
+Dans ce chapitre, nous examinons les différentes technologies et protocoles utilisés pour l'intégration des objets connectés, ainsi que les défis et les opportunités qu'elle présente. \\
 
-Nous décrirons également les différentes étapes du processus d'intégration, de la sélection des dispositifs appropriés à leur installation, leur configuration et leur maintenance. Enfin, nous présenterons quelques exemples d'applications pratiques de l'intégration des objets connectés dans différents domaines, tels que l'agriculture, la santé, l'industrie et le transport. \\
-
-
+Nous décrivons également les différentes étapes du processus d'intégration, de la sélection des dispositifs appropriés à leur installation, leur configuration et leur maintenance. Enfin, nous présentons quelques exemples d'applications pratiques de l'intégration des objets connectés dans différents domaines, tels que l'agriculture, la santé, l'industrie et le transport. \\
 
 
 
 
 
-\section{Objets connectés}
-
-Les objets connectés, également connus sous le nom d'Internet des objets (IoT), font référence à des appareils physiques qui sont connectés à Internet et peuvent échanger des données avec d'autres appareils ou systèmes. \\
-
- Les objets connectés sont souvent équipés de capteurs, de logiciels et d'autres technologies permettant de collecter et de communiquer des données en temps réel. Ces données peuvent être utilisées pour améliorer l'efficacité, la productivité et la sécurité dans un large éventail de domaines, tels que la santé, les transports, l'agriculture, l'industrie manufacturière, les villes intelligentes, les maisons intelligentes, etc. \\
-
-\begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/IoT-Topo2.png}
-    \caption{Topologie IoT}
-    \label{Chap4.2.1}
-\end{figure}    
-\smallskip
 
 
-\subsection{Imprimantes}
+\section{Définition des objets connectés}
+
+Les objets connectés, également connus sous le nom d'Internet des objets (IoT), font référence à des appareils physiques qui sont connectés à Internet et peuvent échanger des données avec d'autres appareils ou systèmes \cite{gazis2021iot}. \\
+
+Les objets connectés sont souvent équipés de capteurs, de logiciels et d'autres technologies permettant de collecter et de communiquer des données en temps réel. Ces données peuvent être utilisées pour améliorer l'efficacité, la productivité et la sécurité dans un large éventail de domaines, tels que la santé, les transports, l'agriculture, l'industrie manufacturière, les villes intelligentes, les maisons intelligentes, etc. \\
+
+La figure \ref{Chap4.2.1} est extraite de l'article "Transfert de données IoT basé sur CoAP d'un Raspberry Pi vers le Cloud" \cite{Scott2019CoAPBI}, elle illustre la topologie d'un système IoT.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=10cm,height=10cm]{Images/BRades-Imprimante.jpg}
-    \caption{Imprimante de l'entreprise}
-    \label{Chap4.2.2}
-\end{figure}    
-\smallskip
-
-La plupart des imprimantes appartenant à l'entreprise sont équipées d'une carte réseau permettant leur intégration au réseau. Toutefois, celles qui n'en disposent pas utilisent une carte intégrée pour se connecter. \\
-
-\subsection{Camera de Surveillance}
-
-\begin{figure}[H]
- \centering
-    \includegraphics[width=10cm]{Images/BRades-CCTV.jpg}
-    \caption{Camera Dahua de l'entreprise}
-    \label{Chap4.2.3}
-\end{figure}    
-\smallskip
+\centering
+\includegraphics[width=15cm]{Images/IoT-Topo2.png}
+\caption{Topologie IoT}
+\label{Chap4.2.1}
+\end{figure}
 
 
+L'intégration des objets connectés (IoT) dans les foyers a connu une croissance significative ces dernières années. Selon Statista, en 2020, le nombre d'appareils IoT connectés dans le monde a atteint 26,66 milliards, et ce chiffre devrait augmenter à 75,44 milliards d'ici 2025 \cite{statista-iot-2025}. Les dispositifs IoT incluent une variété d'objets connectés tels que les caméras de surveillance, les machines de pointage, et les lampes intelligentes (smart blubs). \\
 
+Les smart blubs sont l'une des applications les plus courantes de l'IoT dans les foyers. Selon un rapport de Grand View Research, le marché des lampes intelligentes devrait atteindre une valeur de 38,68 milliards de dollars d'ici 2027 \cite{market-splash-automation}, avec un taux de croissance annuel composé de 20,8\%. Bien que la plupart des lampes ne soient pas des smart blubs, elles peuvent être connectées à notre réseau grâce à des cartes IoT comme Raspberry Pi ou Arduino.\\
 
-Pour connecter les caméras de surveillance au réseau de l'entreprise, nous commencerons par configurer chaque caméra afin qu'elle obtienne une adresse IP unique et qu'elle soit reconnue sur le réseau. Ensuite, nous utiliserons un NVR pour stocker les enregistrements vidéo en continu et gérer les flux provenant des caméras. Pour faciliter l'accès aux flux vidéo des caméras, nous installerons le logiciel SmartPSS sur les ordinateurs des directeurs. \\
+\section{Intégration des Dispositifs Entreprise}
 
+Dans cette section, nous explorerons l'intégration des dispositifs au sein de notre entreprise. Nous discuterons des défis que nous rencontrons dans cette démarche et des solutions que nous envisageons pour les surmonter.
 
-\begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/SmartPSS-Logiciel.png}
-    \caption{Logiciel SmartPSS}
-    \label{Chap4.2.4}
-\end{figure}    
-\smallskip
+\subsection{Enjeux de l'Intégration}
 
-SmartPSS est un logiciel créé par Dahua, un leader mondial dans le domaine des systèmes de vidéosurveillance. Il permet une gestion centralisée des caméras, ainsi que l'enregistrement et la lecture des vidéos enregistrées. Ce logiciel est convivial et offre une interface intuitive pour faciliter l'utilisation par les utilisateurs finaux. \\
+L'intégration des dispositifs d'entreprise constitue un défi essentiel à relever pour améliorer notre infrastructure. Nous devons connecter divers dispositifs qui étaient auparavant isolés au réseau de l'entreprise. Les principaux dispositifs que nous traitons sont :
 
+Caméras de Surveillance
+Systèmes de Pointage
+Éclairages
+Capteurs de Température
+Chacun de ces dispositifs présente des exigences spécifiques en termes d'intégration et de connectivité. Leur incorporation dans notre réseau doit être soigneusement planifiée pour garantir une opération harmonieuse.
 
+\subsection{Intégration des Caméras de Surveillance}
 
-
-
-\subsection{Machine de Pointage}
+Notre première étape consiste à connecter nos caméras de surveillance au réseau de l'entreprise. Pour ce faire, nous devons configurer chaque caméra pour lui attribuer une adresse IP unique, lui permettant ainsi d'être reconnue sur le réseau. Parallèlement, nous allons utiliser un NVR (Network Video Recorder) pour stocker en continu les enregistrements vidéo et gérer les flux issus des caméras. De plus, nous installerons le logiciel SmartPSS sur les ordinateurs des directeurs pour faciliter l'accès aux flux vidéo des caméras.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[height=14cm,width=8cm]{Images/BRades-Pointage.jpg}
-    \caption{Machine de pointage ZKTeco}
-    \label{Chap4.2.5}
-\end{figure}    
+\centering
+\includegraphics[width=15cm]{Images/SmartPSS-Logiciel.png}
+\caption{Logiciel SmartPSS}
+\label{Chap4.2.4}
+\end{figure}
 \smallskip
 
-Pour intégrer les machines de pointage dans le réseau de l'entreprise et les contrôler, nous utiliserons le logiciel ZKAccess développé par ZKTeco. Ce logiciel permettra d'assurer la communication entre les machines et le réseau et ainsi permettre un accès facile et sécurisé aux données de pointage. \\
+SmartPSS est une solution logicielle développée par Dahua, une entreprise leader dans le domaine des systèmes de vidéosurveillance. Il offre une gestion centralisée des caméras, ainsi que des fonctionnalités d'enregistrement et de lecture des vidéos enregistrées. Ce logiciel se distingue par son interface conviviale et intuitive, ce qui en facilite l'utilisation pour nos utilisateurs finaux.
+
+\subsection{Intégration des Systèmes de Pointage}
+
+L'intégration des systèmes de pointage est une autre composante cruciale de notre initiative. Nous utiliserons le logiciel ZKAccess, développé par ZKTeco, pour connecter et contrôler ces systèmes au sein de notre réseau d'entreprise. Ce logiciel assurera une communication fluide entre les machines de pointage et le réseau, garantissant ainsi un accès facile et sécurisé aux données de pointage des employés.
 
 \begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/ZKAccess3-Logiciel.png}
-    \caption{Logiciel ZKAccess 3.5}
-    \label{Chap4.2.6}
-\end{figure}    
+\centering
+\includegraphics[height=10cm,width=4cm]{Images/BRades-Pointage.jpg}
+\caption{Machine de pointage ZKTeco}
+\label{Chap4.2.5}
+\end{figure}
 \smallskip
 
-\subsection{Les Lampes et le Theromstat}
+\subsection{Gestion Intelligente de l'Éclairage}
 
-L'intégration des objets connectés (IoT) dans les foyers a connu une croissance significative ces dernières années. Selon Statista, en 2020, le nombre d'appareils IoT connectés dans le monde a atteint 26,66 milliards, et ce chiffre devrait augmenter à 75,44 milliards d'ici 2025. Les dispositifs IoT incluent une variété d'objets connectés tels que les caméras de surveillance, les machines de pointage, et les lampes intelligentes (smart blubs). \\
+Nous cherchons à répondre à la demande croissante d'un SmartOffice, ce qui nécessite la mise en place d'un système de contrôle à distance des lampes. Une approche possible consiste à utiliser une carte IoT, telle que Raspberry Pi ou Arduino, pour connecter les lampes à notre réseau d'entreprise. Cette configuration permettra une gestion centralisée de l'éclairage, contribuant ainsi à optimiser l'utilisation de l'énergie et à réaliser des économies considérables sur les coûts énergétiques. En fin de compte, l'intégration de dispositifs connectés, tels que des lampes intelligentes, dans notre infrastructure d'entreprise, peut considérablement améliorer l'efficacité opérationnelle et la qualité de vie de nos employés.
 
-Les smart blubs sont l'une des applications les plus courantes de l'IoT dans les foyers. Selon un rapport de Grand View Research, le marché des lampes intelligentes devrait atteindre une valeur de 38,68 milliards de dollars d'ici 2027, avec un taux de croissance annuel composé de 20,8\%. Bien que la plupart des lampes ne soient pas des smart blubs, elles peuvent être connectées à notre réseau grâce à des cartes IoT comme Raspberry Pi ou Arduino. \cite{gazis2021iot}\\
+\subsection{Solution Proposée}
 
-\begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/IoT-Topo.png}
-    \caption{Topologie IoT 2}
-    \label{Chap4.2.8}
-\end{figure}    
-\smallskip
-
-Pour répondre à la demande de l'entreprise d'avoir un SmartHome et de contrôler les lampes à distance, l'utilisation d'une carte IoT est essentielle. Par exemple, en utilisant Raspberry Pi ou Arduino, il est possible de connecter les lampes à notre réseau et de les contrôler à distance. \\
-
-Cela permettrait à l'entreprise de gérer les lumières de manière centralisée et d'optimiser l'utilisation de l'énergie, ce qui peut conduire à des économies significatives sur les coûts d'énergie. En fin de compte, l'intégration d'objets connectés tels que les lampes intelligentes dans le réseau de l'entreprise peut contribuer à améliorer l'efficacité opérationnelle et la qualité de vie des employés. \\
+Pour relever ces défis d'intégration et connecter nos dispositifs non-connectés, tels que les lampes et les capteurs de température, à notre réseau, nous proposons d'utiliser une approche basée sur Raspberry Pi en combinaison avec Node-RED. Cette solution offre une méthode cohérente et efficace pour intégrer ces dispositifs dans notre infrastructure existante, tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
 
 
 
 
-\section{Solution avec Raspberry Pi}
+\section{Solution avec Raspberry Pi et Node-RED}
+
+
+\subsection{Définition de Raspberry Pi et Node-RED}
 
 Face à ce défi, notre choix s'est porté sur l'utilisation de Raspberry Pi pour connecter les lampes à notre réseau. Raspberry Pi est une carte informatique très performante et polyvalente qui peut être utilisée pour de nombreux projets IoT. \cite{richardson2012getting} \\
 
@@ -127,7 +103,7 @@ Nous avons décidé d'utiliser Node-RED, un outil de programmation visuel pour c
 En utilisant Raspberry Pi et Node-RED, nous sommes en mesure de créer une solution robuste et évolutive pour connecter les lampes à notre réseau. Cette solution nous permet de contrôler les lampes à distance à partir de n'importe quel appareil connecté à notre réseau. \\
 
 
-\subsection{Installation Raspberry Pi OS}
+\subsection{Installation Raspberry Pi OS et Node-RED}
 
 Avant tout Il faut installé l'OS Debian du Raspberry Pi sur une carte mémoire et l'insérer dans notre carte électronique 
 
@@ -151,13 +127,10 @@ Une fois que nous avons téléchargé le Raspberry Pi Imager depuis le site offi
 
 Une fois que l'image est gravée sur la carte mémoire, nous insérons celle-ci dans le slot prévu sur notre carte électronique Raspberry Pi. Cela permettra de démarrer le Raspberry Pi et d'accéder à l'interface utilisateur du système d'exploitation. \\
 
-Une fois le Raspberry Pi OS démarré, nous pourrons effectuer les configurations supplémentaires nécessaires pour intégrer les objets connectés à notre infrastructure. Ces configurations peuvent inclure la connexion au réseau, l'installation de logiciels supplémentaires, et la personnalisation des paramètres en fonction de nos besoins spécifiques. \\
+Une fois le Raspberry Pi OS démarré, nous pouvons effectuer les configurations supplémentaires nécessaires pour intégrer les objets connectés à notre infrastructure. Ces configurations peuvent inclure la connexion au réseau, l'installation de logiciels supplémentaires, et la personnalisation des paramètres en fonction de nos besoins spécifiques. \\
 
 En résumé, l'installation du Raspberry Pi OS sur une carte mémoire et son insertion dans notre carte électronique Raspberry Pi constituent la première étape pour mettre en place notre infrastructure et intégrer les objets connectés. Cette étape est cruciale pour assurer la compatibilité et la stabilité de notre système. \\
 
-
-
-\subsection{Installation Node-RED}
 
 
 Après avoir préparé le Raspberry Pi, nous procédons à l'installation de Node-RED sur la carte à l'aide du script bash officiel disponible sur le site de Node-RED, comme illustré dans la figure suivante. \\
@@ -192,7 +165,7 @@ Ce script effectue une série d'étapes, telles que l'arrêt de Node-RED, la sup
 \smallskip
 
 
-Une fois l'installation terminée, nous pouvons démarrer Node-RED en utilisant la commande "node-red-start". Le résultat final du démarrage est illustré dans la figure suivante. \\
+Une fois l'installation terminée, nous pouvons démarrer Node-RED en utilisant la commande \textbf{"node-red-start"}. Le résultat final du démarrage est illustré dans la figure suivante. \\
 
 
 \begin{figure}[H]
@@ -208,9 +181,9 @@ Node-RED est maintenant installé et opérationnel sur notre Raspberry Pi, prêt
 
 
 
-\subsection{Préparation de Node-RED}
+\subsection{Configuration de Node-RED}
 
-Pour accéder à Node-RED via le réseau, vous pouvez utiliser l'adresse IP de votre Raspberry Pi et le port 1880/ui. Voici à quoi ressemble notre première interface Node-RED :
+Pour accéder à Node-RED via le réseau, nous utilisons l'adresse IP de votre Raspberry Pi et le port 1880/ui.
 
 \begin{figure}[H]
 \centering
@@ -221,7 +194,7 @@ Pour accéder à Node-RED via le réseau, vous pouvez utiliser l'adresse IP de v
 
 Dans la figure \ref{Chap4.3.6}, nous pouvons observer l'interface de Node-RED, où nous pouvons développer notre projet en utilisant des nœuds et des connexions pour créer des flux de données.
 
-Pour notre projet, nous devons installer quelques nœuds supplémentaires. Par exemple, le "dashboard" pour créer une interface graphique conviviale permettant d'interagir avec le projet, et le nœud DHT11 pour détecter notre thermostat dans Node-RED.
+Pour notre projet, nous devons installer quelques nœuds supplémentaires. Par exemple, le "dashboard" pour créer une interface graphique conviviale permettant d'interagir avec le projet, et le nœud DHT11 pour détecter notre capteur de température dans Node-RED.
 
 \begin{figure}[H]
 \centering
@@ -246,7 +219,7 @@ Ces différentes figures illustrent la préparation de Node-RED et l'installatio
 
 \subsection{Sécurité de Node-RED}
 
-Pour sécuriser Node-RED, nous utilisons une méthode fournie par le site officiel de Node-RED, qui nous permet de créer des mots de passe hachés et de les ajouter à la configuration de notre projet. Les figures suivantes illustrent ce processus :
+Pour sécuriser Node-RED, nous utilisons une méthode fournie par le site officiel de Node-RED, qui nous permet de créer des mots de passe hachés et de les ajouter à la configuration de notre projet. Les figures suivantes illustrent ce processus.
 
 \begin{figure}[H]
 \centering
@@ -257,7 +230,7 @@ Pour sécuriser Node-RED, nous utilisons une méthode fournie par le site offici
 
 Dans la figure \ref{Chap4.3.9}, nous avons modifié le fichier de configuration "Settings.js" de Node-RED pour inclure des paramètres de sécurité. Cela permet de définir des utilisateurs et des mots de passe pour restreindre l'accès à notre projet.
 
-Nous avons utilisé la commande "node-red admin hash-pw" pour générer un code de hachage sécurisé, comme le montre la figure suivante :
+Nous avons utilisé la commande "node-red admin hash-pw" pour générer un code de hachage sécurisé, comme le montre la figure \ref{Chap4.3.10}.
 
 \begin{figure}[H]
 \centering
@@ -414,7 +387,7 @@ Ces différentes figures témoignent de notre réalisation en Node-RED et illust
 
 Une fois notre application prête, nous pouvons l'intégrer dans le parc informatique que nous avons créé dans le troisième chapitre à l'aide de GLPI.
 
-Pour cela, nous avons installé le FusionInventory-Agent sur notre Raspberry Pi, comme illustré ci-dessous :
+Pour cela, nous avons installé le FusionInventory-Agent sur notre Raspberry Pi, comme illustré ci-dessous en figure \ref{fig:raspberry-fusion}.
 
 \begin{figure}[H]
 \centering
@@ -423,7 +396,7 @@ Pour cela, nous avons installé le FusionInventory-Agent sur notre Raspberry Pi,
 \label{fig:raspberry-fusion}
 \end{figure}
 
-Ensuite, nous avons configuré le FusionInventory-Agent pour qu'il envoie les données de notre périphérique au serveur GLPI à l'adresse "192.168.3.66/glpi/fusioninventory", comme présenté dans la figure suivante :
+Ensuite, nous avons configuré le FusionInventory-Agent pour qu'il envoie les données de notre périphérique au serveur GLPI à l'adresse "192.168.3.66/glpi/fusioninventory", comme présenté dans la figure \ref{fig:raspberry-fusion-config}.
 
 \begin{figure}[H]
 \centering
@@ -432,7 +405,7 @@ Ensuite, nous avons configuré le FusionInventory-Agent pour qu'il envoie les do
 \label{fig:raspberry-fusion-config}
 \end{figure}
 
-Enfin, nous pouvons visualiser notre Raspberry Pi intégré dans le tableau de bord de GLPI :
+Enfin, nous pouvons visualiser notre Raspberry Pi intégré dans le tableau de bord de GLPI \ref{fig:glpi-raspberry}.
 
 \begin{figure}[H]
 \centering
