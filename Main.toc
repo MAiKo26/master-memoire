@@ -53,19 +53,22 @@
 \contentsline {section}{\numberline {4.1}Introduction}{64}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Définition des objets connectés}{65}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Intégration des Dispositifs Entreprise}{66}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'Intégration}{66}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'intégration}{66}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Intégration des Caméras de Surveillance}{67}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Intégration des Systèmes de Pointage}{67}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Gestion Intelligente de l'Éclairage}{68}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Solution Proposée}{69}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.4}Gestion Intelligente de l'éclairage}{68}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Gestion Intelligente du Capteur de Température}{69}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Solution Proposée}{69}{subsection.4.3.6}%
 \contentsline {section}{\numberline {4.4}Solution avec Raspberry Pi et Node-RED}{69}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Définition de Raspberry Pi et Node-RED}{69}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Installation Raspberry Pi OS et Node-RED}{69}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Installation Raspberry Pi OS et Node-RED}{70}{subsection.4.4.2}%
+\contentsline {subsubsection}{Raspberry Pi OS}{70}{section*.14}%
+\contentsline {subsubsection}{Node-RED}{72}{section*.15}%
 \contentsline {subsection}{\numberline {4.4.3}Configuration de Node-RED}{74}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}Sécurité de Node-RED}{76}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Réalisation en Node-RED}{79}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Intégration dans le parc informatique}{90}{subsection.4.4.6}%
-\contentsline {section}{\numberline {4.5}Conclusion}{91}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Conclusion Générale }{93}{chapter.5}%
-\contentsline {chapter}{Bibliographie}{96}{chapter*.14}%
-\contentsline {chapter}{Acronyme}{98}{chapter*.15}%
+\contentsline {subsection}{\numberline {4.4.5}Réalisation de Projet avec Node-RED}{78}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Intégration dans le parc informatique}{88}{subsection.4.4.6}%
+\contentsline {section}{\numberline {4.5}Conclusion}{90}{section.4.5}%
+\contentsline {chapter}{Conclusion Générale }{92}{chapter*.16}%
+\contentsline {chapter}{Bibliographie}{95}{chapter*.17}%
+\contentsline {chapter}{Acronyme}{97}{chapter*.18}%
