@@ -53,49 +53,56 @@ Dans cette section, nous présentons les solutions essentielles que nous avons c
 
 \subsection{OS Serveur}
 
-Pour le système d'exploitation de nos serveurs, nous optons pour Ubuntu Server 22.04 en raison de ses excellentes performances, de sa stabilité et de sa compatibilité avec un large éventail de logiciels et de technologies. Ubuntu Server est une distribution Linux légère spécialement conçue pour les serveurs, ce qui en fait un choix idéal pour notre environnement.
+Nous choisissons Ubuntu Server 22.04 comme système d'exploitation pour nos serveurs en raison de ses performances exceptionnelles, de sa stabilité prouvée et de sa compatibilité avec de nombreux logiciels et technologies. Ubuntu Server est une distribution Linux conçue spécialement pour les serveurs, ce qui en fait un choix optimal pour notre environnement.
 
-Ubuntu Server 22.04 est la dernière version de la distribution serveur d'Ubuntu, basée sur le système d'exploitation Linux. Elle offre de nombreuses fonctionnalités et améliorations par rapport aux versions précédentes, notamment :
+La version 22.04 d'Ubuntu Server est la dernière itération de cette distribution basée sur le noyau Linux. Elle offre plusieurs améliorations et fonctionnalités, notamment :
 
 \begin{itemize}
 
-\item Performances améliorées : Ubuntu Server 22.04 est optimisé pour fournir des performances élevées, ce qui permet de gérer efficacement les charges de travail les plus exigeantes. \\
 
-\item Sécurité renforcée : La distribution intègre des fonctionnalités de sécurité avancées, telles que la prise en charge du chiffrement des données, les mises à jour automatiques et la gestion des certificats, afin de garantir la confidentialité et l'intégrité des données.\\
+\item Des performances accrues : Ubuntu Server 22.04 est optimisé pour offrir des performances élevées, permettant de gérer efficacement même les charges de travail les plus exigeantes.
 
-\item Support à long terme : Ubuntu Server 22.04 bénéficie d'un support à long terme (LTS) de cinq ans, ce qui signifie que des mises à jour de sécurité et des correctifs seront disponibles pendant une période prolongée, assurant ainsi la stabilité et la fiabilité du système.\\
+\item Une sécurité renforcée : Cette distribution intègre des fonctionnalités de sécurité avancées, telles que la prise en charge du chiffrement des données, des mises à jour automatiques et la gestion des certificats pour garantir la confidentialité et l'intégrité des données.
 
-\item Écosystème riche : Ubuntu Server est soutenu par une vaste communauté d'utilisateurs et de développeurs, ce qui garantit un support et une documentation abondants, ainsi qu'un large éventail de logiciels et d'outils disponibles pour répondre aux besoins spécifiques du serveur.\\
+\item Support à long terme : Ubuntu Server 22.04 bénéficie d'un support à long terme (LTS) de cinq ans, ce qui signifie que des mises à jour de sécurité et des correctifs seront disponibles sur une période prolongée, assurant ainsi la stabilité et la fiabilité du système.
+
+\item Écosystème riche : Ubuntu Server est soutenu par une communauté active d'utilisateurs et de développeurs, offrant un soutien abondant, une documentation complète et une large gamme de logiciels et d'outils pour répondre aux besoins spécifiques de nos serveurs.
+
+
 \end{itemize}
 
 \subsection{Virtualisation}
 
-Pour la virtualisation de nos serveurs, nous optons pour KVM en raison de ses avantages significatifs. KVM, ou Kernel-based Virtual Machine, est une technologie de virtualisation open source qui permet d'exécuter plusieurs machines virtuelles sur un seul serveur physique. Cette solution offre les avantages suivants :
+Nous choisissons KVM (Kernel-based Virtual Machine) pour la virtualisation de nos serveurs en raison de ses avantages significatifs. KVM est une technologie de virtualisation open source qui permet l'exécution de plusieurs machines virtuelles sur un seul serveur physique. Les avantages de cette solution sont les suivants :
 
 \begin{itemize}
 
-\item Efficacité et performance : KVM est intégré au noyau Linux, ce qui lui confère une efficacité exceptionnelle et des performances élevées. Il exploite pleinement les ressources matérielles du serveur, offrant ainsi une expérience de virtualisation fluide.\\
+\item Efficacité et performances : KVM est intégré au noyau Linux, ce qui lui confère une grande efficacité et des performances élevées. Il tire pleinement parti des ressources matérielles du serveur, assurant ainsi une expérience de virtualisation fluide.
 
-\item Isolation et sécurité : KVM assure une isolation totale entre les machines virtuelles, garantissant ainsi la sécurité des données et des applications. Chaque machine virtuelle fonctionne de manière indépendante des autres, ce qui réduit les risques de failles de sécurité.\\
+\item Isolation et sécurité : KVM garantit une isolation totale entre les machines virtuelles, assurant la sécurité des données et des applications. Chaque machine virtuelle fonctionne de manière indépendante, réduisant ainsi les risques de failles de sécurité.
 
-\item Compatibilité : KVM est compatible avec une variété de systèmes d'exploitation invités, ce qui permet d'exécuter différents environnements logiciels au sein de machines virtuelles distinctes.\\
+\item Compatibilité : KVM est compatible avec divers systèmes d'exploitation invités, ce qui permet d'exécuter différents environnements logiciels au sein de machines virtuelles distinctes.
 
-\item Évolutivité : La virtualisation avec KVM est hautement évolutive. Nous pouvons ajouter ou supprimer des machines virtuelles en fonction des besoins de votre entreprise sans perturber les opérations en cours.\\
+\item Évolutivité : La virtualisation avec KVM est hautement évolutive. Nous pouvons ajouter ou supprimer des machines virtuelles selon les besoins de votre entreprise sans perturber les opérations en cours.
 
 \end{itemize}
+
+
+
+
 \subsection{Protocole de communication}
 
 Pour gérer les adresses IP de notre réseau, nous optons pour ISC DHCP (Internet Systems Consortium - Dynamic Host Configuration Protocol). ISC DHCP est un protocole de communication qui joue un rôle essentiel dans l'attribution automatique des adresses IP aux dispositifs connectés à notre réseau. Voici les raisons de ce choix :
 
 \begin{itemize}
 
-\item Fiabilité : ISC DHCP est largement reconnu pour sa fiabilité. Il assure une distribution efficace des adresses IP tout en minimisant les conflits d'adresses et les interruptions de réseau.\\
+\item Fiabilité : ISC DHCP est largement reconnu pour sa fiabilité. Il assure une distribution efficace des adresses IP tout en minimisant les conflits d'adresses et les interruptions de réseau.
 
-\item Facilité de gestion : La configuration et la gestion d'ISC DHCP sont conviviales, ce qui simplifie la maintenance de notre réseau. Nous pouvons aisément définir des plages d'adresses, des options de configuration personnalisées et surveiller l'état du service DHCP.\\
+\item Facilité de gestion : La configuration et la gestion d'ISC DHCP sont conviviales, ce qui simplifie la maintenance de notre réseau. Nous pouvons aisément définir des plages d'adresses, des options de configuration personnalisées et surveiller l'état du service DHCP.
 
-\item Prise en charge des protocoles : ISC DHCP prend en charge plusieurs protocoles de communication, notamment IPv4 et IPv6. Cela garantit la compatibilité avec divers dispositifs et systèmes d'exploitation.\\
+\item Prise en charge des protocoles : ISC DHCP prend en charge plusieurs protocoles de communication, notamment IPv4 et IPv6. Cela garantit la compatibilité avec divers dispositifs et systèmes d'exploitation.
 
-\item Évolutivité : Notre choix d'ISC DHCP est évolutif, ce qui signifie que nous pouvons facilement adapter notre réseau aux besoins croissants de notre entreprise en ajoutant de nouveaux dispositifs sans soucis de gestion des adresses IP.\\
+\item Évolutivité : Notre choix d'ISC DHCP est évolutif, ce qui signifie que nous pouvons facilement adapter notre réseau aux besoins croissants de notre entreprise en ajoutant de nouveaux dispositifs sans soucis de gestion des adresses IP.
 
 \end{itemize}
 
@@ -107,40 +114,39 @@ Pour les plates-formes ERP/CRM, nous sélectionnons Odoo. Odoo est une solution 
 
 \begin{itemize}
 
-\item Intégration complète : Odoo propose une intégration complète de toutes les fonctions essentielles de l'entreprise. Cela signifie que nous pouvons gérer divers aspects de notre entreprise, tels que la comptabilité, les ventes, les stocks et la gestion des projets, à partir d'une seule plate-forme centralisée.\\
+\item Intégration complète : Odoo propose une intégration complète de toutes les fonctions essentielles de l'entreprise. Cela signifie que nous pouvons gérer divers aspects de notre entreprise, tels que la comptabilité, les ventes, les stocks et la gestion des projets, à partir d'une seule plate-forme centralisée.
 
-\item Personnalisation : Odoo est hautement personnalisable, ce qui nous permet d'adapter la plate-forme à nos besoins spécifiques. Nous pouvons personnaliser les flux de travail, les rapports et les tableaux de bord pour répondre à nos exigences métier uniques.\\
+\item Personnalisation : Odoo est hautement personnalisable, ce qui nous permet d'adapter la plate-forme à nos besoins spécifiques. Nous pouvons personnaliser les flux de travail, les rapports et les tableaux de bord pour répondre à nos exigences métier uniques.
 
-\item Facilité d'utilisation : Odoo est réputé pour sa convivialité. Notre équipe pourra rapidement prendre en main la plate-forme, ce qui réduira la courbe d'apprentissage et favorisera une utilisation optimale.\\
+\item Facilité d'utilisation : Odoo est réputé pour sa convivialité. Notre équipe pourra rapidement prendre en main la plate-forme, ce qui réduira la courbe d'apprentissage et favorisera une utilisation optimale.
 
-\item Communauté active : Odoo bénéficie d'une communauté mondiale active d'utilisateurs et de développeurs. Cela signifie que nous avons accès à une vaste base de connaissances, à des modules complémentaires personnalisés et à un support communautaire en cas de besoin.\\
+\item Communauté active : Odoo bénéficie d'une communauté mondiale active d'utilisateurs et de développeurs. Cela signifie que nous avons accès à une vaste base de connaissances, à des modules complémentaires personnalisés et à un support communautaire en cas de besoin.
 
 \end{itemize}
 
-Avec Odoo comme plate-forme ERP/CRM, nous disposons d'un outil puissant pour optimiser nos opérations commerciales, améliorer notre gestion des clients et devenir plus efficaces dans l'ensemble de notre entreprise.\\
+Avec Odoo comme plate-forme ERP/CRM, nous disposons d'un outil puissant pour optimiser nos opérations commerciales, améliorer notre gestion des clients et devenir plus efficaces dans l'ensemble de notre entreprise.
 
 
 
 \subsection{Système de téléphonie IP}
 
-Pour le système VOIP, nous choisissons qui est une solution de téléphonie IP qui permet de gérer efficacement les appels téléphoniques au sein de notre entreprise. Notre choix d'Asterisk repose sur plusieurs avantages clés :
+Pour notre système de téléphonie IP, notre choix se porte sur Asterisk, une solution de gestion des appels téléphoniques au sein de notre entreprise. Cette décision repose sur plusieurs avantages clés :
 
 \begin{itemize}
 
-\item Flexibilité : Asterisk est connu pour sa grande flexibilité. Il prend en charge différents protocoles de communication, tels que SIP et RTP, ce qui nous permet de mettre en place des communications vocales à travers notre réseau IP.\\
 
-\item Fonctionnalités avancées : Asterisk offre un large éventail de fonctionnalités avancées pour la gestion des appels téléphoniques. Cela inclut la gestion des lignes, la messagerie vocale, la conférence téléphonique et bien plus encore.\\
+\item Flexibilité : Asterisk est reconnu pour sa grande souplesse. Il prend en charge divers protocoles de communication, tels que SIP et RTP, nous permettant ainsi d'établir des communications vocales via notre réseau IP.
 
-\item Personnalisation : Asterisk est hautement personnalisable. Nous pouvons adapter le système selon nos besoins spécifiques, ce qui nous permet de créer une solution de téléphonie sur mesure pour notre entreprise.\\
+\item Fonctionnalités avancées : Asterisk propose une vaste gamme de fonctionnalités avancées pour la gestion des appels téléphoniques. Cela englobe la gestion des lignes, la messagerie vocale, les conférences téléphoniques, et bien plus encore.
 
-\item Économies de coûts : En utilisant Asterisk, nous réalisons des économies significatives sur nos coûts de communication. La téléphonie IP est généralement plus abordable que les systèmes de téléphonie traditionnels.\\
+\item Personnalisation : Asterisk est hautement personnalisable. Nous avons la possibilité d'ajuster le système en fonction de nos besoins spécifiques, créant ainsi une solution de téléphonie sur mesure pour notre entreprise.
+
+\item Économies de coûts : L'utilisation d'Asterisk se traduit par des économies significatives sur nos frais de communication. La téléphonie IP est généralement plus rentable que les systèmes de téléphonie traditionnels.
+
+En choisissant Asterisk comme solution de téléphonie IP, nous sommes en mesure de mettre en place une infrastructure de communication vocale moderne et adaptable pour répondre aux besoins de notre entreprise.
+
 
 \end{itemize}
-
-Avec Asterisk comme solution de téléphonie IP, nous avons la possibilité de mettre en place une infrastructure de communication vocale moderne et flexible pour répondre aux besoins de notre entreprise.\\
-
-
-
 
 
 \subsection{Gestion de parc et d'inventaires}
@@ -149,43 +155,43 @@ Pour la gestion de parc et d'inventaires, nous choisissons GLPI avec l'intégrat
 
 \begin{itemize}
 
-\item Suivi complet des actifs : GLPI nous offre la possibilité de suivre de manière exhaustive tous les actifs de notre parc, y compris les ordinateurs, les périphériques, les logiciels, et bien plus encore. Cela garantit une gestion précise de nos ressources.\\
+\item Suivi complet des actifs : GLPI nous offre la possibilité de suivre de manière exhaustive tous les actifs de notre parc, y compris les ordinateurs, les périphériques, les logiciels, et bien plus encore. Cela garantit une gestion précise de nos ressources.
 
-\item Gestion des utilisateurs : GLPI nous permet de gérer les utilisateurs au sein de notre réseau de manière efficace. Nous pouvons attribuer des actifs aux utilisateurs et suivre leur utilisation de manière transparente.\\
+\item Gestion des utilisateurs : GLPI nous permet de gérer les utilisateurs au sein de notre réseau de manière efficace. Nous pouvons attribuer des actifs aux utilisateurs et suivre leur utilisation de manière transparente.
 
-\item Automatisation des tâches : FusionInventory, intégré à GLPI, automatise de nombreuses tâches de gestion, telles que l'inventaire des actifs et la gestion des mises à jour. Cela nous fait gagner du temps et améliore la précision des données.\\
+\item Automatisation des tâches : FusionInventory, intégré à GLPI, automatise de nombreuses tâches de gestion, telles que l'inventaire des actifs et la gestion des mises à jour. Cela nous fait gagner du temps et améliore la précision des données.
 
-\item Personnalisation : GLPI est hautement personnalisable pour répondre à nos besoins spécifiques. Nous pouvons adapter les champs et les processus pour une gestion des actifs sur mesure.\\
+\item Personnalisation : GLPI est hautement personnalisable pour répondre à nos besoins spécifiques. Nous pouvons adapter les champs et les processus pour une gestion des actifs sur mesure.
 
 \end{itemize}
 
-Avec GLPI et FusionInventory, nous avons la capacité de gérer de manière efficace l'ensemble de nos actifs, de suivre les changements, et d'optimiser l'utilisation de nos ressources.\\
+Avec GLPI et FusionInventory, nous avons la capacité de gérer de manière efficace l'ensemble de nos actifs, de suivre les changements, et d'optimiser l'utilisation de nos ressources.
 
 
 
 
 \subsection{Gestion des identités et contrôle d'accès}
 
-Pour la gestion des identités et le contrôle d'accès, nous optons pour OpenLDAP en raison de sa nature open-source, de sa flexibilité et de sa robustesse. OpenLDAP est une solution de répertoire qui nous permet de gérer les identités des utilisateurs, les groupes et les autorisations d'accès au sein de notre infrastructure informatique. Voici quelques-unes des raisons pour lesquelles nous avons choisi OpenLDAP :\\
+Pour la gestion des identités et le contrôle d'accès, nous avons choisi OpenLDAP en raison de son caractère open source, de sa flexibilité et de sa robustesse. OpenLDAP est une solution de répertoire qui nous permet de gérer les identités des utilisateurs, les groupes et les autorisations d'accès au sein de notre infrastructure informatique. Voici plusieurs raisons convaincantes qui motivent notre choix d'OpenLDAP :
 
 \begin{itemize}
 
-\item Gratuit et open-source : OpenLDAP est une solution open-source, ce qui signifie qu'elle est gratuite à utiliser. Cela s'aligne avec notre objectif de minimiser les coûts tout en bénéficiant de fonctionnalités avancées.\\
 
-\item Personnalisable : OpenLDAP est hautement personnalisable, ce qui nous permet de configurer des schémas et des attributs spécifiques en fonction de nos besoins. Nous pouvons adapter la structure du répertoire pour refléter notre organisation.\\
+\item Gratuit et Open Source : OpenLDAP est une solution open source, ce qui signifie qu'elle est disponible gratuitement. Cela correspond parfaitement à notre souci de maîtriser les coûts tout en bénéficiant de fonctionnalités avancées.
 
-\item Interopérabilité : OpenLDAP prend en charge les protocoles LDAP standard, ce qui facilite l'intégration avec d'autres applications et services. Nous pouvons l'utiliser pour centraliser l'authentification et l'autorisation à travers diverses plates-formes.\\
+\item Personnalisable : OpenLDAP offre une grande souplesse en matière de personnalisation, nous permettant de configurer des schémas et des attributs spécifiques en fonction de nos besoins. Nous pouvons ainsi adapter la structure du répertoire à notre organisation.
 
-\item Sécurité : OpenLDAP offre des fonctionnalités de sécurité robustes, telles que l'authentification forte, le chiffrement des données et la gestion des politiques d'accès. Cela garantit la protection de nos données sensibles.\\
+\item Interopérabilité : OpenLDAP prend en charge les protocoles LDAP standards, facilitant ainsi son intégration avec d'autres applications et services. Nous pouvons l'utiliser pour centraliser l'authentification et l'autorisation sur diverses plateformes.
 
-\item Communauté active : OpenLDAP bénéficie d'une communauté active d'utilisateurs et de développeurs, ce qui signifie que nous pouvons trouver un support, des ressources et des mises à jour régulières.\\
+\item Fonctionnalités de sécurité : OpenLDAP propose des fonctionnalités de sécurité robustes, notamment une authentification renforcée, le chiffrement des données et la gestion des politiques d'accès. Cela garantit la protection de nos données sensibles.
+
+\item Engagement de la communauté : OpenLDAP reçoit le soutien d'une communauté dynamique d'utilisateurs et de développeurs, ce qui garantit un appui constant, un accès à des ressources utiles et des mises à jour fréquentes.
+
 
 \end{itemize}
 
-Avec OpenLDAP, nous pouvons mettre en place un système de gestion des identités solide et sécurisé, qui répond à nos besoins de contrôle d'accès et d'authentification au sein de notre infrastructure informatique.
 
-
-
+Avec OpenLDAP, nous mettons en place un système solide et sécurisé de gestion des identités, répondant à nos besoins en matière de contrôle d'accès et d'authentification au sein de notre infrastructure informatique.
 
 
 
@@ -403,10 +409,10 @@ La Figure \ref{fig:vm-list} présente la liste complète de nos VMs actuellement
 
 \section{Conclusion}
 
-Le système d'information de Zeta Engineering est déployé de manière structurée, en utilisant des solutions adaptées : Ubuntu Server 22.04 comme OS serveur, KVM pour la virtualisation, DHCP ISC DHCP pour la gestion des IP, Odoo pour la gestion d'entreprise, Asterisk pour les appels, GLPI et FusionInventory pour l'inventaire, et OpenLDAP pour l'identité.\\
+Le système d'information de Zeta Engineering est déployé de manière structurée, en utilisant des solutions adaptées : Ubuntu Server 22.04 comme OS serveur, KVM pour la virtualisation, DHCP ISC DHCP pour la gestion des IP, Odoo pour la gestion d'entreprise, Asterisk pour les appels, GLPI et FusionInventory pour l'inventaire, et OpenLDAP pour l'identité.
 
-L'installation et la configuration suivent des étapes précises. Ubuntu Server est choisi pour sa performance et sa compatibilité. KVM héberge les VM, DHCP ISC DHCP gère les IP, Odoo centralise la gestion, et Asterisk prend en charge les appels.\\
+L'installation et la configuration suivent des étapes précises. Ubuntu Server est choisi pour sa performance et sa compatibilité. KVM héberge les VM, DHCP ISC DHCP gère les IP, Odoo centralise la gestion, et Asterisk prend en charge les appels.
 
-Ce déploiement crée une base solide et sécurisée. L'équipe informatique peut maintenant optimiser le système pour les besoins en constante évolution de l'entreprise.\\
+Ce déploiement crée une base solide et sécurisée. L'équipe informatique peut maintenant optimiser le système pour les besoins en constante évolution de l'entreprise.
 
-En conclusion, ce déploiement assure le fonctionnement efficace et fiable de Zeta Engineering.\\
+En conclusion, ce déploiement assure le fonctionnement efficace et fiable de Zeta Engineering.

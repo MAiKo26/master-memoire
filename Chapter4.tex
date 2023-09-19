@@ -18,9 +18,9 @@ Enfin, nous décrivons également les différentes étapes du processus d'intég
 
 \section{Définition des objets connectés}
 
-Les objets connectés, également connus sous le nom d'internet des objets (IoT), font référence à des appareils physiques qui sont connectés à Internet et peuvent échanger des données avec d'autres appareils ou systèmes \cite{gazis2021iot}. \\
+Les objets connectés, également connus sous le nom d'internet des objets (IoT), font référence à des appareils physiques qui sont connectés à Internet et peuvent échanger des données avec d'autres appareils ou systèmes \cite{gazis2021iot}.
 
-Les objets connectés sont souvent équipés de capteurs, de logiciels et d'autres technologies permettant de collecter et de communiquer des données en temps réel. Ces données peuvent être utilisées pour améliorer l'efficacité, la productivité et la sécurité dans un large éventail de domaines, tels que la santé, les transports, l'agriculture, l'industrie manufacturière, les villes intelligentes, les maisons intelligentes, etc. \\
+Les objets connectés sont souvent équipés de capteurs, de logiciels et d'autres technologies permettant de collecter et de communiquer des données en temps réel. Ces données peuvent être utilisées pour améliorer l'efficacité, la productivité et la sécurité dans un large éventail de domaines, tels que la santé, les transports, l'agriculture, l'industrie manufacturière, les villes intelligentes, les maisons intelligentes, etc.
 
 La figure \ref{Chap4.2.1} est extraite de l'article "Transfert de données IoT basé sur CoAP d'un Raspberry Pi vers le Cloud" \cite{Scott2019CoAPBI}, elle illustre la topologie d'un système IoT.
 
@@ -32,9 +32,9 @@ La figure \ref{Chap4.2.1} est extraite de l'article "Transfert de données IoT b
 \end{figure}
 
 
-L'intégration des objets connectés (IoT) dans les foyers a connu une croissance significative ces dernières années. Selon Statista, en 2020, le nombre d'appareils IoT connectés dans le monde a atteint 26,66 milliards, et ce chiffre devrait augmenter à 75,44 milliards d'ici 2025 \cite{statista-iot-2025}. Les dispositifs IoT incluent une variété d'objets connectés tels que les caméras de surveillance, les machines de pointage, et les lampes intelligentes (smart blubs). \\
+L'intégration des objets connectés (IoT) dans les foyers a connu une croissance significative ces dernières années. Selon Statista, en 2020, le nombre d'appareils IoT connectés dans le monde a atteint 26,66 milliards, et ce chiffre devrait augmenter à 75,44 milliards d'ici 2025 \cite{statista-iot-2025}. Les dispositifs IoT incluent une variété d'objets connectés tels que les caméras de surveillance, les machines de pointage, et les lampes intelligentes (smart blubs). 
 
-Les smart blubs sont l'une des applications les plus courantes de l'IoT dans les foyers. Selon un rapport de Grand View Research, le marché des lampes intelligentes devrait atteindre une valeur de 38,68 milliards de dollars d'ici 2027 \cite{market-splash-automation}, avec un taux de croissance annuel composé de 20,8\%. Bien que la plupart des lampes ne soient pas des smart blubs, elles peuvent être connectées à notre réseau grâce à des cartes IoT comme Raspberry Pi ou Arduino.\\
+Les smart blubs sont l'une des applications les plus courantes de l'IoT dans les foyers. Selon un rapport de Grand View Research, le marché des lampes intelligentes devrait atteindre une valeur de 38,68 milliards de dollars d'ici 2027 \cite{market-splash-automation}, avec un taux de croissance annuel composé de 20,8\%. Bien que la plupart des lampes ne soient pas des smart blubs, elles peuvent être connectées à notre réseau grâce à des cartes IoT comme Raspberry Pi ou Arduino.
 
 
 \section{Intégration des Dispositifs Entreprise}
@@ -75,12 +75,12 @@ SmartPSS \ref{Chap4.2.4} est une solution logicielle développée par Dahua, une
 
 \subsection{Intégration des Systèmes de Pointage}
 
-L'intégration des systèmes de pointage est une autre composante cruciale de notre initiative. Nous utilisons le logiciel ZKAccess \ref, développé par ZKTeco, pour connecter et contrôler ces systèmes au sein de notre réseau d'entreprise. Ce logiciel nous assurons une communication fluide entre les machines de pointage et le réseau, garantissant ainsi un accès facile et sécurisé aux données de pointage des employés.
+L'intégration des systèmes de pointage est une autre composante cruciale de notre initiative. Nous utilisons le logiciel ZKTime \ref{Chap4.2.5}, développé par ZKTeco, pour connecter et contrôler ces systèmes au sein de notre réseau d'entreprise. Ce logiciel nous assurons une communication fluide entre les machines de pointage et le réseau, garantissant ainsi un accès facile et sécurisé aux données de pointage des employés.
 
 \begin{figure}[H]
 \centering
 \includegraphics[height=10cm,width=4cm]{Images/BRades-Pointage.jpg}\includegraphics[width=12cm]{Images/ZKTime.png}
-\caption{Machine de pointage ZKTeco et logiciel ZKAccess}
+\caption{Machine de pointage ZKTeco et logiciel ZKTime}
 \label{Chap4.2.5}
 \end{figure}
 \smallskip
@@ -246,7 +246,7 @@ Ces différentes figures décrivent le processus de sécurisation de Node-RED en
 
 \subsection{Réalisation de Projet avec Node-RED}
 
-Dans notre topologie, nous utilisons 2 LED, un capteur DHT11 et une breadboard, que nous connectons aux GPIO de Raspberry Pi, comme le montrent les figures suivantes, réalisées à l'aide de Fritzing.
+Dans notre topologie, nous utilisons 2 LED, un capteur DHT11 et une breadboard, que nous connectons aux GPIO de Raspberry Pi, comme le montre la figure \ref{Chap4.3.13}, réalisée à l'aide de Fritzing.
 
 \begin{figure}[H]
 \centering
@@ -254,8 +254,6 @@ Dans notre topologie, nous utilisons 2 LED, un capteur DHT11 et une breadboard, 
 \caption{Schéma de notre réalisation}
 \label{Chap4.3.13}
 \end{figure}
-
-Dans la figure \ref{Chap4.3.13}, nous pouvons voir le schéma de notre réalisation, avec les connexions des composants sur la breadboard.
 
 Ensuite, nous configurons les nodes DHT11 dans Node-RED pour séparer les données reçues entre Température et Humidité et les configurons pour actualiser les données toutes les 10 secondes.
 
@@ -375,13 +373,16 @@ Enfin, nous visualisons notre Raspberry Pi intégré dans le tableau de bord de 
 \label{fig:glpi-raspberry}
 \end{figure}
 
+\bigskip
+
 \section{Conclusion}
 
-En conclusion de ce chapitre sur l'intégration des objets connectés dans l'infrastructure informatique de l'entreprise, nous voyons que cette étape est cruciale pour permettre une gestion intelligente et à distance des différents équipements de la société. Nous utilisons des cartes IoT telles que Raspberry Pi pour connecter les différents objets tels que les lampes et les machines de pointage au réseau de l'entreprise. Nous utilisons également des logiciels tels que ZKAccess et SmartPSS pour contrôler ces objets à distance. \\
+En conclusion de ce chapitre dédié à l'intégration des objets connectés, nous avons exploré en détail les différentes étapes nécessaires pour incorporer ces dispositifs dans notre infrastructure existante. Les objets connectés, de par leur capacité à collecter, communiquer et analyser des données en temps réel, offrent un potentiel considérable pour améliorer l'efficacité et la qualité de vie dans divers domaines. \\
 
-Les objets connectés sont de plus en plus présents dans notre vie quotidienne, que ce soit dans les maisons, les voitures ou les entreprises. Les chiffres montrent que le marché de l'IoT continue à croître de manière significative dans les années à venir. L'intégration de ces objets dans l'infrastructure informatique de l'entreprise permet une gestion plus efficace et une prise de décision plus éclairée grâce à la collecte de données en temps réel. \\
+Nous avons commencé par définir ce qu'étaient les objets connectés, en mettant en évidence leur rôle essentiel dans la création de systèmes intelligents et autonomes. Ensuite, nous avons exploré les défis et opportunités liés à l'intégration de ces dispositifs au sein de notre entreprise. \\
 
-En somme, l'intégration des objets connectés dans l'infrastructure informatique de l'entreprise apporte de nombreux avantages en termes de gestion, de prise de décision et d'efficacité. Cependant, il est important de prendre en compte les aspects de sécurité et de protection des données pour garantir une utilisation sûre et efficace de ces objets. \\
+Pour répondre à ces défis, nous avons présenté une solution basée sur l'utilisation de Raspberry Pi et de Node-RED. Cette combinaison nous permet de connecter divers dispositifs, tels que des lampes et des capteurs de température, à notre réseau d'entreprise de manière cohérente et efficace. Nous avons également mis en évidence les étapes d'installation et de configuration de ces outils, ainsi que les mesures de sécurité mises en place pour protéger notre système. \\
 
+Enfin, nous avons illustré la réalisation d'un projet concret en utilisant Node-RED pour contrôler des LEDs en fonction de données de capteur de température et d'humidité. Ce projet a été intégré dans notre parc informatique, ce qui nous permet de suivre et de gérer notre dispositif IoT à partir du système de gestion GLPI. \\
 
-
+L'intégration des objets connectés représente un pas significatif vers une infrastructure informatique moderne et intelligente, et ce chapitre nous a fourni les connaissances et les outils nécessaires pour relever ce défi avec succès. Dans le chapitre suivant, nous explorerons davantage les implications de ces dispositifs dans notre entreprise en examinant les avantages et les opportunités qu'ils offrent. \\
