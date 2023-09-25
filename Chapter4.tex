@@ -22,12 +22,14 @@ Les objets connectés, également connus sous le nom d'internet des objets (IoT)
 
 Les objets connectés sont souvent équipés de capteurs, de logiciels et d'autres technologies permettant de collecter et de communiquer des données en temps réel. Ces données peuvent être utilisées pour améliorer l'efficacité, la productivité et la sécurité dans un large éventail de domaines, tels que la santé, les transports, l'agriculture, l'industrie manufacturière, les villes intelligentes, les maisons intelligentes, etc.
 
-La figure \ref{Chap4.2.1} est extraite de l'article "Transfert de données IoT basé sur CoAP d'un Raspberry Pi vers le Cloud" \cite{Scott2019CoAPBI}, elle illustre la topologie d'un système IoT.
+La figure \ref{Chap4.2.1} est un exemple de topologie IoT extraite de l'article "Transfert de données IoT basé sur CoAP d'un Raspberry Pi vers le Cloud" \cite{Scott2019CoAPBI}. Elle présente la topologie d'un système conçu par Thomas Scott et Amna Eleyan.
+
+Ce système se compose de quatre éléments principaux : le capteur, le Raspberry Pi, une passerelle basée sur le protocole CoAP (Constrained Application Protocol) et la plateforme cloud. Le capteur collecte les données et les transmet au Raspberry Pi. Le Raspberry Pi est ensuite responsable de la manipulation des données dans un format adapté pour la transmission via le protocole CoAP. L'implémentation du protocole CoAP communique avec la plateforme cloud, laquelle stocke les données, permettant ainsi l'accès aux utilisateurs.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{Images/IoT-Topo2.png}
-\caption{Topologie IoT}
+\caption{Architecture IoT basée sur CoAP}
 \label{Chap4.2.1}
 \end{figure}
 
@@ -37,7 +39,7 @@ L'intégration des objets connectés (IoT) dans les foyers a connu une croissanc
 Les smart blubs sont l'une des applications les plus courantes de l'IoT dans les foyers. Selon un rapport de Grand View Research, le marché des lampes intelligentes devrait atteindre une valeur de 38,68 milliards de dollars d'ici 2027 \cite{market-splash-automation}, avec un taux de croissance annuel composé de 20,8\%. Bien que la plupart des lampes ne soient pas des smart blubs, elles peuvent être connectées à notre réseau grâce à des cartes IoT comme Raspberry Pi ou Arduino.
 
 
-\section{Intégration des Dispositifs Entreprise}
+\section{Intégration des dispositifs de l'entreprise}
 
 Dans cette section, nous explorons l'intégration des dispositifs au sein de notre entreprise. Nous discutons des défis que nous rencontrons dans cette démarche et des solutions que nous envisageons pour les surmonter.
 
@@ -47,18 +49,18 @@ L'intégration des dispositifs d'entreprise constitue un défi essentiel à rele
 
 
 \begin{itemize}
-\item Caméras de Surveillance
+\item Caméras de surveillance
 
-\item Systèmes de Pointage
+\item Système de pointage
 
 \item Lampes d'éclairage
 
-\item Capteur de Température
+\item Capteur de température et d'humidité
 \end{itemize}
 
 Chacun de ces dispositifs présente des exigences spécifiques en termes d'intégration et de connectivité. Leur incorporation dans notre réseau doit être soigneusement planifiée pour garantir une opération harmonieuse.
 
-\subsection{Intégration des Caméras de Surveillance}
+\subsection{Intégration des caméras de surveillance}
 
 Notre première étape consiste à connecter nos caméras de surveillance au réseau de l'entreprise. Pour ce faire, nous configurons chaque caméra pour lui attribuer une adresse IP unique, lui permettant ainsi d'être reconnue sur le réseau. Parallèlement, nous allons utiliser un NVR (Network Video Recorder) pour stocker en continu les enregistrements vidéo et gérer les flux issus des caméras. De plus, nous installons le logiciel SmartPSS sur les ordinateurs des directeurs pour faciliter l'accès aux flux vidéo des caméras.
 
@@ -73,7 +75,7 @@ Notre première étape consiste à connecter nos caméras de surveillance au ré
 SmartPSS \ref{Chap4.2.4} est une solution logicielle développée par Dahua, une entreprise leader dans le domaine des systèmes de vidéosurveillance. Il offre une gestion centralisée des caméras, ainsi que des fonctionnalités d'enregistrement et de lecture des vidéos enregistrées. 
 
 
-\subsection{Intégration des Systèmes de Pointage}
+\subsection{Intégration des systèmes de pointage}
 
 L'intégration des systèmes de pointage est une autre composante cruciale de notre initiative. Nous utilisons le logiciel ZKTime \ref{Chap4.2.5}, développé par ZKTeco, pour connecter et contrôler ces systèmes au sein de notre réseau d'entreprise. Ce logiciel nous assurons une communication fluide entre les machines de pointage et le réseau, garantissant ainsi un accès facile et sécurisé aux données de pointage des employés.
 
@@ -85,27 +87,55 @@ L'intégration des systèmes de pointage est une autre composante cruciale de no
 \end{figure}
 \smallskip
 
-\subsection{Gestion Intelligente de l'éclairage}
+\subsection{Gestion intelligente de l'éclairage}
 
-Pour répondre à la demande croissante d'un SmartOffice, ce qui nécessite la mise en place d'un système de contrôle à distance des lampes, nous utilisons une carte IoT, telle que Raspberry Pi ou Arduino, pour connecter les lampes à notre réseau d'entreprise. Cette configuration nous permettons une gestion centralisée de l'éclairage, contribuant ainsi à optimiser l'utilisation de l'énergie et à réaliser des économies considérables sur les coûts énergétiques. En fin de compte, l'intégration de dispositifs connectés, tels que des lampes intelligentes, dans notre infrastructure d'entreprise, peut considérablement améliorer l'efficacité opérationnelle et la qualité de vie de nos employés.
+Pour répondre à la demande croissante d'un SmartOffice, ce qui nécessite la mise en place d'un système de contrôle à distance des lampes, nous utilisons une carte IoT, telle que Raspberry Pi ou Arduino, pour connecter les lampes à notre réseau d'entreprise. Cette configuration nous permet une gestion centralisée de l'éclairage, contribuant ainsi à optimiser l'utilisation de l'énergie et à réaliser des économies considérables sur les coûts énergétiques. En fin de compte, l'intégration de dispositifs connectés, tels que des lampes intelligentes, dans notre infrastructure d'entreprise, peut considérablement améliorer l'efficacité opérationnelle et la qualité de vie de nos employés.
 
-\subsection{Gestion Intelligente du Capteur de Température}
+\subsection{Gestion intelligente du capteur de température et humidité}
 
-De manière similaire à notre approche pour l'éclairage, nous cherchons à mettre en place une gestion intelligente de notre capteur de température. Cela nous permettra de surveiller et de contrôler les conditions thermiques de nos locaux de manière efficace. Nous envisageons d'utiliser Raspberry Pi ou Arduino pour connecter ce capteur à notre réseau. Cette intégration nous permettra de collecter en temps réel des données sur la température et de prendre des mesures proactives pour maintenir des conditions optimales dans nos installations.
+De manière similaire à notre approche pour l'éclairage, nous cherchons à mettre en place une gestion intelligente de notre capteur de température et humidité modèle DHT11. Cela nous permettra de surveiller et de contrôler les conditions thermiques de nos locaux de manière efficace. Nous envisageons d'utiliser Raspberry Pi ou Arduino pour connecter ce capteur à notre réseau. Cette intégration nous permettra de collecter en temps réel des données sur la température et de prendre des mesures proactives pour maintenir des conditions optimales dans nos installations.
 
 
-\subsection{Solution Proposée}
+\subsection{Solution proposée}
 
-Pour relever ces défis d'intégration et connecter nos dispositifs non-connectés, tels que les lampes et le capteur de température, à notre réseau, nous proposons d'utiliser une approche basée sur Raspberry Pi en combinaison avec Node-RED. Cette solution offre une méthode cohérente et efficace pour intégrer ces dispositifs dans notre infrastructure existante, tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
+Pour relever ces défis d'intégration et connecter nos dispositifs non-connectés, tels que les lampes et le capteur de température et humidité, à notre réseau, nous proposons d'utiliser une approche basée sur Raspberry Pi en combinaison avec Node-RED. Cette solution offre une méthode cohérente et efficace pour intégrer ces dispositifs dans notre infrastructure existante, tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
 
 
 
 
 \section{Solution avec Raspberry Pi et Node-RED}
 
-Dans cette section, nous explorons en détail la solution que nous proposons pour l'intégration de dispositifs au sein de notre entreprise en utilisant Raspberry Pi et Node-RED. Cette approche offre une méthode cohérente et efficace pour connecter nos dispositifs non-connectés, tels que les lampes et le capteur de température, à notre réseau tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
+Dans cette section, nous explorons en détail la solution que nous proposons pour l'intégration de dispositifs au sein de notre entreprise en utilisant Raspberry Pi et Node-RED. Cette approche offre une méthode cohérente et efficace pour connecter nos dispositifs qui ne sont pas nativement connectés, notamment les lampes et le capteur de température, à notre réseau tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
 
-\subsection{Définition de Raspberry Pi et Node-RED}
+
+
+\subsection{Matériels utilisés pour notre prototype}
+
+Pour créer notre prototype, nous commençons par présenter les matériels utilisés, comme indiqué dans le tableau \ref{table:matériel-prototype}. Ce prototype sera ultérieurement mis en œuvre sur le bureau principal, puis sur les deux autres bureaux respectivement.
+
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c{3cm}|l{10cm}|}
+\hline
+\textbf{Image de l'équipement} & \begin{center} \textbf{Description de l'équipement} \end{center} \\
+\hline
+\includegraphics[width=3cm]{Images/RaspberryPi3.png} & Raspberry Pi B+ V1.2 : Un ordinateur monocarte (single-board computer) de la taille d'une carte de crédit, développé par la fondation Raspberry Pi. Il est équipé d'un processeur ARM Cortex-A53 quad-core à 1,4 GHz, de 1 Go de RAM, de plusieurs ports USB, d'un port Ethernet, de connecteurs audio et vidéo, et d'un slot pour carte microSD pour le stockage. Il peut être utilisé pour une grande variété de projets, notamment des serveurs, des media centers, des stations de développement, des robots, des systèmes embarqués, etc. \\
+\hline
+\includegraphics[width=3cm]{Images/DHT11.png} & Capteur de température et d'humidité DHT11 : Un composant électronique capable de mesurer la température et l'humidité de son environnement. Il fournit des données essentielles pour notre système de contrôle environnemental. \\
+\hline
+\includegraphics[width=3cm]{Images/DiodeLED.png} & Diode LED : Une diode électroluminescente utilisée pour simuler le fonctionnement de nos lampes. Elle permet de tester notre système de contrôle d'éclairage. \\
+\hline
+\end{tabular}
+\caption{Les équipements composants de notre prototype miniature}
+\label{table:matériel-prototype}
+\end{center}
+\end{table}
+
+
+
+
+\subsection{Choix de Raspberry Pi et Node-RED}
 
 Face à ce défi, notre choix se porte sur l'utilisation de Raspberry Pi pour connecter les lampes à notre réseau. Raspberry Pi est une carte informatique très performante et polyvalente qui peut être utilisée pour de nombreux projets IoT \cite{richardson2012getting}.
 
@@ -115,18 +145,12 @@ En utilisant Raspberry Pi et Node-RED, nous sommes en mesure de créer une solut
 
 \subsection{Installation Raspberry Pi OS et Node-RED}
 
-\subsubsection{Raspberry Pi OS}
+\subsubsection{a. Installation de l'OS Raspberry Pi}
 
 Pour commencer, nous installons l'OS Debian spécifique au Raspberry Pi sur une carte mémoire. Nous insérons cette carte mémoire ensuite dans notre carte électronique Raspberry Pi pour démarrer le système.
 
 Après avoir téléchargé le Raspberry Pi Imager depuis le site officiel, nous utilisons cet outil pour graver sur notre carte mémoire.
-
-\begin{figure}[H]
- \centering
-    \includegraphics[width=15cm]{Images/RaspberryPiOSInstall1.png}
-    \caption{Installation du Raspberry Pi OS}
-    \label{Chap4.3.1}
-\end{figure}    
+ 
 
 Une fois l'image gravée sur la carte mémoire, nous insérons celle-ci dans le slot prévu sur notre carte électronique Raspberry Pi. Cela nous permet de démarrer le Raspberry Pi et d'accéder à l'interface utilisateur du système d'exploitation.
 
@@ -134,9 +158,9 @@ Une fois le Raspberry Pi OS démarré, nous pouvons effectuer les configurations
 
 En résumé, l'installation du Raspberry Pi OS sur une carte mémoire et son insertion dans notre carte électronique Raspberry Pi constituent la première étape pour mettre en place notre infrastructure et intégrer les objets connectés. Cette étape est cruciale pour assurer la compatibilité et la stabilité de notre système.
 
-\subsubsection{Node-RED}
+\subsubsection{b. Installation de Node-RED}
 
-Après avoir préparé le Raspberry Pi, nous procédons à l'installation de Node-RED sur la carte à l'aide du script bash officiel disponible sur le site de Node-RED, comme illustré dans la figure \ref{Chap4.3.2} suivante.
+Après avoir préparé le Raspberry Pi, nous procédons à l'installation de Node-RED sur la carte à l'aide du script bash officiel disponible sur le site de Node-RED, comme illustré dans la figure \ref{Chap4.3.2}.
 
 \begin{figure}[H]
  \centering
@@ -154,7 +178,7 @@ Ce script effectue une série d'étapes, telles que l'arrêt de Node-RED, la sup
     \label{Chap4.3.3}
 \end{figure}    
 
-Une fois l'installation terminée, nous pouvons démarrer Node-RED en utilisant la commande "node-red-start". Le résultat final du démarrage est illustré dans la figure \ref{Chap4.3.5} suivante.
+Une fois l'installation terminée, nous pouvons démarrer Node-RED en utilisant la commande "node-red-start". Le résultat final du démarrage est illustré dans la figure \ref{Chap4.3.5}.
 
 \begin{figure}[H]
  \centering
@@ -244,7 +268,7 @@ Une fois la sécurité configurée, nous pouvons nous connecter à Node-RED en u
 
 Ces différentes figures décrivent le processus de sécurisation de Node-RED en utilisant des mots de passe hachés. Cela garantit que seuls les utilisateurs autorisés peuvent accéder à notre projet et protège ainsi notre système contre les accès non autorisés.
 
-\subsection{Réalisation de Projet avec Node-RED}
+\subsection{Réalisation de projet avec Node-RED}
 
 Dans notre topologie, nous utilisons 2 LED, un capteur DHT11 et une breadboard, que nous connectons aux GPIO de Raspberry Pi, comme le montre la figure \ref{Chap4.3.13}, réalisée à l'aide de Fritzing.
 
@@ -310,7 +334,7 @@ Finalement, voici les nœuds et l'exécution finale de mon projet Node-RED.
 \begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{Images/Node-1.png}
-\caption{Le Projet en Node-RED}
+\caption{Le projet en Node-RED}
 \label{Chap4.3.20}
 \end{figure}
 
@@ -318,30 +342,33 @@ La figure \ref{Chap4.3.20} présente le projet Node-RED complet avec tous les n�
 
 \begin{figure}[H]
 \centering
-\includegraphics[height=15cm]{Images/Node-11.jpg}
-\caption{Circuit de mon Projet}
+\includegraphics[width=6cm]{Images/Node-11.jpg} \includegraphics[width=6cm]{Images/Node-12.jpg}
+
+\caption{Circuit de mon prototype miniature}
 \label{Chap4.3.21}
 \end{figure}
 
-Dans la figure \ref{Chap4.3.21}, nous pouvons voir le circuit physique de notre projet, avec les composants connectés sur la breadboard et le Raspberry Pi.
+Dans la figure \ref{Chap4.3.21}, nous pouvons voir le circuit prototype miniature de notre projet, avec les composants connectés sur la breadboard et le Raspberry Pi.
 
 \begin{figure}[H]
 \centering
 \includegraphics[height=15cm]{Images/1006591.jpg}
-\caption{Le Dashboard login en mobile}
+\caption{Le login du tableau de bord en mobile}
 \label{Chap4.3.22}
 \end{figure}
 
-La figure \ref{Chap4.3.22} présente l'interface de connexion (Dashboard Login) de notre projet, adaptée pour une utilisation sur mobile.
+La figure \ref{Chap4.3.22} illustre l'interface de connexion (Dashboard Login) de notre projet, conçue pour une utilisation sur mobile. Cette figure démontre que notre projet dispose d'un accès réseau via l'adresse "192.168.3.192:1880". Ici, "192.168.3.192" correspond à l'adresse IP de notre Raspberry Pi, et "1880" indique le port sur lequel Node-RED est en cours d'exécution.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{Images/150131.png}
-\caption{Le Dashboard Room 1 en Chrome}
+\includegraphics[width=15cm]{Images/150156.png}
+\caption{Le tableau de bord en bureau}
 \label{Chap4.3.23}
 \end{figure}
 
-La figure \ref{Chap4.3.23} montre le tableau de bord (Dashboard) de la salle 1 de notre projet, affiché dans le
+La figure \ref{Chap4.3.23} montre le tableau de bord (Dashboard) de notre projet en bureau.
+
 \subsection{Intégration dans le parc informatique}
 
 Une fois notre application prête, nous intégrons celle-ci dans le parc informatique que nous avons créé dans le troisième chapitre à l'aide de GLPI.
@@ -381,8 +408,8 @@ En conclusion de ce chapitre dédié à l'intégration des objets connectés, no
 
 Nous avons commencé par définir ce qu'étaient les objets connectés, en mettant en évidence leur rôle essentiel dans la création de systèmes intelligents et autonomes. Ensuite, nous avons exploré les défis et opportunités liés à l'intégration de ces dispositifs au sein de notre entreprise. \\
 
-Pour répondre à ces défis, nous avons présenté une solution basée sur l'utilisation de Raspberry Pi et de Node-RED. Cette combinaison nous permet de connecter divers dispositifs, tels que des lampes et des capteurs de température, à notre réseau d'entreprise de manière cohérente et efficace. Nous avons également mis en évidence les étapes d'installation et de configuration de ces outils, ainsi que les mesures de sécurité mises en place pour protéger notre système. \\
+Pour répondre à ces défis, nous avons présenté une solution basée sur l'utilisation de Raspberry Pi et de Node-RED. Cette combinaison nous permet de connecter divers dispositifs, tels que les lampes et le capteur de température et humidité, à notre réseau d'entreprise de manière cohérente et efficace. Nous avons également mis en évidence les étapes d'installation et de configuration de ces outils, ainsi que les mesures de sécurité mises en place pour protéger notre système. \\
 
 Enfin, nous avons illustré la réalisation d'un projet concret en utilisant Node-RED pour contrôler des LEDs en fonction de données de capteur de température et d'humidité. Ce projet a été intégré dans notre parc informatique, ce qui nous permet de suivre et de gérer notre dispositif IoT à partir du système de gestion GLPI. \\
 
-L'intégration des objets connectés représente un pas significatif vers une infrastructure informatique moderne et intelligente, et ce chapitre nous a fourni les connaissances et les outils nécessaires pour relever ce défi avec succès. Dans le chapitre suivant, nous explorerons davantage les implications de ces dispositifs dans notre entreprise en examinant les avantages et les opportunités qu'ils offrent. \\
+L'intégration des objets connectés représente un pas significatif vers une infrastructure informatique moderne et intelligente, et ce chapitre nous a fourni les connaissances et les outils nécessaires pour relever ce défi avec succès. \\

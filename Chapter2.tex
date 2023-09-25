@@ -19,28 +19,26 @@ Nous expliquons également les choix techniques que nous avons effectués pour r
 
 Dans cette partie, nous allons détailler les différents outils et technologies que nous avons utilisés pour établir l'infrastructure réseau IT et SI nécessaire à la mise en place.
 
-Nous abordons tout d'abord le matériel que nous avons sélectionné et configuré pour répondre aux besoins de l'entreprise, dans la sous-section 2.1 "Matériel Utilisé".
-
-Ensuite, nous présentons l'environnement IT que nous avons mis en place, en décrivant les différentes technologies et logiciels utilisés pour assurer une infrastructure stable, performante et sécurisée, dans la sous-section "Environnement IT". 
+Nous abordons tout d'abord le matériel que nous avons sélectionné et configuré pour répondre aux besoins de l'entreprise, dans la section 2.2.1. Ensuite, nous présentons l'environnement IT que nous avons mis en place, en décrivant les différentes technologies et logiciels utilisés pour assurer une infrastructure stable, performante et sécurisée, dans la section 2.2.2.
 
 Cette présentation détaillée nous permettra de mieux comprendre les choix que nous avons effectués pour répondre aux exigences de l'entreprise et assurer une mise en œuvre réussie de notre projet.
 
 \subsection{Matériels utilisés}
 
-Dans cette sous-section, nous présentons le matériel utilisé, notamment les commutateurs, le pare-feu et les cartes électroniques, sous forme d'un tableau comme suit.
+Dans cette sous-section, nous présentons le matériel utilisé, notamment les commutateurs, le pare-feu et les serveurs, sous forme d'un tableau \ref{1}.
 
 
 \begin{table}[H]
 \begin{center}
 \begin{tabular}{|c{3cm}|c{3cm}|l{10cm}|}
 \hline
-\textbf{Logo}         & \textbf{Nom de l'équipement}   & \textbf{Fonctionnalité} \\
+\textbf{Image de l'équipement}         & \textbf{Nom de l'équipement}   & \textbf{Fonctionnalité} \\
 \hline
-\includegraphics[width=3cm]{Images/ewall.jpg} & E-Wall Pare-Feu & E-Wall est une solution de sécurité essentielle pour protéger les réseaux informatiques contre les menaces externes. 
+\includegraphics[width=3cm]{Images/ewall.png} & E-Wall Pare-Feu & E-Wall est une solution de sécurité essentielle pour protéger les réseaux informatiques contre les menaces externes. 
 
 Son utilisation permet de renforcer la sécurité, de contrôler le trafic réseau et de détecter les activités malveillantes, contribuant ainsi à la préservation de l'intégrité, de la confidentialité et de la disponibilité des données. \\
 \hline
-\includegraphics[width=3cm]{Images/HP1910.jpg} & Commutateurs HP1910 G24 & C'est un modèle de commutateur d'entreprise qui offre des fonctionnalités de gestion avancées pour les réseaux LAN. Il dispose de 24 ports Gigabit Ethernet et peut être géré via une interface web ou en ligne de commande. 
+\includegraphics[width=3cm]{Images/HP1910.png} & Commutateurs HP1910 G24 & C'est un modèle de commutateur d'entreprise qui offre des fonctionnalités de gestion avancées pour les réseaux LAN. Il dispose de 24 ports Gigabit Ethernet et peut être géré via une interface web ou en ligne de commande. 
 
 Il prend en charge les protocoles de gestion de réseau SNMP, RMON et LLDP, ainsi que les VLAN, le QoS, le STP et d'autres fonctionnalités de sécurité.  \\
 \hline
@@ -48,16 +46,12 @@ Il prend en charge les protocoles de gestion de réseau SNMP, RMON et LLDP, ains
 
 Il utilise une antenne directionnelle à haut gain pour offrir des connexions sans fil stables et fiables sur de longues distances.  \\
 \hline
-\includegraphics[width=3cm]{Images/dellr720.jpg} & Dell PowerEdge R720 & Le Dell PowerEdge R720 est un serveur rackable de haute performance, fiable et évolutif, offrant une grande capacité de stockage et de traitement de données pour les applications critiques de l'entreprise. 
+\includegraphics[width=3cm]{Images/dellr720.png} & Dell PowerEdge R720 & Le Dell PowerEdge R720 est un serveur rackable de haute performance, fiable et évolutif, offrant une grande capacité de stockage et de traitement de données pour les applications critiques de l'entreprise. 
 
 Il est équipé de processeurs Intel Xeon E5-2600 v2 et peut prendre en charge jusqu'à 1,5 To de mémoire vive. Le PowerEdge R720 dispose également de fonctionnalités de haute disponibilité telles que les alimentations redondantes, les disques durs en miroir et les cartes réseau doubles. \\
 \hline
-\includegraphics[width=3cm]{Images/RaspberryPi3.jpg} & Raspberry Pi B+ V1.2 & Un ordinateur monocarte (single-board computer) de la taille d'une carte de crédit, développé par la fondation Raspberry Pi. 
-
-Il est équipé d'un processeur ARM Cortex-A53 quad-core à 1,4 GHz, de 1 Go de RAM, de plusieurs ports USB, d'un port Ethernet, de connecteurs audio et vidéo, et d'un slot pour carte microSD pour le stockage. Il peut être utilisé pour une grande variété de projets, notamment des serveurs, des media centers, des stations de développement, des robots, des systèmes embarqués, etc. \\
-\hline
 \end{tabular}
-\caption{Tableau du matériel utilisées}
+\caption{Matériels utilisés}
 \label{1}
 \end{center}
 \end{table}
@@ -65,7 +59,7 @@ Il est équipé d'un processeur ARM Cortex-A53 quad-core à 1,4 GHz, de 1 Go de 
 
 \subsection{Logiciels utilisés}
 
-Dans cette sous-section, nous présentons les logiciels utilisés comme les GNS3 et VNC Viewer dans notre projet pour créer notre infrastructure réseau sous forme de tableaux suivants. 
+Dans cette sous-section, nous présentons dans les tableaux \ref{2} et \ref{3} les logiciels utilisés comme les GNS3 et VNC Viewer dans notre projet pour créer notre infrastructure réseau. 
 
 
 \begin{table}[H]
@@ -90,8 +84,8 @@ Il offre la possibilité de se connecter à distance à des appareils tels que l
 Il permet également de détecter les adresses IP inactives et les ports ouverts sur les périphériques.  \\
 \hline
 \end{tabular}
-\caption{Tableau des logiciels utilisés - Partie 1}
-\label{1}
+\caption{Logiciels utilisés}
+\label{2}
 \end{table}
 
 
@@ -116,17 +110,15 @@ Il offre une interface graphique simple à utiliser pour sélectionner et télé
 Il fournit un environnement graphique pour les applications Linux, ce qui permet aux utilisateurs de Windows d'accéder et d'interagir avec des applications Linux à distance. \\
 \hline
 \end{tabular}
-\caption{Tableau des logiciels utilisés - Partie 2}
-\label{1}
+\caption{Logiciels utilisés - Suite}
+\label{3}
 \end{center}
 \end{table}
 
 
 \section{Présentation des locaux et déploiement de réseaux MAN}
 
-Cette section nous plonge au cœur de nos installations et de notre infrastructure de réseau métropolitain (MAN). Nous débuterons par une présentation détaillée de nos trois locaux, chacun ayant ses caractéristiques uniques. Ensuite, nous explorerons la notion de réseau MAN et son importance pour notre entreprise. Enfin, nous vous dévoilerons les coulisses de l'implémentation de notre MAN, en mettant en lumière nos choix stratégiques, notamment notre préférence pour les équipements TP-Link.
-
-
+Cette section nous plongeons au cœur de nos installations et de notre infrastructure de réseau métropolitain (MAN). Nous débutons par une présentation détaillée de nos trois locaux, chacun ayant ses caractéristiques uniques. Ensuite, nous explorons la notion de réseau MAN et son importance pour notre entreprise. Enfin, nous dévoilons les coulisses de l'implémentation de notre MAN, en mettant en lumière nos choix stratégiques, notamment notre préférence pour les équipements TP-Link.
 
 
 
@@ -141,12 +133,12 @@ Le deuxième local, situé à Rades, Rue Habib Bourgiba, abrite le centre d'appe
 
 Enfin, le troisième local, situé à Ezzahra, Rue Habib Bourgiba, est l'espace de travail pour les ingénieurs et les développeurs informatiques de l'entreprise. C'est dans cet espace que les produits technologiques de Zeta Engineering sont conçus et développés.
 
-Ces deux figures \ref{Chap2.4.21} et Figure \ref{Chap2.5.5} ci-dessus montrent la distance entre le bureau Rades Melian et le bureau Rades, qui est d'environ 1,268 km, ainsi que la distance entre le bureau Rades Melian et Ezzahra, qui est d'environ 2,843 km.
+Ces deux figures \ref{Chap2.4.21} et figure \ref{Chap2.5.5} ci-dessous montrent la distance entre le bureau Rades Meliane et le bureau Rades, qui est d'environ 1,268 km, ainsi que la distance entre le bureau Rades Meliane et Ezzahra, qui est d'environ 2,843 km.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=16cm]{Images/distance1.png}
-\caption{Distance entre le bureau Rades et Rades Melian (1,268 km)}
+\caption{Distance entre le bureau Rades et Rades Meliane (1,268 km)}
 \label{Chap2.4.21}
 \end{figure}
 
@@ -158,7 +150,7 @@ Ces deux figures \ref{Chap2.4.21} et Figure \ref{Chap2.5.5} ci-dessus montrent l
     \label{Chap2.5.5}
 \end{figure}    
 
-Avec ces trois locaux répartis géographiquement, comme le montre la Figure \ref{Chap2.6.0}, il devient essentiel de mettre en place un réseau de zone métropolitaine (MAN) pour les connecter de manière transparente. Un réseau MAN permettra à Zeta Engineering de relier ses bureaux de Rades Habib Bourgiba, Rades Meliane et Ezzahra, garantissant ainsi une communication fluide et efficace entre eux.
+Avec ces trois locaux répartis géographiquement, comme le montre la figure \ref{Chap2.6.0}, il devient essentiel de mettre en place un réseau de zone métropolitaine (MAN) pour les connecter de manière transparente. Un réseau MAN permettra à Zeta Engineering de relier ses bureaux de Rades Habib Bourgiba, Rades Meliane et Ezzahra, garantissant ainsi une communication fluide et efficace entre eux.
 
 \begin{figure}[H]
 \centering
@@ -167,7 +159,8 @@ Avec ces trois locaux répartis géographiquement, comme le montre la Figure \re
 \label{Chap2.6.0}
 \end{figure}
 
-Ce réseau jouera un rôle crucial dans la centralisation des données, la gestion des ressources et la coordination des activités à l'échelle de l'entreprise. De plus, il permettra également d'intégrer les objets connectés tels que les machines de pointage, les capteurs de température et d'humidité, les lampes, les smartphones et les caméras de surveillance, optimisant ainsi l'utilisation de ces ressources au sein de l'entreprise. En fin de compte, le réseau MAN contribuera à renforcer l'efficacité opérationnelle de Zeta Engineering et à répondre aux besoins croissants du marché et de la technologie.
+Ce réseau joue un rôle crucial dans la centralisation des données, la gestion des ressources et la coordination des activités à l'échelle de l'entreprise. De plus, il intègre également les objets connectés tels que les machines de pointage, les capteurs de température et d'humidité, les lampes, les smartphones et les caméras de surveillance, optimisant ainsi l'utilisation de ces ressources au sein de l'entreprise. En fin de compte, le réseau MAN contribue à renforcer l'efficacité opérationnelle de Zeta Engineering et répond aux besoins croissants du marché et de la technologie.
+
 
 \subsection{Définition du réseau MAN}
 
@@ -210,7 +203,7 @@ Nous suivons les étapes d'assemblage et d'installation illustrées dans les fig
 
 Après avoir soigneusement assemblé les différentes composantes du TP-Link, nous sommes en mesure d'accéder à son panneau d'administration via une connexion LAN. À partir de là, nous entamons le processus d'initialisation et de configuration.
 
-La Figure \ref{Chap2.3.5} illustre l'étape d'initialisation du TP-Link, où nous configurons  les paramètres essentiels pour son bon fonctionnement.
+La figure \ref{Chap2.3.5} illustre l'étape d'initialisation du TP-Link, où nous configurons  les paramètres essentiels pour son bon fonctionnement.
 
 \begin{figure}[H]
 \centering
@@ -219,7 +212,7 @@ La Figure \ref{Chap2.3.5} illustre l'étape d'initialisation du TP-Link, où nou
 \label{Chap2.3.5}
 \end{figure}
 
-La configuration en mode test est représentée dans la Figure \ref{Chap2.3.6}, nous permettant de vérifier les performances du dispositif avant une utilisation complète.
+La configuration en mode test est représentée dans la figure \ref{Chap2.3.6}, nous permettant de vérifier les performances du dispositif avant une utilisation complète.
 
 \begin{figure}[H]
 \centering
@@ -228,7 +221,7 @@ La configuration en mode test est représentée dans la Figure \ref{Chap2.3.6}, 
 \label{Chap2.3.6}
 \end{figure}
 
-Le panneau de contrôle complet du TP-Link est dépeint dans la Figure \ref{Chap2.3.7}, où nous pouvons régler et surveiller divers paramètres pour garantir un réseau stable.
+Le panneau de contrôle complet du TP-Link est dépeint dans la figure \ref{Chap2.3.7}, où nous pouvons régler et surveiller divers paramètres pour garantir un réseau stable.
 
 \begin{figure}[H]
 \centering
@@ -237,7 +230,7 @@ Le panneau de contrôle complet du TP-Link est dépeint dans la Figure \ref{Chap
 \label{Chap2.3.7}
 \end{figure}
 
-Les Figures \ref{Chap2.3.8} et \ref{Chap2.3.9} montrent respectivement les étapes d'initialisation de l'émetteur et du récepteur du TP-Link, éléments clés pour établir une connexion fiable.
+Les figures \ref{Chap2.3.8} et \ref{Chap2.3.9} montrent respectivement les étapes d'initialisation de l'émetteur et du récepteur du TP-Link, éléments clés pour établir une connexion fiable.
 
 \begin{figure}[H]
 \centering
@@ -263,7 +256,7 @@ L'étape finale de vérification de la connexion entre le point d'accès TP-Link
 \label{Chap2.3.11}
 \end{figure}
 
-Enfin, la Figure \ref{Chap2.3.12} met en évidence l'installation réussie du TP-Link CPE610 à Rades Melian, marquant une étape cruciale de notre déploiement.
+Enfin, la figure \ref{Chap2.3.12} met en évidence l'installation réussie du TP-Link CPE610 à Rades Melian, marquant une étape cruciale de notre déploiement.
 
 \begin{figure}[H]
 \centering
@@ -286,7 +279,7 @@ Dans cette section, nous présentons l'architecture réseau de chaque bureau à 
 
 Cette approche nous a également donné l'opportunité d'anticiper et de résoudre d'éventuels problèmes avant qu'ils ne se manifestent dans le réseau réel, en effectuant des ajustements aux paramètres de configuration et en ajoutant de nouveaux équipements au besoin.
 
-Pour commencer, nous modélisons les différents équipements du réseau de Rades, comme illustré dans la Figure \ref{Chap2.2.0}. Le routeur C891F, par exemple, distribue l'accès Internet reçu de Topnet vers le commutateur principal HP-1910-G24. À partir de ce commutateur, nous gérons l'accès à Internet pour les utilisateurs et les connectons aux serveurs de la société.
+Pour commencer, nous modélisons les différents équipements du réseau de Rades, comme illustré dans la figure \ref{Chap2.2.0}. Le routeur C891F, par exemple, distribue l'accès Internet reçu de Topnet vers le commutateur principal HP-1910-G24. À partir de ce commutateur, nous gérons l'accès à Internet pour les utilisateurs et les connectons aux serveurs de la société.
 
 \begin{figure}[H]
 \centering
@@ -295,7 +288,7 @@ Pour commencer, nous modélisons les différents équipements du réseau de Rade
 \label{Chap2.2.0}
 \end{figure}
 
-Ensuite dans la figure \ref{Chap2.4.1}, nous remarquons que la structure est similaire à celle mise en place dans le bureau de Rades, à la différence que nous ajoutons pfSense pour renforcer la sécurité du réseau principal.
+Ensuite, dans la figure \ref{Chap2.4.1} nous présentons la topologie du réseau du bureau de Rades Meliane où nous remarquons que cette structure est similaire à celle mise en place dans le bureau de Rades, à la différence que nous ajoutons pfSense pour renforcer la sécurité du réseau principal vu que c'est le local le plus important assurant la gestion des activités quotidiennes de l'entreprise et la coordination de ses opérations à l'échelle nationale et internationale.
 
 \begin{figure}[H]
 \centering
@@ -317,7 +310,7 @@ Enfin dans la figure \ref{Chap2.5.1}, pour le bureau Ezzahara nous ajoutons une 
 
 \subsection{Configuration en GNS3}
 
-Dans cette section, nous présentons la configuration de notre réseau en utilisant GNS3. Tout d'abord, nous montons la topologie du réseau dans la figure \ref{Chap2.2.1}, où nous avons accès à la console du routeur. 
+Dans cette section, nous présentons la configuration de notre réseau en utilisant GNS3. Tout d'abord, nous montrons la topologie du réseau dans la figure \ref{Chap2.2.1}, où nous avons accès à la console du routeur. 
 
 
 \begin{figure}[H]
@@ -328,7 +321,7 @@ Dans cette section, nous présentons la configuration de notre réseau en utilis
 \end{figure}
 
 
-Ensuite, dans la figure \ref{Chap2.2.2}, nous avons obtenu une adresse IP DHCP pour notre console et activé l'option \textit{"domain-lookup"}. 
+Ensuite, dans la figure \ref{Chap2.2.2}, nous avons obtenu une adresse IP DHCP pour notre console et nous avons activé l'option \textit{"domain-lookup"}. 
 
 
 \begin{figure}[H]
@@ -348,7 +341,7 @@ Dans la figure \ref{Chap2.2.3}, nous effectuons un ping réussi vers "8.8.8.8", 
     \label{Chap2.2.3}
 \end{figure}
 
-Dans la figure \ref{Chap2.2.4}, nous ajoutons un réseau interne "192.168.1.1/24" sur le port f0/1. 
+Dans la figure \ref{Chap2.2.4}, nous ajoutons un réseau interne (LAN) "192.168.1.1/24" sur le port f0/1. 
 
 \begin{figure}[H]
  \centering
@@ -357,7 +350,10 @@ Dans la figure \ref{Chap2.2.4}, nous ajoutons un réseau interne "192.168.1.1/24
     \label{Chap2.2.4}
 \end{figure}
 
-Cependant, nous constatons dans la figure \ref{Chap2.2.5} que nous ne pouvions pas toujours accéder à internet depuis la machine de la société.
+Cependant, comme le montre la figure \ref{Chap2.2.5}, nous avons remarqué que l'utilisateur 4 ne pouvait pas toujours accéder à Internet. Cela est dû au fait que nous devons configurer notre routeur C891F pour autoriser le trafic du port LAN f0/1 à accéder au WAN port f0/0 (le port de l'internet), et également pour permettre le transfert de tous les protocoles, tels que HTTP et SMTP.
+
+
+
 
 \begin{figure}[H]
  \centering
@@ -367,7 +363,7 @@ Cependant, nous constatons dans la figure \ref{Chap2.2.5} que nous ne pouvions p
 \end{figure}
 
 
-Dans la figure \ref{Chap2.2.6}, nous observons que toutes les machines ont accès à Internet et peuvent communiquer entre elles au sein du réseau local.
+Dans la figure \ref{Chap2.2.6}, nous configurons notre routeur afin d'autoriser la communication entre notre port WAN f0/0 et notre port LAN f0/1.
 
 
 \begin{figure}[H]
@@ -395,6 +391,7 @@ En résumé, nous avons configuré notre réseau en utilisant GNS3 en étapes, e
   
 \subsection{Implémentation}
 
+
 Étant donné que l'infrastructure de fibre optique de Topnet/Telecom n'est pas disponible à proximité du bureau central de Rades Melian, nous trouvons une solution en achetant une connexion internet par fibre optique dans deux autres bureaux, Rades (20 Mbps) et Ezzahara (100 Mbps), et en les reliant via un réseau MAN (Metropolitan Area Network). Les deux connexions sont connectées à un routeur Cisco 891F configuré par l'équipe de Topnet, qui distribue le réseau vers un commutateur Cisco v19-10 24G. 
 
 
@@ -418,7 +415,17 @@ Le routeur Cisco 891F est représenté dans la figure \ref{Chap2.2.10}.
 
 
 
-\subsubsection{Implémentation du Pare-feu}
+\section{Pare-feu}
+
+Dans cette section, après avoir configuré notre routeur et notre réseau MAN, nous ajoutons un pare-feu à notre bureau principal de Rades Meliane.
+
+
+\subsection{Choix pfSense}
+
+Nous choisissons pfSense pour plusieurs raisons essentielles. Tout d'abord, c'est une solution open source, ce qui signifie qu'elle est gratuite et offre une grande flexibilité. De plus, pfSense est reconnu pour sa stabilité et sa fiabilité, en faisant un choix sûr pour sécuriser notre infrastructure. Il bénéficie d'une communauté active et d'une documentation complète, ce qui facilite son utilisation et sa maintenance. En outre, pfSense offre une gamme étendue de fonctionnalités de sécurité, y compris la gestion des règles de pare-feu, la détection d'intrusion, la protection contre les logiciels malveillants, etc. En somme, pfSense est la solution idéale pour renforcer la sécurité de notre réseau tout en offrant souplesse et support actif.
+
+
+\subsection{Mise en œuvre du pfSense}
 
 Pour déployer pfSense en tant que pare-feu dans notre infrastructure du bureau Rades Melian, qui est la branche principale, nous avons suivi les étapes d'installation suivantes.
 
@@ -497,7 +504,7 @@ pfSense offre une gamme d'options de configuration avancée, notamment la gestio
 
 \section{Conclusion}
 
-En conclusion, la mise en place de l'infrastructure informatique pour le Mémoire De Mastère de Zeta Engineering a nécessité une analyse approfondie des besoins de l'entreprise et une sélection rigoureuse des outils et technologies utilisés pour assurer une infrastructure robuste et sécurisée. Les différentes architectures réseau mises en place ont été détaillées, du réseau local à celui du réseau MAN, en passant par les différentes implantations pour les bureaux Rades Melian et Ezzahra.
+En conclusion, la mise en place de l'infrastructure informatique pour le Mémoire De Mastère de Zeta Engineering a nécessité une analyse approfondie des besoins de l'entreprise et une sélection rigoureuse des outils et technologies utilisés pour assurer une infrastructure robuste et sécurisée. Les différentes architectures réseau mises en place ont été détaillées, du réseau local à celui du réseau MAN, en passant par les différentes implantations pour les bureaux Rades Meliane et Ezzahra.
 
 
 En somme ce chapitre, nous permettons de détailler les différentes étapes du déploiement de l'infrastructure IT pour le projet Mémoire De Mastère de Zeta Engineering et de présenter une approche complète et rigoureuse pour répondre aux besoins de l'entreprise tout en garantissant la sécurité et la robustesse de l'infrastructure. 

@@ -6,7 +6,7 @@
 \section{Introduction}
 
 
-Le déploiement du système d'information est une étape cruciale pour toute entreprise moderne. Afin de répondre aux besoins spécifiques de Zeta Engineering, nous avons identifié les éléments essentiels à intégrer dans notre système d'information, tels que les protocoles de communication et les serveurs. Par la suite, l'équipe informatique se concentrera sur l'amélioration progressive du SI, en effectuant des ajustements et des optimisations.
+Le déploiement du système d'information est une étape cruciale pour toute entreprise moderne. Afin de répondre aux besoins spécifiques de Zeta Engineering, nous avons identifié les éléments essentiels à intégrer dans notre système d'information, tels que les protocoles de communication et les serveurs. 
 
 
 Dans ce chapitre, nous détaillons les différentes étapes du déploiement de ce système d'information, en commençant par l'installation et la configuration des serveurs nécessaires à leur fonctionnement. Nous expliquons également les choix techniques que nous avons effectués pour répondre aux exigences de l'entreprise et assurer une infrastructure robuste et sécurisée \cite{opg}.
@@ -16,7 +16,7 @@ Dans ce chapitre, nous détaillons les différentes étapes du déploiement de c
 
 
 
-Dans cette section, nous montons les besoins essentielles choisies pour notre entreprise.
+Dans cette section, nous montrons les besoins essentielles de notre entreprise.
 
 
 
@@ -41,7 +41,7 @@ Gestion de parc et d'inventaires & Suivre et gérer les actifs matériels et log
 Gestion des identités et contrôle d'accès & Gérer les utilisateurs, les ordinateurs et les groupes au sein d'un réseau. Fournir des fonctionnalités d'authentification, de contrôle d'accès et de gestion des politiques de sécurité. \\
 \hline
 \end{tabular}
-\caption{Les solutions choisies pour le système d'information}
+\caption{Les éléments composants le système d'information}
 \label{1}
 \end{center}
 \end{table}
@@ -212,18 +212,18 @@ Nos solutions choisies se répartissent en trois couches distinctes, comme illus
 
 
 
-\subsection{La Couche physique}
+\subsection{La couche physique}
 
 La configuration de la couche physique de notre infrastructure s'est déroulée en suivant scrupuleusement le guide d'installation d'Ubuntu Server 22.04 \cite{linuxgenie_ubuntu2204}. 
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=15cm]{Images/ubuntu-install.png}
-  \caption{Connexion à Ubuntu Server 22.04 via Putty}
+  \caption{Installation de Ubuntu Server 22.04}
   \label{fig:ubuntu-install}
 \end{figure}
 
-La Figure \ref{fig:ubuntu-install} présente notre procédure de connexion à Ubuntu Server 22.04 à l'aide de l'outil Putty. Cette étape est cruciale pour établir une liaison avec notre serveur Ubuntu.
+La figure \ref{fig:ubuntu-install} illustre notre procédure d'installation d'Ubuntu Server.
 
 \begin{figure}[H]
   \centering
@@ -232,7 +232,7 @@ La Figure \ref{fig:ubuntu-install} présente notre procédure de connexion à Ub
   \label{fig:putty-interface}
 \end{figure}
 
-Sur la Figure \ref{fig:putty-interface}, nous exposons en détail l'interface de Putty, l'outil que nous employons pour effectuer la connexion à notre serveur Ubuntu 22.04. Cette interface est l'interface de contrôle permettant la gestion à distance de notre serveur.
+Dans la figure \ref{fig:putty-interface}, nous exposons en détail l'interface de Putty, l'outil que nous employons pour effectuer la connexion à notre serveur Ubuntu 22.04. Cette interface est l'interface de contrôle permettant la gestion à distance de notre serveur.
 
 \begin{figure}[H]
   \centering
@@ -241,10 +241,10 @@ Sur la Figure \ref{fig:putty-interface}, nous exposons en détail l'interface de
   \label{fig:neofetch-result}
 \end{figure}
 
-La Figure \ref{fig:neofetch-result} affiche le résultat détaillé de l'exécution de la commande "neofetch" sur notre serveur Ubuntu 22.04. Cette commande nous a permis d'obtenir des informations système essentielles pour assurer le bon fonctionnement de notre infrastructure.
+La figure \ref{fig:neofetch-result} affiche le résultat détaillé de l'exécution de la commande "neofetch" sur notre serveur Ubuntu 22.04. Cette commande nous a permis d'obtenir des informations système essentielles pour assurer le bon fonctionnement de notre infrastructure.
 
 
-\subsection{La Couche virtualisation}
+\subsection{La couche virtualisation}
 
 Avant d'installer KVM, nous effectuons des vérifications pour garantir la compatibilité matérielle. 
 
@@ -254,7 +254,25 @@ Ensuite, nous utilisons la commande \textbf{kvm-ok} pour vérifier si les module
 
 Une fois ces vérifications réussies, nous procédons à l'installation des packages nécessaires en exécutant la commande suivante :
 
+
 \textbf{"sudo apt install -y qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-clients bridge-utils"}
+
+\begin{itemize}
+\item  qemu-kvm est l'hyperviseur qui permet l'exécution de machines virtuelles, fournissant un environnement pour les systèmes d'exploitation invités.
+\item virt-manager est une interface graphique conviviale qui facilite la gestion des machines virtuelles, offrant des fonctionnalités de création, de configuration et de surveillance.
+\item libvirt-daemon-system inclut les démons de libvirt, essentiels pour la gestion des connexions et des machines virtuelles.
+\item virtinst est un outil en ligne de commande qui permet la création et la gestion des machines virtuelles de manière efficace.
+\item libvirt-clients englobe des outils en ligne de commande qui permettent d'interagir avec le démon libvirt pour le contrôle des VM.
+\item bridge-utils est un package essentiel pour gérer les ponts réseau, permettant ainsi la configuration de la connectivité réseau des machines virtuelles.
+\end{itemize}
+
+
+
+
+
+
+
+
 
 Ci-dessous, nous pouvons voir que les figures \ref{fig:kvm-installation} et \ref{fig:libvirtd-status} illustrant les étapes d'installation de KVM et la vérification de l'état du service libvirtd  .
 
@@ -281,9 +299,9 @@ Enfin, grâce à l'utilisation de Xming et de PuTTY, nous pouvons accéder au ge
     \label{fig:virt-manager-access}
 \end{figure}
 
-\subsection{La Couche applicative}
+\subsection{La couche applicative}
 
-\subsubsection{DHCP}
+\subsubsection{a. DHCP}
 
 Pour mettre en place et configurer un serveur DHCP sur une machine virtuelle Linux, nous avons suivi les étapes suivantes \cite{linuxhint_dhcp_server}.
 
@@ -334,7 +352,7 @@ Enfin, nous vérifions que le serveur DHCP ISC était en cours d'exécution en u
 
 Ainsi, nous réussissons  à mettre en place et configurer un serveur DHCP sur notre machine virtuelle Linux. Cela nous permettra de fournir automatiquement des adresses IP et d'autres informations de configuration réseau aux clients DHCP de notre réseau.
 
-\subsubsection{VoIP/Téléphonie}
+\subsubsection{b. VoIP/Téléphonie}
 
 Après avoir suivi les étapes d'installation d'Asterisk \cite{asterisk-install-vegastack}, comme illustré dans la figure \ref{fig:asterisk-server1}, notre système Asterisk fonctionne correctement.
 
@@ -346,7 +364,7 @@ Après avoir suivi les étapes d'installation d'Asterisk \cite{asterisk-install-
 \end{figure}
 
 
-\subsubsection{ERP/CRM}
+\subsubsection{c. ERP/CRM}
 
 L'installation d'Odoo \cite{odoo16-ubuntu-install} sur notre machine virtuelle Ubuntu est présentée dans la figure \ref{fig:odoo-installation}.
 
@@ -368,7 +386,7 @@ De plus, la confirmation du bon fonctionnement d'Odoo est illustrée dans la fig
 
 
 
-\subsubsection{GLPI}
+\subsubsection{d. GLPI}
 
 L'installation de GLPI \cite{glpi-install-tecmint} est suivie d'un aperçu du tableau de bord de GLPI, où toutes les informations sur les équipements peuvent être consultées et gérées efficacement, comme montré dans la figure \ref{fig:glpi-dashboard}.
 
@@ -382,7 +400,7 @@ L'installation de GLPI \cite{glpi-install-tecmint} est suivie d'un aperçu du ta
 
 
 
-\subsubsection{OpenLDAP}
+\subsubsection{e. OpenLDAP}
 
 Après avoir suivi les étapes pour installer OpenLDAP \cite{patil2020openldap}, nous présentons le tableau de bord de phpLDAPAdmin, une interface graphique pour la gestion de l'annuaire LDAP \ref{fig:ldap-dashboard}.
 
@@ -393,7 +411,7 @@ Après avoir suivi les étapes pour installer OpenLDAP \cite{patil2020openldap},
 \label{fig:ldap-dashboard}
 \end{figure}
 
-\subsubsection{Les machines virtuelles de nos applications}
+\subsubsection{f. Les machines virtuelles de nos applications}
 
 
 \begin{figure}[H]
@@ -403,7 +421,7 @@ Après avoir suivi les étapes pour installer OpenLDAP \cite{patil2020openldap},
 \label{fig:vm-list}
 \end{figure}
 
-La Figure \ref{fig:vm-list} présente la liste complète de nos VMs actuellement déployées, chacune d'entre elles étant dédiée à l'une de nos applications. Ce déploiement nous permet de garantir l'isolation des ressources et de maintenir la disponibilité de nos applications de manière efficace.
+La figure \ref{fig:vm-list} présente la liste complète de nos VMs actuellement déployées, chacune d'entre elles étant dédiée à l'une de nos applications. Ce déploiement nous permet de garantir l'isolation des ressources et de maintenir la disponibilité de nos applications de manière efficace.
 
 
 
@@ -415,4 +433,8 @@ L'installation et la configuration suivent des étapes précises. Ubuntu Server 
 
 Ce déploiement crée une base solide et sécurisée. L'équipe informatique peut maintenant optimiser le système pour les besoins en constante évolution de l'entreprise.
 
-En conclusion, ce déploiement assure le fonctionnement efficace et fiable de Zeta Engineering.
+En conclusion, ce déploiement garantit le bon fonctionnement efficace et fiable de Zeta Engineering. Nous passerons maintenant au dernier chapitre, où nous aborderons l'intégration des objets connectés.
+
+
+
+
