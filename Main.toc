@@ -9,8 +9,8 @@
 \contentsline {subsection}{\numberline {1.3.1}Cadre de projet}{5}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Problématique}{6}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Méthodologie de travail et planification}{7}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Présentation de la méthodologie}{7}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Choix de cascade}{9}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.1}Présentation de la méthodologie en cascade}{7}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Choix de la méthodologie en cascade}{8}{subsection.1.4.2}%
 \contentsline {section}{\numberline {1.5}Conclusion }{9}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Déploiement de l'infrastructure IT}{10}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{10}{section.2.1}%

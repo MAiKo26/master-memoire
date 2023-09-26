@@ -62,7 +62,9 @@ Chacun de ces dispositifs présente des exigences spécifiques en termes d'inté
 
 \subsection{Intégration des caméras de surveillance}
 
-Notre première étape consiste à connecter nos caméras de surveillance au réseau de l'entreprise. Pour ce faire, nous configurons chaque caméra pour lui attribuer une adresse IP unique, lui permettant ainsi d'être reconnue sur le réseau. Parallèlement, nous allons utiliser un NVR (Network Video Recorder) pour stocker en continu les enregistrements vidéo et gérer les flux issus des caméras. De plus, nous installons le logiciel SmartPSS sur les ordinateurs des directeurs pour faciliter l'accès aux flux vidéo des caméras.
+Notre première étape consiste à connecter nos caméras de surveillance au réseau de l'entreprise. Pour ce faire, nous configurons chaque caméra pour lui attribuer une adresse IP unique, lui permettant ainsi d'être reconnue sur le réseau. 
+
+Parallèlement, nous allons utiliser un NVR (Network Video Recorder) pour stocker en continu les enregistrements vidéo et gérer les flux issus des caméras. De plus, nous installons le logiciel SmartPSS sur les ordinateurs des directeurs pour faciliter l'accès aux flux vidéo des caméras.
 
 \begin{figure}[H]
 \centering
@@ -77,7 +79,9 @@ SmartPSS \ref{Chap4.2.4} est une solution logicielle développée par Dahua, une
 
 \subsection{Intégration des systèmes de pointage}
 
-L'intégration des systèmes de pointage est une autre composante cruciale de notre initiative. Nous utilisons le logiciel ZKTime \ref{Chap4.2.5}, développé par ZKTeco, pour connecter et contrôler ces systèmes au sein de notre réseau d'entreprise. Ce logiciel nous assurons une communication fluide entre les machines de pointage et le réseau, garantissant ainsi un accès facile et sécurisé aux données de pointage des employés.
+L'intégration des systèmes de pointage est une autre composante cruciale de notre initiative. Nous utilisons le logiciel ZKTime \ref{Chap4.2.5}, développé par ZKTeco, pour connecter et contrôler ces systèmes au sein de notre réseau d'entreprise. 
+
+Ce logiciel nous assurons une communication fluide entre les machines de pointage et le réseau, garantissant ainsi un accès facile et sécurisé aux données de pointage des employés.
 
 \begin{figure}[H]
 \centering
@@ -89,23 +93,31 @@ L'intégration des systèmes de pointage est une autre composante cruciale de no
 
 \subsection{Gestion intelligente de l'éclairage}
 
-Pour répondre à la demande croissante d'un SmartOffice, ce qui nécessite la mise en place d'un système de contrôle à distance des lampes, nous utilisons une carte IoT, telle que Raspberry Pi ou Arduino, pour connecter les lampes à notre réseau d'entreprise. Cette configuration nous permet une gestion centralisée de l'éclairage, contribuant ainsi à optimiser l'utilisation de l'énergie et à réaliser des économies considérables sur les coûts énergétiques. En fin de compte, l'intégration de dispositifs connectés, tels que des lampes intelligentes, dans notre infrastructure d'entreprise, peut considérablement améliorer l'efficacité opérationnelle et la qualité de vie de nos employés.
+Pour répondre à la demande croissante d'un SmartOffice, ce qui nécessite la mise en place d'un système de contrôle à distance des lampes, nous utilisons une carte IoT, telle que Raspberry Pi ou Arduino, pour connecter les lampes à notre réseau d'entreprise. 
+
+Cette configuration nous permet une gestion centralisée de l'éclairage, contribuant ainsi à optimiser l'utilisation de l'énergie et à réaliser des économies considérables sur les coûts énergétiques. En fin de compte, l'intégration de dispositifs connectés, tels que des lampes intelligentes, dans notre infrastructure d'entreprise, peut considérablement améliorer l'efficacité opérationnelle et la qualité de vie de nos employés.
 
 \subsection{Gestion intelligente du capteur de température et humidité}
 
-De manière similaire à notre approche pour l'éclairage, nous cherchons à mettre en place une gestion intelligente de notre capteur de température et humidité modèle DHT11. Cela nous permettra de surveiller et de contrôler les conditions thermiques de nos locaux de manière efficace. Nous envisageons d'utiliser Raspberry Pi ou Arduino pour connecter ce capteur à notre réseau. Cette intégration nous permettra de collecter en temps réel des données sur la température et de prendre des mesures proactives pour maintenir des conditions optimales dans nos installations.
+De manière similaire à notre approche pour l'éclairage, nous cherchons à mettre en place une gestion intelligente de notre capteur de température et humidité modèle DHT11. Cela nous permettra de surveiller et de contrôler les conditions thermiques de nos locaux de manière efficace. 
+
+Nous envisageons d'utiliser Raspberry Pi ou Arduino pour connecter ce capteur à notre réseau. Cette intégration nous permettra de collecter en temps réel des données sur la température et de prendre des mesures proactives pour maintenir des conditions optimales dans nos installations.
 
 
 \subsection{Solution proposée}
 
-Pour relever ces défis d'intégration et connecter nos dispositifs non-connectés, tels que les lampes et le capteur de température et humidité, à notre réseau, nous proposons d'utiliser une approche basée sur Raspberry Pi en combinaison avec Node-RED. Cette solution offre une méthode cohérente et efficace pour intégrer ces dispositifs dans notre infrastructure existante, tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
+Pour relever ces défis d'intégration et connecter nos dispositifs non-connectés, tels que les lampes et le capteur de température et humidité, à notre réseau, nous proposons d'utiliser une approche basée sur Raspberry Pi en combinaison avec Node-RED. 
+
+Cette solution offre une méthode cohérente et efficace pour intégrer ces dispositifs dans notre infrastructure existante, tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
 
 
 
 
 \section{Solution avec Raspberry Pi et Node-RED}
 
-Dans cette section, nous explorons en détail la solution que nous proposons pour l'intégration de dispositifs au sein de notre entreprise en utilisant Raspberry Pi et Node-RED. Cette approche offre une méthode cohérente et efficace pour connecter nos dispositifs qui ne sont pas nativement connectés, notamment les lampes et le capteur de température, à notre réseau tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
+Dans cette section, nous explorons en détail la solution que nous proposons pour l'intégration de dispositifs au sein de notre entreprise en utilisant Raspberry Pi et Node-RED. 
+
+Cette approche offre une méthode cohérente et efficace pour connecter nos dispositifs qui ne sont pas nativement connectés, notamment les lampes et le capteur de température, à notre réseau tout en fournissant une interface de contrôle conviviale pour la gestion et le suivi de ces dispositifs au sein de notre entreprise.
 
 
 
@@ -137,7 +149,7 @@ Pour créer notre prototype, nous commençons par présenter les matériels util
 
 \subsection{Choix de Raspberry Pi et Node-RED}
 
-Face à ce défi, notre choix se porte sur l'utilisation de Raspberry Pi pour connecter les lampes à notre réseau. Raspberry Pi est une carte informatique très performante et polyvalente qui peut être utilisée pour de nombreux projets IoT \cite{richardson2012getting}.
+Face à ce défi, notre choix se porte sur l'utilisation de Raspberry Pi pour connecter les objets à notre réseau. Raspberry Pi est une carte informatique très performante et polyvalente qui peut être utilisée pour de nombreux projets IoT \cite{richardson2012getting}.
 
 Nous décidons d'utiliser Node-RED, un outil de programmation visuel pour créer une application permettant de contrôler les lampes à distance. Node-RED est une plateforme open source qui facilite la création de flux de données entre différents objets connectés \cite{lekic2018iot}.
 
@@ -147,16 +159,14 @@ En utilisant Raspberry Pi et Node-RED, nous sommes en mesure de créer une solut
 
 \subsubsection{a. Installation de l'OS Raspberry Pi}
 
-Pour commencer, nous installons l'OS Debian spécifique au Raspberry Pi sur une carte mémoire. Nous insérons cette carte mémoire ensuite dans notre carte électronique Raspberry Pi pour démarrer le système.
+Pour débuter, nous installons l'OS Debian spécifique au Raspberry Pi sur une carte mémoire, que nous insérons ensuite dans notre carte électronique Raspberry Pi pour démarrer le système.
 
-Après avoir téléchargé le Raspberry Pi Imager depuis le site officiel, nous utilisons cet outil pour graver sur notre carte mémoire.
- 
+Après avoir téléchargé le Raspberry Pi Imager depuis le site officiel, nous utilisons cet outil pour graver l'image sur la carte mémoire. Cette opération permet ensuite d'insérer la carte mémoire dans le slot prévu sur notre carte électronique Raspberry Pi, nous donnant ainsi la possibilité de démarrer le Raspberry Pi et d'accéder à l'interface utilisateur du système d'exploitation.
 
-Une fois l'image gravée sur la carte mémoire, nous insérons celle-ci dans le slot prévu sur notre carte électronique Raspberry Pi. Cela nous permet de démarrer le Raspberry Pi et d'accéder à l'interface utilisateur du système d'exploitation.
+Une fois le Raspberry Pi OS démarré, nous pouvons procéder aux configurations supplémentaires nécessaires pour intégrer les objets connectés à notre infrastructure. Ces configurations incluent potentiellement la connexion au réseau, l'installation de logiciels supplémentaires, et la personnalisation des paramètres pour répondre à nos besoins spécifiques.
 
-Une fois le Raspberry Pi OS démarré, nous pouvons effectuer les configurations supplémentaires nécessaires pour intégrer les objets connectés à notre infrastructure. Ces configurations peuvent inclure la connexion au réseau, l'installation de logiciels supplémentaires, et la personnalisation des paramètres en fonction de nos besoins spécifiques.
+En résumé, l'installation du Raspberry Pi OS sur une carte mémoire et son insertion dans notre carte électronique Raspberry Pi marquent la première étape pour mettre en place notre infrastructure et intégrer les objets connectés. Cette phase est cruciale pour assurer la compatibilité et la stabilité de notre système.
 
-En résumé, l'installation du Raspberry Pi OS sur une carte mémoire et son insertion dans notre carte électronique Raspberry Pi constituent la première étape pour mettre en place notre infrastructure et intégrer les objets connectés. Cette étape est cruciale pour assurer la compatibilité et la stabilité de notre système.
 
 \subsubsection{b. Installation de Node-RED}
 
@@ -404,12 +414,12 @@ Enfin, nous visualisons notre Raspberry Pi intégré dans le tableau de bord de 
 
 \section{Conclusion}
 
-En conclusion de ce chapitre dédié à l'intégration des objets connectés, nous avons exploré en détail les différentes étapes nécessaires pour incorporer ces dispositifs dans notre infrastructure existante. Les objets connectés, de par leur capacité à collecter, communiquer et analyser des données en temps réel, offrent un potentiel considérable pour améliorer l'efficacité et la qualité de vie dans divers domaines. \\
+En conclusion de ce chapitre dédié à l'intégration des objets connectés, nous avons exploré en détail les différentes étapes nécessaires pour incorporer ces dispositifs dans notre infrastructure existante. Les objets connectés, de par leur capacité à collecter, communiquer et analyser des données en temps réel, offrent un potentiel considérable pour améliorer l'efficacité et la qualité de vie dans divers domaines.
 
-Nous avons commencé par définir ce qu'étaient les objets connectés, en mettant en évidence leur rôle essentiel dans la création de systèmes intelligents et autonomes. Ensuite, nous avons exploré les défis et opportunités liés à l'intégration de ces dispositifs au sein de notre entreprise. \\
+Nous avons commencé par définir ce qu'étaient les objets connectés, en mettant en évidence leur rôle essentiel dans la création de systèmes intelligents et autonomes. Ensuite, nous avons exploré les défis et opportunités liés à l'intégration de ces dispositifs au sein de notre entreprise.
 
-Pour répondre à ces défis, nous avons présenté une solution basée sur l'utilisation de Raspberry Pi et de Node-RED. Cette combinaison nous permet de connecter divers dispositifs, tels que les lampes et le capteur de température et humidité, à notre réseau d'entreprise de manière cohérente et efficace. Nous avons également mis en évidence les étapes d'installation et de configuration de ces outils, ainsi que les mesures de sécurité mises en place pour protéger notre système. \\
+Pour répondre à ces défis, nous avons présenté une solution basée sur l'utilisation de Raspberry Pi et de Node-RED. Cette combinaison nous permet de connecter divers dispositifs, tels que les lampes et le capteur de température et humidité, à notre réseau d'entreprise de manière cohérente et efficace. Nous avons également mis en évidence les étapes d'installation et de configuration de ces outils, ainsi que les mesures de sécurité mises en place pour protéger notre système.
 
-Enfin, nous avons illustré la réalisation d'un projet concret en utilisant Node-RED pour contrôler des LEDs en fonction de données de capteur de température et d'humidité. Ce projet a été intégré dans notre parc informatique, ce qui nous permet de suivre et de gérer notre dispositif IoT à partir du système de gestion GLPI. \\
+Enfin, nous avons illustré la réalisation d'un prototype miniature en utilisant Node-RED pour contrôler des LEDs en fonction de données de capteur de température et d'humidité. Ce projet a été intégré dans notre parc informatique, ce qui nous permet de suivre et de gérer notre dispositif IoT à partir du système de gestion GLPI.
 
-L'intégration des objets connectés représente un pas significatif vers une infrastructure informatique moderne et intelligente, et ce chapitre nous a fourni les connaissances et les outils nécessaires pour relever ce défi avec succès. \\
+L'intégration des objets connectés représente un pas significatif vers une infrastructure informatique moderne et intelligente, et ce chapitre nous a fourni les connaissances et les outils nécessaires pour relever ce défi avec succès.

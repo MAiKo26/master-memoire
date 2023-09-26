@@ -6,7 +6,7 @@
 
 \section{Introduction}
 
-Le déploiement de l'infrastructure informatique est une étape cruciale pour le de Zeta Engineering. Après avoir choisi la méthodologie en cascade, nous sommes prêts à passer à la mise en place de l'infrastructure nécessaire à la réalisation du projet.
+Le déploiement de l'infrastructure informatique est une étape cruciale pour  Zeta Engineering. Après avoir choisi la méthodologie en cascade, nous sommes prêts à passer à la mise en place de l'infrastructure nécessaire à la réalisation du projet.
 
 Dans ce chapitre, nous détaillons les différentes étapes du déploiement de l'infrastructure IT, notamment la mise en place du réseau, la sélection des équipements matériels et logiciels.
 
@@ -19,7 +19,9 @@ Nous expliquons également les choix techniques que nous avons effectués pour r
 
 Dans cette partie, nous allons détailler les différents outils et technologies que nous avons utilisés pour établir l'infrastructure réseau IT et SI nécessaire à la mise en place.
 
-Nous abordons tout d'abord le matériel que nous avons sélectionné et configuré pour répondre aux besoins de l'entreprise, dans la section 2.2.1. Ensuite, nous présentons l'environnement IT que nous avons mis en place, en décrivant les différentes technologies et logiciels utilisés pour assurer une infrastructure stable, performante et sécurisée, dans la section 2.2.2.
+Nous abordons tout d'abord le matériel que nous avons sélectionné et configuré pour répondre aux besoins de l'entreprise, dans la section 2.2.1.
+
+Ensuite, nous présentons l'environnement IT que nous avons mis en place, en décrivant les différentes technologies et logiciels utilisés pour assurer une infrastructure stable, performante et sécurisée, dans la section 2.2.2.
 
 Cette présentation détaillée nous permettra de mieux comprendre les choix que nous avons effectués pour répondre aux exigences de l'entreprise et assurer une mise en œuvre réussie de notre projet.
 
@@ -150,7 +152,9 @@ Ces deux figures \ref{Chap2.4.21} et figure \ref{Chap2.5.5} ci-dessous montrent 
     \label{Chap2.5.5}
 \end{figure}    
 
-Avec ces trois locaux répartis géographiquement, comme le montre la figure \ref{Chap2.6.0}, il devient essentiel de mettre en place un réseau de zone métropolitaine (MAN) pour les connecter de manière transparente. Un réseau MAN permettra à Zeta Engineering de relier ses bureaux de Rades Habib Bourgiba, Rades Meliane et Ezzahra, garantissant ainsi une communication fluide et efficace entre eux.
+Avec ces trois locaux répartis géographiquement, comme le montre la figure \ref{Chap2.6.0}, il devient essentiel de mettre en place un réseau de zone métropolitaine (MAN) pour les connecter de manière transparente. 
+
+Un réseau MAN permettra à Zeta Engineering de relier ses bureaux de Rades Habib Bourgiba, Rades Meliane et Ezzahra, garantissant ainsi une communication fluide et efficace entre eux.
 
 \begin{figure}[H]
 \centering
@@ -159,7 +163,9 @@ Avec ces trois locaux répartis géographiquement, comme le montre la figure \re
 \label{Chap2.6.0}
 \end{figure}
 
-Ce réseau joue un rôle crucial dans la centralisation des données, la gestion des ressources et la coordination des activités à l'échelle de l'entreprise. De plus, il intègre également les objets connectés tels que les machines de pointage, les capteurs de température et d'humidité, les lampes, les smartphones et les caméras de surveillance, optimisant ainsi l'utilisation de ces ressources au sein de l'entreprise. En fin de compte, le réseau MAN contribue à renforcer l'efficacité opérationnelle de Zeta Engineering et répond aux besoins croissants du marché et de la technologie.
+Ce réseau joue un rôle crucial dans la centralisation des données, la gestion des ressources et la coordination des activités à l'échelle de l'entreprise. De plus, il intègre également les objets connectés tels que les machines de pointage, les capteurs de température et d'humidité, les lampes, les smartphones et les caméras de surveillance, optimisant ainsi l'utilisation de ces ressources au sein de l'entreprise. 
+
+En fin de compte, le réseau MAN contribue à renforcer l'efficacité opérationnelle de Zeta Engineering et répond aux besoins croissants du marché et de la technologie.
 
 
 \subsection{Définition du réseau MAN}
@@ -269,7 +275,9 @@ En suivant ces étapes, nous avons réussi à tester nos TP-Link et nous allons 
 
 \section{L'architecture réseau}
 
-Dans cette section, nous plongeons au cœur de l'infrastructure qui soutient notre entreprise. Nous explorons en détail l'architecture réseau qui forme le socle de nos opérations. De la topologie de nos bureaux aux configurations dans GNS3 et à la mise en œuvre de notre infrastructure, cette section dévoile les coulisses de notre système de communication et de connectivité.
+Dans cette section, nous plongeons au cœur de l'infrastructure qui soutient notre entreprise. Nous explorons en détail l'architecture réseau qui forme le socle de nos opérations. 
+
+De la topologie de nos bureaux aux configurations dans GNS3 et à la mise en œuvre de notre infrastructure, cette section dévoile les coulisses de notre système de communication et de connectivité.
 
 
 \subsection{Topologie en GNS3}
@@ -350,7 +358,9 @@ Dans la figure \ref{Chap2.2.4}, nous ajoutons un réseau interne (LAN) "192.168.
     \label{Chap2.2.4}
 \end{figure}
 
-Cependant, comme le montre la figure \ref{Chap2.2.5}, nous avons remarqué que l'utilisateur 4 ne pouvait pas toujours accéder à Internet. Cela est dû au fait que nous devons configurer notre routeur C891F pour autoriser le trafic du port LAN f0/1 à accéder au WAN port f0/0 (le port de l'internet), et également pour permettre le transfert de tous les protocoles, tels que HTTP et SMTP.
+Cependant, comme le montre la figure \ref{Chap2.2.5}, nous avons remarqué que l'utilisateur 4 ne pouvait pas toujours accéder à Internet. 
+
+Cela est dû au fait que nous devons configurer notre routeur C891F pour autoriser le trafic du port LAN f0/1 à accéder au WAN port f0/0 (le port de l'internet), et également pour permettre le transfert de tous les protocoles, tels que HTTP et SMTP.
 
 
 
@@ -404,12 +414,14 @@ Le routeur Cisco 891F est représenté dans la figure \ref{Chap2.2.10}.
 \label{Chap2.2.10}
 \end{figure}
 
-À partir du commutateur principale, nous pouvons accéder à d'autres commutateurs qui permettent la connectivité LAN des PC et des objets connectés dans le bureau. La figure \ref{Chap2.2.11} montre l'interconnexion des commutateurs pour le bureau de Rades et nous reproduisons cette implémentation dans les autres bureaux.
+À partir du commutateur principale, nous pouvons accéder à d'autres commutateurs qui permettent la connectivité LAN des PC et des objets connectés dans le bureau. La figure \ref{Chap2.2.11} montre l'interconnexion des commutateurs principal et les routeurs pour les bureaux de Rades et Ezzahara.
+
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=7cm,height=12cm]{Images/BRades-ArmoirePrincipal.jpg}
-\caption{Interconnexion des commutateurs pour le bureau de Rades}
+\includegraphics[width=7cm,height=12cm]{Images/BRades-ArmoirePrincipal.jpg} \includegraphics[width=7cm,height=12cm]{Images/Armoire-Ezzahara.jpg} 
+
+\caption{Interconnexion des commutateurs pour les bureaux Rades et Ezzahara}
 \label{Chap2.2.11}
 \end{figure}
 
@@ -417,7 +429,7 @@ Le routeur Cisco 891F est représenté dans la figure \ref{Chap2.2.10}.
 
 \section{Pare-feu}
 
-Dans cette section, après avoir configuré notre routeur et notre réseau MAN, nous ajoutons un pare-feu à notre bureau principal de Rades Meliane.
+Dans cette section, après avoir configuré notre routeur et notre réseau MAN, nous introduisons également un pare-feu dans notre bureau principal à Rades Meliane, ainsi que dans le bureau des développeurs à Ezzahara à l'avenir.
 
 
 \subsection{Choix pfSense}
@@ -500,11 +512,22 @@ Nous procédons à l'installation de pfSense sur la boîte E-Wall Firewall en su
 
 Une fois l'installation terminée, nous accédons au tableau de bord de pfSense dans les figures \ref{Chap3.3.9} et \ref{Chap3.3.10} pour configurer les interfaces réseau, les règles de pare-feu et d'autres paramètres de sécurité nécessaires pour protéger notre infrastructure.
 
-pfSense offre une gamme d'options de configuration avancée, notamment la gestion des interfaces, les règles de pare-feu, les services VPN, la surveillance du trafic, etc. En utilisant ces fonctionnalités, nous pouvons personnaliser notre pare-feu pour répondre à nos exigences spécifiques de sécurité et de réseau.
+pfSense offre une gamme d'options de configuration avancée, notamment la gestion des interfaces, les règles de pare-feu, les services VPN, la surveillance du trafic, etc. 
+
+En utilisant ces fonctionnalités, nous pouvons personnaliser notre pare-feu pour répondre à nos exigences spécifiques de sécurité et de réseau.
 
 \section{Conclusion}
 
-En conclusion, la mise en place de l'infrastructure informatique pour le Mémoire De Mastère de Zeta Engineering a nécessité une analyse approfondie des besoins de l'entreprise et une sélection rigoureuse des outils et technologies utilisés pour assurer une infrastructure robuste et sécurisée. Les différentes architectures réseau mises en place ont été détaillées, du réseau local à celui du réseau MAN, en passant par les différentes implantations pour les bureaux Rades Meliane et Ezzahra.
+En résumé, la création de l'infrastructure informatique pour notre projet a exigé une analyse approfondie des besoins de l'entreprise ainsi qu'une sélection méticuleuse des outils et des technologies pour établir une infrastructure à la fois robuste et sécurisée. 
+
+Nous avons soigneusement examiné les différentes architectures réseau, englobant le réseau local, le réseau MAN, et les configurations spécifiques pour les trois bureaux.
+
+Ce chapitre nous a permis de détailler les diverses étapes du déploiement de l'infrastructure IT pour le projet. Dans le prochain chapitre, nous aborderons le déploiement du système d'information pour compléter notre approche globale visant à répondre aux besoins de l'entreprise, tout en garantissant la sécurité et la solidité de notre infrastructure.
 
 
-En somme ce chapitre, nous permettons de détailler les différentes étapes du déploiement de l'infrastructure IT pour le projet Mémoire De Mastère de Zeta Engineering et de présenter une approche complète et rigoureuse pour répondre aux besoins de l'entreprise tout en garantissant la sécurité et la robustesse de l'infrastructure. 
+
+
+
+
+
+
