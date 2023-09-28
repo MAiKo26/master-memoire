@@ -368,16 +368,28 @@ Après avoir suivi les étapes d'installation d'Asterisk \cite{asterisk-install-
 
 \subsubsection{c. ERP/CRM}
 
-L'installation d'Odoo \cite{odoo16-ubuntu-install} sur notre machine virtuelle Ubuntu est présentée dans la figure \ref{fig:odoo-installation}.
+L'installation d'Odoo \cite{odoo16-ubuntu-install} sur notre machine virtuelle Ubuntu.
+
+
+Nous poursuivons avec la configuration et la vérification d'Odoo en utilisant PostgreSQL. La figure \ref{fig:psql-version} affiche le résultat de la commande "systemctl status odoo15" et "psql --version," confirmant ainsi la compatibilité d'Odoo avec PostgreSQL.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{Images/OdooServer1.png}
-\caption{Installation d'Odoo sur Ubuntu}
-\label{fig:odoo-installation}
+\includegraphics[width=15cm]{Images/post104722.png}
+\caption{Configuration d'Odoo et version PostgreSQL}
+\label{fig:psql-version}
 \end{figure}
 
-De plus, la confirmation du bon fonctionnement d'Odoo est illustrée dans la figure \ref{fig:odoo-dashboard}. 
+De plus, pour assurer l'intégration réussie avec PostgreSQL, nous présentons la figure \ref{fig:Dashboard-Odoo-DB} qui montre la base de données PostgreSQL dans le tableau de bord d'Odoo.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{Images/104614.png}
+\caption{Base de données PostgreSQL dans le tableau de bord Odoo}
+\label{fig:Dashboard-Odoo-DB}
+\end{figure}
+
+Enfin, pour confirmer le bon fonctionnement d'Odoo et sa compatibilité avec PostgreSQL, nous affichons le tableau de bord d'Odoo avec les modules CRM installés dans la figure \ref{fig:odoo-dashboard}.
 
 \begin{figure}[H]
 \centering
@@ -392,6 +404,7 @@ De plus, la confirmation du bon fonctionnement d'Odoo est illustrée dans la fig
 
 L'installation de GLPI \cite{glpi-install-tecmint} est suivie d'un aperçu du tableau de bord de GLPI, où toutes les informations sur les équipements peuvent être consultées et gérées efficacement, comme montré dans la figure \ref{fig:glpi-dashboard}.
 
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{Images/GLPI.png}
@@ -399,7 +412,15 @@ L'installation de GLPI \cite{glpi-install-tecmint} est suivie d'un aperçu du ta
 \label{fig:glpi-dashboard}
 \end{figure}
 
+Pour intégrer harmonieusement GLPI dans notre infrastructure, nous ajoutons une base de données MariaDB. MariaDB est un choix judicieux en raison de sa compatibilité et de ses performances élevées. La figure \ref{fig:Putty-MARIADB-SHOWTABLES} témoigne du bon fonctionnement de notre système avec l'affichage de "SHOW TABLES;". Cette étape garantit que GLPI est prêt à être utilisé dans notre environnement pour gérer les informations sur les équipements de manière efficace.
 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{Images/20230928102651.png}
+\caption{Affichage des tables dans MariaDB}
+\label{fig:Putty-MARIADB-SHOWTABLES}
+\end{figure}
 
 
 \subsubsection{e. OpenLDAP}

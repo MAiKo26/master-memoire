@@ -47,31 +47,31 @@
 \contentsline {subsubsection}{a. DHCP}{57}{section*.7}%
 \contentsline {subsubsection}{b. VoIP/Téléphonie}{59}{section*.8}%
 \contentsline {subsubsection}{c. ERP/CRM}{60}{section*.9}%
-\contentsline {subsubsection}{d. GLPI}{60}{section*.10}%
-\contentsline {subsubsection}{e. OpenLDAP}{61}{section*.11}%
-\contentsline {subsubsection}{f. Les machines virtuelles de nos applications}{62}{section*.12}%
-\contentsline {section}{\numberline {3.5}Conclusion}{62}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Intégration des objets connectés}{64}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{64}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Définition des objets connectés}{65}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Intégration des dispositifs de l'entreprise}{66}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'intégration}{66}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Intégration des caméras de surveillance}{67}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Intégration des systèmes de pointage}{67}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Gestion intelligente de l'éclairage}{68}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Gestion intelligente du capteur de température et humidité}{69}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Solution proposée}{69}{subsection.4.3.6}%
-\contentsline {section}{\numberline {4.4}Solution avec Raspberry Pi et Node-RED}{69}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Matériels utilisés pour notre prototype}{70}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Choix de Raspberry Pi et Node-RED}{70}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Installation Raspberry Pi OS et Node-RED}{71}{subsection.4.4.3}%
-\contentsline {subsubsection}{a. Installation de l'OS Raspberry Pi}{71}{section*.13}%
-\contentsline {subsubsection}{b. Installation de Node-RED}{72}{section*.14}%
-\contentsline {subsection}{\numberline {4.4.4}Configuration de Node-RED}{74}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Sécurité de Node-RED}{76}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Réalisation de projet avec Node-RED}{78}{subsection.4.4.6}%
-\contentsline {subsection}{\numberline {4.4.7}Intégration dans le parc informatique}{87}{subsection.4.4.7}%
-\contentsline {section}{\numberline {4.5}Conclusion}{89}{section.4.5}%
-\contentsline {chapter}{Conclusion Générale }{91}{chapter*.15}%
-\contentsline {chapter}{Bibliographie}{94}{chapter*.16}%
-\contentsline {chapter}{Acronyme}{96}{chapter*.17}%
+\contentsline {subsubsection}{d. GLPI}{61}{section*.10}%
+\contentsline {subsubsection}{e. OpenLDAP}{62}{section*.11}%
+\contentsline {subsubsection}{f. Les machines virtuelles de nos applications}{63}{section*.12}%
+\contentsline {section}{\numberline {3.5}Conclusion}{64}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Intégration des objets connectés}{65}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Définition des objets connectés}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Intégration des dispositifs de l'entreprise}{67}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'intégration}{67}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Intégration des caméras de surveillance}{68}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Intégration des systèmes de pointage}{68}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Gestion intelligente de l'éclairage}{69}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Gestion intelligente du capteur de température et humidité}{70}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Solution proposée}{70}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Solution avec Raspberry Pi et Node-RED}{70}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Matériels utilisés pour notre prototype}{71}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Choix de Raspberry Pi et Node-RED}{71}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Installation Raspberry Pi OS et Node-RED}{72}{subsection.4.4.3}%
+\contentsline {subsubsection}{a. Installation de l'OS Raspberry Pi}{72}{section*.13}%
+\contentsline {subsubsection}{b. Installation de Node-RED}{73}{section*.14}%
+\contentsline {subsection}{\numberline {4.4.4}Configuration de Node-RED}{75}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Sécurité de Node-RED}{77}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Réalisation de projet avec Node-RED}{79}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Intégration dans le parc informatique}{88}{subsection.4.4.7}%
+\contentsline {section}{\numberline {4.5}Conclusion}{90}{section.4.5}%
+\contentsline {chapter}{Conclusion Générale }{92}{chapter*.15}%
+\contentsline {chapter}{Bibliographie}{95}{chapter*.16}%
+\contentsline {chapter}{Acronyme}{97}{chapter*.17}%

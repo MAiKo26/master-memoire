@@ -50,35 +50,37 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Exemple de fichier de configuration \texttt {dhcpd.conf}}}{58}{figure.3.11}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces État du service ISC DHCP}}{59}{figure.3.12}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Installation d'Asterisk sur Ubuntu}}{59}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Installation d'Odoo sur Ubuntu}}{60}{figure.3.14}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Tableau de bord d'Odoo avec les modules CRM installés}}{60}{figure.3.15}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Tableau de bord de GLPI}}{61}{figure.3.16}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Tableau de bord de phpLDAPAdmin}}{61}{figure.3.17}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Liste des machines virtuelles déployées}}{62}{figure.3.18}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Configuration d'Odoo et version PostgreSQL}}{60}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Base de données PostgreSQL dans le tableau de bord Odoo}}{60}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Tableau de bord d'Odoo avec les modules CRM installés}}{61}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Tableau de bord de GLPI}}{61}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Affichage des tables dans MariaDB}}{62}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Tableau de bord de phpLDAPAdmin}}{63}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Liste des machines virtuelles déployées}}{63}{figure.3.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture IoT basée sur CoAP}}{65}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logiciel SmartPSS installé}}{67}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Machine de pointage ZKTeco et logiciel ZKTime}}{68}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Installation du Node-RED avec le Script Officiel Bash}}{72}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces En cours d'Installation du Node-RED}}{73}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Le démarrage du Node-RED}}{74}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface Node-RED}}{75}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Installation du dashboard Node-RED}}{75}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Installation du nœud DHT11 dans Node-RED}}{76}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Configuration de la sécurité dans Node-RED en Settings.js}}{77}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Création d'un code de hachage}}{77}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Mise à jour du code de hachage dans Settings.js}}{78}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Connexion avec le nouveau mot de passe}}{78}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Schéma de notre réalisation}}{79}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Ajout d'un Inject Node pour répéter l'action chaque 10 secondes}}{80}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Configurer un nœud Fonction pour séparer l'humidité de la température}}{81}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Le résultat du nœud Debug}}{82}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Nœud Switch}}{83}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Nœud Raspberry GPIO Output}}{84}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Le projet en Node-RED}}{85}{figure.4.20}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Circuit de mon prototype miniature}}{85}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Le login du tableau de bord en mobile}}{86}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Le tableau de bord en bureau}}{87}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Installation de FusionInventory-Agent}}{88}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Configuration de FusionInventory-Agent}}{88}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Tableau de bord de GLPI avec le Raspberry Pi intégré}}{89}{figure.4.26}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture IoT basée sur CoAP}}{66}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logiciel SmartPSS installé}}{68}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Machine de pointage ZKTeco et logiciel ZKTime}}{69}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Installation du Node-RED avec le Script Officiel Bash}}{73}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces En cours d'Installation du Node-RED}}{74}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Le démarrage du Node-RED}}{75}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface Node-RED}}{76}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Installation du dashboard Node-RED}}{76}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Installation du nœud DHT11 dans Node-RED}}{77}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Configuration de la sécurité dans Node-RED en Settings.js}}{78}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Création d'un code de hachage}}{78}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Mise à jour du code de hachage dans Settings.js}}{79}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Connexion avec le nouveau mot de passe}}{79}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Schéma de notre réalisation}}{80}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Ajout d'un Inject Node pour répéter l'action chaque 10 secondes}}{81}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Configurer un nœud Fonction pour séparer l'humidité de la température}}{82}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Le résultat du nœud Debug}}{83}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Nœud Switch}}{84}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Nœud Raspberry GPIO Output}}{85}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Le projet en Node-RED}}{86}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Circuit de mon prototype miniature}}{86}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Le login du tableau de bord en mobile}}{87}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Le tableau de bord en bureau}}{88}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Installation de FusionInventory-Agent}}{89}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Configuration de FusionInventory-Agent}}{89}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Tableau de bord de GLPI avec le Raspberry Pi intégré}}{90}{figure.4.26}%
