@@ -2,7 +2,6 @@
 %\markboth{Chapitre 1 }{Contexte du projet} %pour afficher l'entete
 %\addcontentsline{toc}{chapter}{Chapitre 1 : Contexte du projet}
 
-
 \section{Introduction}
 Le premier chapitre de ce rapport présente l'organisme d'accueil ainsi que le projet de déploiement de l'infrastructure IT et SI d'une entreprise et intégration d'objets connectés au réseau.
 
@@ -10,55 +9,38 @@ Nous commençons par présenter l'entreprise, ses activités et ses objectifs en
 
 Enfin, nous exposons la méthodologie de travail que nous avons choisie et expliquons les raisons de ce choix. Ce premier chapitre pose ainsi les bases nécessaires pour la compréhension du projet et de ses enjeux.
 
-
 \section{Présentation de l'organisme d'accueil }
 
 Dans cette section, nous abordons la présentation de l'organisme d'accueil Zeta Engineering ainsi que son domaine d'activité.
 
 \subsection{Organisme d'accueil}
 
-
 Notre stage de projet de Mémoire de Mastère a été réalisé chez Zeta Engineering, un bureau d'étude multifonction appartenant au groupe Agexis \cite{agexis}, qui intervient sur la zone européenne et africaine. 
 
 Le groupe Agexis est un bureau d'étude technique pluridisciplinaire et maître d'œuvre du bâtiment et des infrastructures. Il est implanté en Île-de-France depuis 2015. 
-
 
 AB Engineering, une autre filiale du groupe, est également un bureau d'étude technique pluridisciplinaire et maître d'œuvre du bâtiment et des infrastructures, implanté en Île-de-France depuis 2011.
 
 
 Quant à Zeta Engineering, elle est spécialisée dans le consulting et l'ingénierie, et se consacre principalement aux conseils en communication, marketing, IT et gestion pour les entreprises, en Tunisie comme en France. Elle est basée en Tunisie depuis 2018.
 
-
-Zeta Engineering est situé à l'adresse 58 Rue de la Solidarité, à Rades Méliane en Tunisie.
-
-
 Nous avons été encadrés par une équipe de professionnels compétents et expérimentés lors de notre stage, durant lequel nous avons travaillé sur un projet passionnant dans le domaine IT.
-
-
-
-
 
 \subsection{Domaines d'activités}
 Zeta Engineering, en collaboration avec Agexis et AB Engineering, est chargée de mettre en place leur stratégie marketing pour la période 2020-2030, en déployant leur communication et leur commercialisation.
-
 
 Cette entreprise de bureau d'études multifonctions est située en Tunisie et travaille en étroite collaboration avec Agexis. Les services proposés par Zeta Engineering sont très diversifiés et couvrent différents secteurs.
 
 Zeta Engineering s'appuie sur son expertise technique et son expérience pour fournir des solutions d'ingénierie innovantes et de haute qualité, depuis la phase de conception jusqu'à la production, en passant par la simulation, la modélisation, la validation et la certification. 
 
-
-
-
-
 \section{Présentation du projet}
 
 Dans cette section, nous abordons le cadre de notre projet, ainsi que la problématique de notre projet.
 
-
 \subsection{Cadre de projet}
 Dans le cadre de notre projet de Mémoire de Mastère, nous avons été accueillis au sein de Zeta Engineering. 
 
-Notre mission consiste à mettre en place une infrastructure IT et SI pour relier les trois bureaux de l'entreprise, situés respectivement à Rades Habib Bourgiba, Rades Meliane et Ezzahra, via un réseau MAN.\\
+Notre mission consiste à mettre en place une infrastructure IT et SI pour relier les trois nouveau locaux \ref{tab1} de l'entreprise via un réseau MAN.\\
 
 
 \begin{table}[H]
@@ -68,15 +50,15 @@ Notre mission consiste à mettre en place une infrastructure IT et SI pour relie
 	\textbf{Logo}         & \textbf{Adresse}   & \textbf{Fonctionnalité} \\
     \hline
     
-	\includegraphics[width=5cm]{Images/logo-zeta1.png} & Rades Meliane, Rue de la Solidarité  & Réservé à l'administration et l'équipe diffusion globale  \\
+	\includegraphics[width=3cm]{Images/logo-zeta1.png} & Rades Meliane, Rue de la Solidarité  & Réservé à l'administration et l'équipe diffusion globale  \\
 	
  	\hline
  	
-	\includegraphics[width=5cm]{Images/logo-Sequencia.png}   &  Rades, Rue Habib Bourgiba  &  Centre d'appel \\
+	\includegraphics[width=3cm]{Images/logo-Sequencia.png}   &  Rades, Rue Habib Bourgiba  &  Centre d'appel \\
 	
 	\hline
 	
-	\includegraphics[width=5cm]{Images/Logo-ZetaProject.png}  & Ezzahra, Rue Habib Bourgiba    & Abrite les ingénieurs et les développeurs informatique  \\
+	\includegraphics[width=3cm]{Images/Logo-ZetaProject.png}  & Ezzahra, Rue Habib Bourgiba    & Abrite les ingénieurs et les développeurs informatique  \\
 	
 	\hline
 	
@@ -84,20 +66,21 @@ Notre mission consiste à mettre en place une infrastructure IT et SI pour relie
      \caption{Les nouveaux locaux de Zeta Engineering en Tunisie}
      \label{1}
      \end{center}
+     \label{tab1}
 \end{table}
 
-Notre projet consiste également à connecter les objets tels que les machines de pointage, le capteur de température et humidité, les lampes, les smartphones et les caméras de surveillance pour une utilisation plus efficace de ces ressources au sein de l'entreprise.
+Notre projet consiste également à connecter les objets tels que les machines de pointage, le capteur de température et humidité, les lampes, les smartphones et les caméras de surveillance dans notre système d'information pour une utilisation plus efficace de ces ressources au sein de l'entreprise.
 
 \subsection{Problématique}
-L'intégration d'un système d'information avec des objets connectés représente un défi majeur pour de nombreuses entreprises qui cherchent à améliorer leur efficacité et leur compétitivité.
+La problématique de notre projet s'articule autour de trois domaines distincts, chacun présentant ses propres défis.
 
-Cette transition soulève des problématiques complexes, telles que la sécurité des systèmes, la compatibilité des technologies et la formation des employés.
+Le premier défi réside dans l'isolation des trois bureaux de ZETA, les empêchant de former un réseau local (LAN). Cette absence de connectivité entre les bureaux pose un obstacle majeur à la communication et au partage d'informations entre eux.
 
-Comment surmonter ces défis pour réussir la transition d'un système d'information traditionnel vers un système d'information intégrant des objets connectés ? Quelles sont les meilleures pratiques, les outils et les stratégies à adopter pour assurer une intégration réussie et durable ?
+Deuxièmement, nous nous sommes confrontés à un problème lié à la gestion des informations. Il manque un système d'information centralisé pour nos applications IoT. Cela engendre des difficultés pour stocker, gérer et accéder aux données collectées par ces applications.
 
-En explorant ces questions, nous mettons en évidence l'importance du déploiement efficace des infrastructures IT et SI ainsi que l'intégration réussie des objets connectés pour soutenir les activités opérationnelles des entreprises.
+Enfin, l'intégration des dispositifs IoT constitue une autre problématique majeure. La plupart de ces appareils ne disposent pas d'une connectivité native pour rejoindre notre réseau ni pour interagir avec le système d'information que nous prévoyons de mettre en place.
 
-
+Nous nous attacherons à résoudre ces problématiques tout au long de notre projet, en développant des solutions adaptées à chaque domaine, visant à améliorer la connectivité entre les bureaux, à établir un système d'information efficace, et à faciliter l'intégration des dispositifs IoT dans notre infrastructure.
 
 \section{Méthodologie de travail et planification}
 

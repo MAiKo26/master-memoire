@@ -1,77 +1,77 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{Introduction générale}{1}{chapter*.6}%
-\contentsline {chapter}{\numberline {1}Contexte du projet}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Présentation de l'organisme d'accueil }{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Organisme d'accueil}{4}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Domaines d'activités}{4}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Présentation du projet}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Cadre de projet}{5}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Problématique}{6}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Méthodologie de travail et planification}{7}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Présentation de la méthodologie en cascade}{7}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Choix de la méthodologie en cascade}{8}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Conclusion }{9}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Déploiement de l'infrastructure IT}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Outils et technologies utilisés}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Matériels utilisés}{11}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Logiciels utilisés}{12}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Présentation des locaux et déploiement de réseaux MAN}{14}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Présentation des trois locaux}{15}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Définition du réseau MAN}{19}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Implémentation du MAN et le choix de TP-Link}{20}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}L'architecture réseau}{24}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Topologie en GNS3}{25}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Configuration en GNS3}{28}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Implémentation}{36}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Pare-feu}{37}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Choix pfSense}{37}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Mise en œuvre du pfSense}{38}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Conclusion}{43}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Déploiement du Système d'information}{44}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{44}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Les besoins de notre système d'information}{44}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Les solutions choisies}{45}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}OS Serveur}{45}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Virtualisation}{46}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Protocole de communication}{47}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}ERP/CRM}{48}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Système de téléphonie IP}{48}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Gestion de parc et d'inventaires}{49}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Gestion des identités et contrôle d'accès}{50}{subsection.3.3.7}%
-\contentsline {section}{\numberline {3.4}Déploiement des solutions choisies}{51}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}La couche physique}{51}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}La couche virtualisation}{54}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}La couche applicative}{57}{subsection.3.4.3}%
-\contentsline {subsubsection}{a. DHCP}{57}{section*.7}%
-\contentsline {subsubsection}{b. VoIP/Téléphonie}{59}{section*.8}%
-\contentsline {subsubsection}{c. ERP/CRM}{60}{section*.9}%
-\contentsline {subsubsection}{d. GLPI}{61}{section*.10}%
-\contentsline {subsubsection}{e. OpenLDAP}{62}{section*.11}%
-\contentsline {subsubsection}{f. Les machines virtuelles de nos applications}{63}{section*.12}%
-\contentsline {section}{\numberline {3.5}Conclusion}{64}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Intégration des objets connectés}{65}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{65}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Définition des objets connectés}{66}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Intégration des dispositifs de l'entreprise}{67}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'intégration}{67}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Intégration des caméras de surveillance}{68}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Intégration des systèmes de pointage}{68}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Gestion intelligente de l'éclairage}{69}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Gestion intelligente du capteur de température et humidité}{70}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Solution proposée}{70}{subsection.4.3.6}%
-\contentsline {section}{\numberline {4.4}Solution avec Raspberry Pi et Node-RED}{70}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Matériels utilisés pour notre prototype}{71}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Choix de Raspberry Pi et Node-RED}{71}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Installation Raspberry Pi OS et Node-RED}{72}{subsection.4.4.3}%
-\contentsline {subsubsection}{a. Installation de l'OS Raspberry Pi}{72}{section*.13}%
-\contentsline {subsubsection}{b. Installation de Node-RED}{73}{section*.14}%
-\contentsline {subsection}{\numberline {4.4.4}Configuration de Node-RED}{75}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Sécurité de Node-RED}{77}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Réalisation de projet avec Node-RED}{79}{subsection.4.4.6}%
-\contentsline {subsection}{\numberline {4.4.7}Intégration dans le parc informatique}{88}{subsection.4.4.7}%
-\contentsline {section}{\numberline {4.5}Conclusion}{90}{section.4.5}%
-\contentsline {chapter}{Conclusion Générale }{92}{chapter*.15}%
-\contentsline {chapter}{Bibliographie}{95}{chapter*.16}%
-\contentsline {chapter}{Acronyme}{97}{chapter*.17}%
+\contentsline {chapter}{\numberline {1}Contexte du projet}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Présentation de l'organisme d'accueil }{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Organisme d'accueil}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Domaines d'activités}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Présentation du projet}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Cadre de projet}{4}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Problématique}{5}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Méthodologie de travail et planification}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Présentation de la méthodologie en cascade}{5}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Choix de la méthodologie en cascade}{7}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Conclusion }{7}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Déploiement de l'infrastructure IT}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Outils et technologies utilisés}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Matériels utilisés}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Logiciels utilisés}{11}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Présentation des locaux et déploiement de réseaux MAN}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Présentation des trois locaux}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Définition du réseau MAN}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Implémentation du MAN et le choix de TP-Link}{19}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}L'architecture réseau}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Topologie en GNS3}{24}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Configuration en GNS3}{27}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Implémentation}{35}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Pare-feu}{36}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Choix pfSense}{36}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Mise en œuvre du pfSense}{37}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Conclusion}{42}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Déploiement du Système d'information}{43}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{43}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Les besoins de notre système d'information}{43}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Les solutions choisies}{44}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}OS Serveur}{44}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Virtualisation}{45}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Protocole de communication}{46}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}ERP/CRM}{47}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Système de téléphonie IP}{47}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Gestion de parc et d'inventaires}{48}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Gestion des identités et contrôle d'accès}{49}{subsection.3.3.7}%
+\contentsline {section}{\numberline {3.4}Déploiement des solutions choisies}{50}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}La couche physique}{50}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}La couche virtualisation}{53}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}La couche applicative}{56}{subsection.3.4.3}%
+\contentsline {subsubsection}{a. DHCP}{56}{section*.7}%
+\contentsline {subsubsection}{b. VoIP/Téléphonie}{58}{section*.8}%
+\contentsline {subsubsection}{c. ERP/CRM}{59}{section*.9}%
+\contentsline {subsubsection}{d. GLPI}{60}{section*.10}%
+\contentsline {subsubsection}{e. OpenLDAP}{61}{section*.11}%
+\contentsline {subsubsection}{f. Les machines virtuelles de nos applications}{62}{section*.12}%
+\contentsline {section}{\numberline {3.5}Conclusion}{63}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Intégration des objets connectés}{64}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{64}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Définition des objets connectés}{65}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Intégration des dispositifs de l'entreprise}{66}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'intégration}{66}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Intégration des caméras de surveillance}{67}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Intégration des systèmes de pointage}{67}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Gestion intelligente de l'éclairage}{68}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Gestion intelligente du capteur de température et humidité}{69}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Solution proposée}{69}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Solution avec Raspberry Pi et Node-RED}{69}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Matériels utilisés pour notre prototype}{70}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Choix de Raspberry Pi et Node-RED}{70}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Installation Raspberry Pi OS et Node-RED}{71}{subsection.4.4.3}%
+\contentsline {subsubsection}{a. Installation de l'OS Raspberry Pi}{71}{section*.13}%
+\contentsline {subsubsection}{b. Installation de Node-RED}{72}{section*.14}%
+\contentsline {subsection}{\numberline {4.4.4}Configuration de Node-RED}{74}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Sécurité de Node-RED}{76}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Réalisation de projet avec Node-RED}{78}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Intégration dans le parc informatique}{87}{subsection.4.4.7}%
+\contentsline {section}{\numberline {4.5}Conclusion}{89}{section.4.5}%
+\contentsline {chapter}{Conclusion Générale }{91}{chapter*.15}%
+\contentsline {chapter}{Bibliographie}{94}{chapter*.16}%
+\contentsline {chapter}{Acronyme}{96}{chapter*.17}%
