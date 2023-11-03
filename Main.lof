@@ -2,85 +2,84 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Méthodologie en Cascade \cite {blogcascade}}}{6}{figure.1.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Distance entre le bureau Rades et Rades Meliane (1,268 km)}}{15}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Distance entre bureau Rades et bureau Ezzhara (2,843 km)}}{16}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Distance totale entre les bureaux}}{17}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Metropolitan Area Network}}{18}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Déballage du TP-Link CPE610}}{19}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Assemblage des pièces du TP-Link CPE610}}{20}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Initialisation du TP-Link}}{20}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Initialisation du TP-Link en mode test}}{21}{figure.2.8}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Panneau de contrôle du TP-Link}}{21}{figure.2.9}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Initialisation de l'émetteur}}{22}{figure.2.10}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Initialisation du récepteur}}{22}{figure.2.11}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Test de connexion entre le point d'accès TP-Link et le client TP-Link}}{23}{figure.2.12}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Installation du TP-Link CPE610 à Rades Melian}}{23}{figure.2.13}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Topologie du réseau du bureau de Rades}}{25}{figure.2.14}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Topologie du réseau du bureau de Rades Melian}}{26}{figure.2.15}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Topologie du réseau du bureau Ezzahara}}{27}{figure.2.16}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Console du routeur de Rades}}{28}{figure.2.17}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Réglage de l'IP adresse}}{29}{figure.2.18}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Test de connexion de routeur vers l'internet}}{30}{figure.2.19}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Configurer le port f0/1}}{31}{figure.2.20}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Ping de utilisateur4 vers l'internet}}{32}{figure.2.21}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Configuration de routeur}}{33}{figure.2.22}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Test de connexion des utilisateurs}}{34}{figure.2.23}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Routeur Cisco 891F}}{35}{figure.2.24}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Interconnexion des commutateurs pour les bureaux Rades et Ezzahara}}{36}{figure.2.25}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Installation de pfSense - Étape 1}}{37}{figure.2.26}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Installation de pfSense - Étape 2}}{38}{figure.2.27}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Installation de pfSense - Étape 3}}{38}{figure.2.28}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Installation de pfSense - Étape 4}}{39}{figure.2.29}%
-\contentsline {figure}{\numberline {2.30}{\ignorespaces Installation de pfSense - Étape 5}}{39}{figure.2.30}%
-\contentsline {figure}{\numberline {2.31}{\ignorespaces Installation de pfSense - Étape 6}}{40}{figure.2.31}%
-\contentsline {figure}{\numberline {2.32}{\ignorespaces Installation de pfSense - Étape 7}}{40}{figure.2.32}%
-\contentsline {figure}{\numberline {2.33}{\ignorespaces Tableau de bord de pfSense}}{41}{figure.2.33}%
-\contentsline {figure}{\numberline {2.34}{\ignorespaces Interface de pfSense}}{41}{figure.2.34}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Distance entre le bureau Rades et Rades Meliane (1,268 km)}}{13}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Distance entre bureau Rades et bureau Ezzhara (2,843 km)}}{14}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Distance totale entre les bureaux}}{15}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Metropolitan Area Network}}{16}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Topologie du réseau du bureau de Rades}}{18}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Topologie du réseau du bureau de Rades Melian}}{19}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Topologie du réseau du bureau Ezzahara}}{20}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Console du routeur de Rades}}{21}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Réglage de l'IP adresse}}{22}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Test de connexion de routeur vers l'internet}}{23}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Configurer le port f0/1}}{24}{figure.2.11}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Ping de utilisateur4 vers l'internet}}{25}{figure.2.12}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Configuration de routeur}}{26}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Test de connexion des utilisateurs}}{27}{figure.2.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Déballage du TP-Link CPE610}}{28}{figure.2.15}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Assemblage des pièces du TP-Link CPE610}}{29}{figure.2.16}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Initialisation du TP-Link}}{29}{figure.2.17}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Initialisation du TP-Link en mode test}}{30}{figure.2.18}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Panneau de contrôle du TP-Link}}{30}{figure.2.19}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Initialisation de l'émetteur}}{31}{figure.2.20}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Initialisation du récepteur}}{31}{figure.2.21}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Test de connexion entre le point d'accès TP-Link et le client TP-Link}}{32}{figure.2.22}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Installation du TP-Link CPE610 à Rades Melian}}{32}{figure.2.23}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Routeur Cisco 891F}}{33}{figure.2.24}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Interconnexion des commutateurs pour les bureaux Rades et Ezzahara}}{34}{figure.2.25}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Installation de pfSense - Étape 1}}{35}{figure.2.26}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Installation de pfSense - Étape 2}}{36}{figure.2.27}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Installation de pfSense - Étape 3}}{36}{figure.2.28}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Installation de pfSense - Étape 4}}{37}{figure.2.29}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Installation de pfSense - Étape 5}}{37}{figure.2.30}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Installation de pfSense - Étape 6}}{38}{figure.2.31}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Installation de pfSense - Étape 7}}{38}{figure.2.32}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Tableau de bord de pfSense}}{39}{figure.2.33}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme du système d'information}}{50}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Installation de Ubuntu Server 22.04}}{51}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Interface Putty pour la connexion à Ubuntu Server 22.04}}{52}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Résultat de la commande "neofetch" sur Ubuntu Server 22.04}}{53}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Installation des packages KVM}}{54}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Vérification de l'état du service libvirtd}}{55}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Accès à Virt-Manager via Xming et PuTTY}}{55}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Mise à jour du système Linux}}{56}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Redémarrage du service isc-dhcp}}{57}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Configuration du fichier \texttt {dhcpd.conf}}}{57}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Exemple de fichier de configuration \texttt {dhcpd.conf}}}{57}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces État du service ISC DHCP}}{58}{figure.3.12}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Installation d'Asterisk sur Ubuntu}}{58}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Configuration d'Odoo et version PostgreSQL}}{59}{figure.3.14}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Base de données PostgreSQL dans le tableau de bord Odoo}}{59}{figure.3.15}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Tableau de bord d'Odoo avec les modules CRM installés}}{60}{figure.3.16}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Tableau de bord de GLPI}}{60}{figure.3.17}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Affichage des tables dans MariaDB}}{61}{figure.3.18}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Tableau de bord de phpLDAPAdmin}}{62}{figure.3.19}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Liste des machines virtuelles déployées}}{62}{figure.3.20}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme du système d'information}}{48}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Installation de Ubuntu Server 22.04}}{49}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Interface Putty pour la connexion à Ubuntu Server 22.04}}{50}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Résultat de la commande "neofetch" sur Ubuntu Server 22.04}}{51}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Installation des packages KVM}}{52}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Vérification de l'état du service libvirtd}}{53}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Accès à Virt-Manager via Xming et PuTTY}}{53}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mise à jour du système Linux}}{54}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Redémarrage du service isc-dhcp}}{55}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Configuration du fichier \texttt {dhcpd.conf}}}{55}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Exemple de fichier de configuration \texttt {dhcpd.conf}}}{55}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces État du service ISC DHCP}}{56}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Installation d'Asterisk sur Ubuntu}}{56}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Configuration d'Odoo et version PostgreSQL}}{57}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Base de données PostgreSQL dans le tableau de bord Odoo}}{57}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Tableau de bord d'Odoo avec les modules CRM installés}}{58}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Tableau de bord de GLPI}}{58}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Affichage des tables dans MariaDB}}{59}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Tableau de bord de phpLDAPAdmin}}{60}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Liste des machines virtuelles déployées}}{60}{figure.3.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture IoT basée sur CoAP}}{65}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logiciel SmartPSS installé}}{67}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Machine de pointage ZKTeco et logiciel ZKTime}}{68}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Installation du Node-RED avec le Script Officiel Bash}}{72}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces En cours d'Installation du Node-RED}}{73}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Le démarrage du Node-RED}}{74}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface Node-RED}}{75}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Installation du dashboard Node-RED}}{75}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Installation du nœud DHT11 dans Node-RED}}{76}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Configuration de la sécurité dans Node-RED en Settings.js}}{77}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Création d'un code de hachage}}{77}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Mise à jour du code de hachage dans Settings.js}}{78}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Connexion avec le nouveau mot de passe}}{78}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Schéma de notre réalisation}}{79}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Ajout d'un Inject Node pour répéter l'action chaque 10 secondes}}{80}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Configurer un nœud Fonction pour séparer l'humidité de la température}}{81}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Le résultat du nœud Debug}}{82}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Nœud Switch}}{83}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Nœud Raspberry GPIO Output}}{84}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Le projet en Node-RED}}{85}{figure.4.20}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Circuit de mon prototype miniature}}{85}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Le login du tableau de bord en mobile}}{86}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Le tableau de bord en bureau}}{87}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Installation de FusionInventory-Agent}}{88}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Configuration de FusionInventory-Agent}}{88}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Tableau de bord de GLPI avec le Raspberry Pi intégré}}{89}{figure.4.26}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture IoT basée sur CoAP}}{63}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logiciel SmartPSS installé}}{65}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Machine de pointage ZKTeco et logiciel ZKTime}}{66}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Installation du Node-RED avec le Script Officiel Bash}}{70}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces En cours d'Installation du Node-RED}}{71}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Le démarrage du Node-RED}}{72}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface Node-RED}}{73}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Installation du dashboard Node-RED}}{73}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Installation du nœud DHT11 dans Node-RED}}{74}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Configuration de la sécurité dans Node-RED en Settings.js}}{75}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Création d'un code de hachage}}{75}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Mise à jour du code de hachage dans Settings.js}}{76}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Connexion avec le nouveau mot de passe}}{76}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Schéma de notre réalisation}}{77}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Ajout d'un Inject Node pour répéter l'action chaque 10 secondes}}{78}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Configurer un nœud Fonction pour séparer l'humidité de la température}}{79}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Le résultat du nœud Debug}}{80}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Nœud Switch}}{81}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Nœud Raspberry GPIO Output}}{82}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Le projet en Node-RED}}{83}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Circuit de mon prototype miniature}}{83}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Le login du tableau de bord en mobile}}{84}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Le tableau de bord en bureau}}{85}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Installation de FusionInventory-Agent}}{86}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Configuration de FusionInventory-Agent}}{86}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Tableau de bord de GLPI avec le Raspberry Pi intégré}}{87}{figure.4.26}%

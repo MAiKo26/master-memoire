@@ -4,17 +4,11 @@
 
 \section{Introduction}
 
-L'intégration des objets connectés est un élément clé pour une infrastructure informatique moderne et efficace. Dans ce dernier chapitre, nous allons explorer les différentes étapes de l'intégration des objets connectés dans notre infrastructure existante. 
+L'intégration des objets est un élément clé pour une infrastructure informatique moderne et efficace. Dans ce dernier chapitre, nous allons explorer les différentes étapes de l'intégration des objets connectés dans notre infrastructure existante. 
 
-Les objets connectés sont des dispositifs électroniques qui peuvent communiquer entre eux et avec des systèmes informatiques, et sont capables de collecter et d'analyser des données en temps réel. 
+Dans ce chapitre, nous examinons les différentes technologies et protocoles utilisés pour l'intégration des objets connectés, ainsi que les défis qu'elle présente. 
 
-Ils jouent un rôle important dans la création de systèmes intelligents et autonomes, qui peuvent améliorer l'efficacité, la sécurité et la qualité de vie dans de nombreux domaines. 
-
-Dans ce chapitre, nous examinons les différentes technologies et protocoles utilisés pour l'intégration des objets connectés, ainsi que les défis et les opportunités qu'elle présente. 
-
-Enfin, nous décrivons également les différentes étapes du processus d'intégration, de la sélection des dispositifs appropriés à leur installation, leur configuration et leur maintenance. 
-
-
+Enfin, nous décrivons également les différentes étapes du processus d'intégration. 
 
 \section{Définition des objets connectés}
 
@@ -81,7 +75,7 @@ SmartPSS \ref{Chap4.2.4} est une solution logicielle développée par Dahua, une
 
 L'intégration des systèmes de pointage est une autre composante cruciale de notre initiative. Nous utilisons le logiciel ZKTime \ref{Chap4.2.5}, développé par ZKTeco, pour connecter et contrôler ces systèmes au sein de notre réseau d'entreprise. 
 
-Ce logiciel nous assurons une communication fluide entre les machines de pointage et le réseau, garantissant ainsi un accès facile et sécurisé aux données de pointage des employés.
+Avec ce logiciel nous assurons une communication fluide entre les machines de pointage et le réseau, garantissant ainsi un accès facile et sécurisé aux données de pointage des employés.
 
 \begin{figure}[H]
 \centering
@@ -93,16 +87,13 @@ Ce logiciel nous assurons une communication fluide entre les machines de pointag
 
 \subsection{Gestion intelligente de l'éclairage}
 
-Pour répondre à la demande croissante d'un SmartOffice, ce qui nécessite la mise en place d'un système de contrôle à distance des lampes, nous utilisons une carte IoT, telle que Raspberry Pi ou Arduino, pour connecter les lampes à notre réseau d'entreprise. 
+Pour répondre à la demande croissante d'un SmartOffice, ce qui nécessite la mise en place d'un système de contrôle à distance des lampes, nous utilisons une carte électronique, telle que Raspberry Pi ou Arduino, pour connecter les lampes à notre réseau d'entreprise. 
 
 Cette configuration nous permet une gestion centralisée de l'éclairage, contribuant ainsi à optimiser l'utilisation de l'énergie et à réaliser des économies considérables sur les coûts énergétiques. En fin de compte, l'intégration de dispositifs connectés, tels que des lampes intelligentes, dans notre infrastructure d'entreprise, peut considérablement améliorer l'efficacité opérationnelle et la qualité de vie de nos employés.
 
 \subsection{Gestion intelligente du capteur de température et humidité}
 
 De manière similaire à notre approche pour l'éclairage, nous cherchons à mettre en place une gestion intelligente de notre capteur de température et humidité modèle DHT11. Cela nous permettra de surveiller et de contrôler les conditions thermiques de nos locaux de manière efficace. 
-
-Nous envisageons d'utiliser Raspberry Pi ou Arduino pour connecter ce capteur à notre réseau. Cette intégration nous permettra de collecter en temps réel des données sur la température et de prendre des mesures proactives pour maintenir des conditions optimales dans nos installations.
-
 
 \subsection{Solution proposée}
 
@@ -149,11 +140,10 @@ Pour créer notre prototype, nous commençons par présenter les matériels util
 
 \subsection{Choix de Raspberry Pi et Node-RED}
 
-Face à ce défi, notre choix se porte sur l'utilisation de Raspberry Pi pour connecter les objets à notre réseau. Raspberry Pi est une carte informatique très performante et polyvalente qui peut être utilisée pour de nombreux projets IoT \cite{richardson2012getting}.
+Face à ce défi, notre choix se porte sur l'utilisation de Raspberry Pi pour connecter les objets à notre réseau. Raspberry Pi est une carte informatique très performante qui peut être utilisée pour de nombreux projets IoT \cite{richardson2012getting}.
 
 Nous décidons d'utiliser Node-RED, un outil de programmation visuel pour créer une application permettant de contrôler les lampes à distance. Node-RED est une plateforme open source qui facilite la création de flux de données entre différents objets connectés \cite{lekic2018iot}.
 
-En utilisant Raspberry Pi et Node-RED, nous sommes en mesure de créer une solution robuste et évolutive pour connecter les lampes et le capteur de température à notre réseau. Cette solution nous permet de contrôler les lampes à distance à partir de n'importe quel appareil connecté à notre réseau.
 
 \subsection{Installation Raspberry Pi OS et Node-RED}
 
@@ -328,7 +318,7 @@ De plus, nous créons des nœuds interrupteurs (Switches) pour contrôler les LE
 \label{Chap4.3.18}
 \end{figure}
 
-Dans cette figure \ref{Chap4.3.18}, nous ajoutons un nœud Switch pour contrôler l'état des LEDs en fonction d'une condition spécifique.
+Dans la figure \ref{Chap4.3.18}, nous avons ajouté un nœud Switch permettant de contrôler l'état des LEDs lorsqu'il est cliqué.
 
 \begin{figure}[H]
 \centering
@@ -414,12 +404,6 @@ Enfin, nous visualisons notre Raspberry Pi intégré dans le tableau de bord de 
 
 \section{Conclusion}
 
-En conclusion de ce chapitre dédié à l'intégration des objets connectés, nous avons exploré en détail les différentes étapes nécessaires pour incorporer ces dispositifs dans notre infrastructure existante. Les objets connectés, de par leur capacité à collecter, communiquer et analyser des données en temps réel, offrent un potentiel considérable pour améliorer l'efficacité et la qualité de vie dans divers domaines.
-
-Nous avons commencé par définir ce qu'étaient les objets connectés, en mettant en évidence leur rôle essentiel dans la création de systèmes intelligents et autonomes. Ensuite, nous avons exploré les défis et opportunités liés à l'intégration de ces dispositifs au sein de notre entreprise.
-
-Pour répondre à ces défis, nous avons présenté une solution basée sur l'utilisation de Raspberry Pi et de Node-RED. Cette combinaison nous permet de connecter divers dispositifs, tels que les lampes et le capteur de température et humidité, à notre réseau d'entreprise de manière cohérente et efficace. Nous avons également mis en évidence les étapes d'installation et de configuration de ces outils, ainsi que les mesures de sécurité mises en place pour protéger notre système.
-
-Enfin, nous avons illustré la réalisation d'un prototype miniature en utilisant Node-RED pour contrôler des LEDs en fonction de données de capteur de température et d'humidité. Ce projet a été intégré dans notre parc informatique, ce qui nous permet de suivre et de gérer notre dispositif IoT à partir du système de gestion GLPI.
+En conclusion de ce chapitre dédié à l'intégration des objets connectés, nous avons exploré en détail les différentes étapes nécessaires pour incorporer ces dispositifs dans l'infrastructure que nous avons créer au chapitre précédent.Les objets connectés, de par leur capacité à collecter, communiquer et analyser des données en temps réel, offrent un potentiel considérable pour améliorer l'efficacité et la qualité de vie de l'entreprise.
 
 L'intégration des objets connectés représente un pas significatif vers une infrastructure informatique moderne et intelligente, et ce chapitre nous a fourni les connaissances et les outils nécessaires pour relever ce défi avec succès.

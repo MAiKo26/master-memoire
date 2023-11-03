@@ -21,6 +21,13 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{blogcascade}
+\BIBentryALTinterwordspacing
+B.~G. de~Projet. (s.d.) Le modèle en cascade. Consulté le 10 mai 2023.
+  [Online]. Available:
+  \url{https://blog-gestion-de-projet.com/modele-en-cascade/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{antoine2019vers}
 T.~Antoine-Santoni, B.~Poggi, E.~Vittori, H.~Van~Hieu, D.~Araujo, and
   A.~Aiello, ``Vers un syst{\`e}me d'information pervasif pour un smart
@@ -30,13 +37,6 @@ T.~Antoine-Santoni, B.~Poggi, E.~Vittori, H.~Van~Hieu, D.~Araujo, and
 \BIBentryALTinterwordspacing
 Agexis site web. C'est le site web du Agexis. [Online]. Available:
   \url{https://www.agexis.com}
-\BIBentrySTDinterwordspacing
-
-\bibitem{blogcascade}
-\BIBentryALTinterwordspacing
-B.~G. de~Projet. (s.d.) Le modèle en cascade. Consulté le 10 mai 2023.
-  [Online]. Available:
-  \url{https://blog-gestion-de-projet.com/modele-en-cascade/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{fagarasan2021agile}
