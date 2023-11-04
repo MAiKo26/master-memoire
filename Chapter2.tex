@@ -198,6 +198,38 @@ Dans la figure \ref{Chap2.2.7}, nous constatons que toutes les machines avaient 
 En résumé, nous avons configuré notre réseau en utilisant GNS3 en étapes, en veillant à ce que toutes les machines aient accès à internet et puissent communiquer entre elles dans le réseau local.
 
 
+  
+\section{Implémentation}
+
+Dans la section d'implémentation, nous commençons par détailler la mise en place du réseau local (LAN) pour chaque bureau. Ensuite, nous abordons l'implémentation du réseau MAN, qui permet la connexion entre les trois LAN. Enfin, nous concluons en expliquant l'ajout du pare-feu pour l'un de nos bureaux.
+
+
+\subsection{Implémentation des LANs}
+
+Étant donné que l'infrastructure de fibre optique de Topnet/Telecom n'est pas disponible à proximité du bureau central de Rades Melian, nous trouvons une solution en achetant une connexion internet par fibre optique dans deux autres bureaux, Rades (20 Mbps) et Ezzahara (100 Mbps), et en les reliant via un réseau MAN (Metropolitan Area Network). Les deux connexions sont connectées à un routeur Cisco 891F configuré par l'équipe de Topnet, qui distribue le réseau vers un commutateur Cisco v19-10 24G. 
+
+
+Le routeur Cisco 891F est représenté dans la figure \ref{Chap2.2.10}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{Images/C891F_1.jpg}
+\caption{Routeur Cisco 891F}
+\label{Chap2.2.10}
+\end{figure}
+
+À partir du commutateur principale, nous pouvons accéder à d'autres commutateurs qui permettent la connectivité LAN des PC et des objets connectés dans le bureau. La figure \ref{Chap2.2.11} montre l'interconnexion des commutateurs principal et les routeurs pour les bureaux de Rades et Ezzahara.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=7cm,height=12cm]{Images/BRades-ArmoirePrincipal.jpg} \includegraphics[width=7cm,height=12cm]{Images/Armoire-Ezzahara.jpg} 
+
+\caption{Interconnexion des commutateurs pour les bureaux Rades et Ezzahara}
+\label{Chap2.2.11}
+\end{figure}
+
+
 \subsection{Implémentation du MAN et le choix de TP-Link}
 
 Pour établir notre réseau étendu (MAN), nous choisissons  d'utiliser le TP-Link CPE610. Ce point d'accès sans fil est spécialement conçu pour offrir une connectivité longue distance en utilisant la fréquence de 5 GHz.
@@ -225,7 +257,7 @@ La figure \ref{Chap2.3.5} illustre l'étape d'initialisation du TP-Link, où nou
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{Images/tplink3.png}
+\includegraphics[width=15cm]{Images/tplink3-2.png}
 \caption{Initialisation du TP-Link}
 \label{Chap2.3.5}
 \end{figure}
@@ -234,7 +266,7 @@ La configuration en mode test est représentée dans la figure \ref{Chap2.3.6}, 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{Images/tplink33.png}
+\includegraphics[width=15cm]{Images/tplink33-2.png}
 \caption{Initialisation du TP-Link en mode test}
 \label{Chap2.3.6}
 \end{figure}
@@ -243,7 +275,7 @@ Le panneau de contrôle complet du TP-Link est dépeint dans la figure \ref{Chap
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{Images/tplink34.png}
+\includegraphics[width=15cm]{Images/tplink34-2.png}
 \caption{Panneau de contrôle du TP-Link}
 \label{Chap2.3.7}
 \end{figure}
@@ -252,14 +284,14 @@ Les figures \ref{Chap2.3.8} et \ref{Chap2.3.9} montrent respectivement les étap
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{Images/tplink35.png}
+\includegraphics[width=15cm]{Images/tplink35-2.png}
 \caption{Initialisation de l'émetteur}
 \label{Chap2.3.8}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{Images/tplink36.png}
+\includegraphics[width=15cm]{Images/tplink36-2.png}
 \caption{Initialisation du récepteur}
 \label{Chap2.3.9}
 \end{figure}
@@ -274,7 +306,7 @@ L'étape finale de vérification de la connexion entre le point d'accès TP-Link
 \label{Chap2.3.11}
 \end{figure}
 
-Enfin, la figure \ref{Chap2.3.12} met en évidence l'installation réussie du TP-Link CPE610 à Rades Melian, marquant une étape cruciale de notre déploiement.
+Enfin, la figure \ref{Chap2.3.12} met en évidence l'installation réussie du TP-Link CPE610 au toit du Rades Melian, marquant une étape cruciale de notre déploiement.
 
 \begin{figure}[H]
 \centering
@@ -285,49 +317,17 @@ Enfin, la figure \ref{Chap2.3.12} met en évidence l'installation réussie du TP
 
 En suivant ces étapes, nous avons réussi à tester nos TP-Link et nous allons maintenant procéder à leur installation dans les différents bureaux.
 
-
-  
-\subsection{Implémentation}
-
-
-
-
-Étant donné que l'infrastructure de fibre optique de Topnet/Telecom n'est pas disponible à proximité du bureau central de Rades Melian, nous trouvons une solution en achetant une connexion internet par fibre optique dans deux autres bureaux, Rades (20 Mbps) et Ezzahara (100 Mbps), et en les reliant via un réseau MAN (Metropolitan Area Network). Les deux connexions sont connectées à un routeur Cisco 891F configuré par l'équipe de Topnet, qui distribue le réseau vers un commutateur Cisco v19-10 24G. 
-
-
-Le routeur Cisco 891F est représenté dans la figure \ref{Chap2.2.10}.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=15cm]{Images/C891F_1.jpg}
-\caption{Routeur Cisco 891F}
-\label{Chap2.2.10}
-\end{figure}
-
-À partir du commutateur principale, nous pouvons accéder à d'autres commutateurs qui permettent la connectivité LAN des PC et des objets connectés dans le bureau. La figure \ref{Chap2.2.11} montre l'interconnexion des commutateurs principal et les routeurs pour les bureaux de Rades et Ezzahara.
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=7cm,height=12cm]{Images/BRades-ArmoirePrincipal.jpg} \includegraphics[width=7cm,height=12cm]{Images/Armoire-Ezzahara.jpg} 
-
-\caption{Interconnexion des commutateurs pour les bureaux Rades et Ezzahara}
-\label{Chap2.2.11}
-\end{figure}
-
-
-
-\section{Pare-feu}
+\subsection{Pare-feu}
 
 Dans cette section, après avoir configuré notre routeur et notre réseau MAN, nous introduisons également un pare-feu dans notre bureau principal à Rades Meliane, ainsi que dans le bureau des développeurs à Ezzahara à l'avenir.
 
 
-\subsection{Choix pfSense}
+\subsubsection{Choix pfSense}
 
 Nous choisissons pfSense pour plusieurs raisons essentielles. Tout d'abord, c'est une solution open source, ce qui signifie qu'elle est gratuite et offre une grande flexibilité. De plus, pfSense est reconnu pour sa stabilité et sa fiabilité, en faisant un choix sûr pour sécuriser notre infrastructure. Il bénéficie d'une communauté active et d'une documentation complète, ce qui facilite son utilisation et sa maintenance. En outre, pfSense offre une gamme étendue de fonctionnalités de sécurité, y compris la gestion des règles de pare-feu, la détection d'intrusion, la protection contre les logiciels malveillants, etc. En somme, pfSense est la solution idéale pour renforcer la sécurité de notre réseau tout en offrant souplesse et support actif.
 
 
-\subsection{Mise en œuvre du pfSense}
+\subsubsection{Mise en œuvre du pfSense}
 
 Pour déployer pfSense en tant que pare-feu dans notre infrastructure du bureau Rades Melian, qui est la branche principale, nous avons suivi les étapes d'installation suivantes.
 
@@ -393,7 +393,7 @@ Nous procédons à l'installation de pfSense sur la boîte E-Wall Firewall en su
 \label{Chap3.3.9}
 \end{figure}
 
-Une fois l'installation terminée, nous accédons au tableau de bord de pfSense dans les figures \ref{Chap3.3.9} et \ref{Chap3.3.10} pour configurer les interfaces réseau, les règles de pare-feu et d'autres paramètres de sécurité nécessaires pour protéger notre infrastructure.
+Une fois l'installation terminée, nous accédons au tableau de bord de pfSense dans la figure \ref{Chap3.3.9}  pour configurer les interfaces réseau, les règles de pare-feu et d'autres paramètres de sécurité nécessaires pour protéger notre infrastructure.
 
 pfSense offre une gamme d'options de configuration avancée, notamment la gestion des interfaces, les règles de pare-feu, les services VPN, la surveillance du trafic, etc. 
 
@@ -401,7 +401,7 @@ En utilisant ces fonctionnalités, nous pouvons personnaliser notre pare-feu pou
 
 \section{Conclusion}
 
-En résumé, la création de l'infrastructure informatique pour notre projet a exigé une analyse approfondie des besoins de l'entreprise ainsi qu'une sélection méticuleuse des outils et des technologies pour établir une infrastructure à la fois robuste et sécurisée.
+En résumé, la création de l'infrastructure informatique pour notre projet a exigé une analyse approfondie des besoins de l'entreprise.
 
 Nous avons soigneusement examiné les différentes architectures réseau, englobant le réseau local, le réseau MAN, et les configurations spécifiques pour les trois bureaux.
 
