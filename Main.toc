@@ -30,49 +30,49 @@
 \contentsline {subsubsection}{Choix pfSense}{34}{section*.7}%
 \contentsline {subsubsection}{Mise en œuvre du pfSense}{35}{section*.8}%
 \contentsline {section}{\numberline {2.5}Conclusion}{39}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Déploiement du Système d'information}{41}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{41}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Les besoins de notre système d'information}{41}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Les solutions choisies}{42}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}OS Serveur}{42}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Virtualisation}{43}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Protocole de communication}{44}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}ERP/CRM}{45}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Système de téléphonie IP}{45}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Gestion de parc et d'inventaires}{46}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Gestion des identités et contrôle d'accès}{47}{subsection.3.3.7}%
-\contentsline {section}{\numberline {3.4}Déploiement des solutions choisies}{48}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}La couche physique}{48}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}La couche virtualisation}{51}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}La couche applicative}{54}{subsection.3.4.3}%
-\contentsline {subsubsection}{a. DHCP}{54}{section*.9}%
-\contentsline {subsubsection}{b. VoIP/Téléphonie}{56}{section*.10}%
-\contentsline {subsubsection}{c. ERP/CRM}{57}{section*.11}%
-\contentsline {subsubsection}{d. GLPI}{58}{section*.12}%
-\contentsline {subsubsection}{e. OpenLDAP}{59}{section*.13}%
-\contentsline {subsubsection}{f. Les machines virtuelles de nos applications}{60}{section*.14}%
-\contentsline {section}{\numberline {3.5}Conclusion}{61}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Intégration des objets connectés}{62}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{62}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Définition des objets connectés}{62}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Intégration des dispositifs de l'entreprise}{64}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'intégration}{64}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Intégration des caméras de surveillance}{64}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Intégration des systèmes de pointage}{65}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Gestion intelligente de l'éclairage}{66}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Gestion intelligente du capteur de température et humidité}{67}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Solution proposée}{67}{subsection.4.3.6}%
-\contentsline {section}{\numberline {4.4}Solution avec Raspberry Pi et Node-RED}{67}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Matériels utilisés pour notre prototype}{68}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Choix de Raspberry Pi et Node-RED}{68}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Installation Raspberry Pi OS et Node-RED}{69}{subsection.4.4.3}%
-\contentsline {subsubsection}{a. Installation de l'OS Raspberry Pi}{69}{section*.15}%
-\contentsline {subsubsection}{b. Installation de Node-RED}{69}{section*.16}%
-\contentsline {subsection}{\numberline {4.4.4}Configuration de Node-RED}{72}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Sécurité de Node-RED}{74}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Réalisation de projet avec Node-RED}{76}{subsection.4.4.6}%
-\contentsline {subsection}{\numberline {4.4.7}Intégration dans le parc informatique}{85}{subsection.4.4.7}%
-\contentsline {section}{\numberline {4.5}Conclusion}{87}{section.4.5}%
-\contentsline {chapter}{Conclusion Générale }{88}{chapter*.17}%
-\contentsline {chapter}{Bibliographie}{90}{chapter*.18}%
-\contentsline {chapter}{Acronyme}{92}{chapter*.19}%
+\contentsline {chapter}{\numberline {3}Déploiement du Système d'information}{40}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{40}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Les besoins de notre système d'information}{40}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Les solutions choisies}{41}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}OS Serveur}{41}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Virtualisation}{42}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Protocole de communication}{43}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}ERP/CRM}{44}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Système de téléphonie IP}{44}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Gestion de parc et d'inventaires}{45}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Gestion des identités et contrôle d'accès}{46}{subsection.3.3.7}%
+\contentsline {section}{\numberline {3.4}Déploiement des solutions choisies}{47}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}La couche physique}{47}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}La couche virtualisation}{50}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}La couche applicative}{53}{subsection.3.4.3}%
+\contentsline {subsubsection}{a. DHCP}{53}{section*.9}%
+\contentsline {subsubsection}{b. VoIP/Téléphonie}{55}{section*.10}%
+\contentsline {subsubsection}{c. ERP/CRM}{56}{section*.11}%
+\contentsline {subsubsection}{d. GLPI}{57}{section*.12}%
+\contentsline {subsubsection}{e. OpenLDAP}{58}{section*.13}%
+\contentsline {subsubsection}{f. Les machines virtuelles de nos applications}{59}{section*.14}%
+\contentsline {section}{\numberline {3.5}Conclusion}{60}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Intégration des objets connectés}{61}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{61}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Définition des objets connectés}{61}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Intégration des dispositifs de l'entreprise}{63}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Enjeux de l'intégration}{63}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Intégration des caméras de surveillance}{63}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Intégration des systèmes de pointage}{64}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Gestion intelligente de l'éclairage}{65}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Gestion intelligente du capteur de température et humidité}{66}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Solution proposée}{66}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Solution avec Raspberry Pi et Node-RED}{66}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Matériels utilisés pour notre prototype}{67}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Choix de Raspberry Pi et Node-RED}{67}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Installation Raspberry Pi OS et Node-RED}{68}{subsection.4.4.3}%
+\contentsline {subsubsection}{a. Installation de l'OS Raspberry Pi}{68}{section*.15}%
+\contentsline {subsubsection}{b. Installation de Node-RED}{68}{section*.16}%
+\contentsline {subsection}{\numberline {4.4.4}Configuration de Node-RED}{71}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Sécurité de Node-RED}{73}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Réalisation de projet avec Node-RED}{75}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Intégration dans le parc informatique}{84}{subsection.4.4.7}%
+\contentsline {section}{\numberline {4.5}Conclusion}{86}{section.4.5}%
+\contentsline {chapter}{Conclusion Générale }{87}{chapter*.17}%
+\contentsline {chapter}{Bibliographie}{89}{chapter*.18}%
+\contentsline {chapter}{Acronyme}{91}{chapter*.19}%

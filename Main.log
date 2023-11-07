@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.25)  4 NOV 2023 10:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.25)  7 NOV 2023 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -717,7 +717,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ] [8]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-8.
+7.
 
 (C:\Users\lenov\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -766,17 +766,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
  []
 
 [3]
-<Images/logo-zeta1.png, id=600, 401.5pt x 401.5pt>
+<Images/logo-zeta1.png, id=598, 401.5pt x 401.5pt>
 File: Images/logo-zeta1.png Graphic file (type png)
 <use Images/logo-zeta1.png>
 Package pdftex.def Info: Images/logo-zeta1.png  used on input line 53.
 (pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-<Images/logo-Sequencia.png, id=601, 524.96124pt x 221.82875pt>
+<Images/logo-Sequencia.png, id=599, 524.96124pt x 221.82875pt>
 File: Images/logo-Sequencia.png Graphic file (type png)
 <use Images/logo-Sequencia.png>
 Package pdftex.def Info: Images/logo-Sequencia.png  used on input line 57.
 (pdftex.def)             Requested size: 113.81102pt x 48.09164pt.
-<Images/Logo-ZetaProject.png, id=602, 510.90875pt x 722.7pt>
+<Images/Logo-ZetaProject.png, id=600, 510.90875pt x 722.7pt>
 File: Images/Logo-ZetaProject.png Graphic file (type png)
 <use Images/Logo-ZetaProject.png>
 Package pdftex.def Info: Images/Logo-ZetaProject.png  used on input line 61.
@@ -794,7 +794,7 @@ as been already used, duplicate ignored
 l.78 
       <./Images/logo-zeta1.png> <./Images/logo-Sequencia.png> <./Images/Logo-Ze
 taProject.png>] [5]
-<Images/cascade1.png, id=615, 578.16pt x 355.3275pt>
+<Images/cascade1.png, id=613, 578.16pt x 355.3275pt>
 File: Images/cascade1.png Graphic file (type png)
 <use Images/cascade1.png>
 Package pdftex.def Info: Images/cascade1.png  used on input line 102.
@@ -806,23 +806,23 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.117 
        <./Images/cascade1.png (PNG copy)>]
-<Images/ewall.png, id=623, 401.5pt x 401.5pt>
+<Images/ewall.png, id=621, 401.5pt x 401.5pt>
 File: Images/ewall.png Graphic file (type png)
 <use Images/ewall.png>
 Package pdftex.def Info: Images/ewall.png  used on input line 141.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Images/HP1910.png, id=624, 2589.675pt x 1606.0pt>
+<Images/HP1910.png, id=622, 2589.675pt x 1606.0pt>
 File: Images/HP1910.png Graphic file (type png)
 <use Images/HP1910.png>
 Package pdftex.def Info: Images/HP1910.png  used on input line 145.
 (pdftex.def)             Requested size: 85.35826pt x 52.93199pt.
-<Images/TP-Link-CPE610-5GHz_1.png, id=625, 387.4475pt x 462.72874pt>
+<Images/TP-Link-CPE610-5GHz_1.png, id=623, 387.4475pt x 462.72874pt>
 File: Images/TP-Link-CPE610-5GHz_1.png Graphic file (type png)
 <use Images/TP-Link-CPE610-5GHz_1.png>
 Package pdftex.def Info: Images/TP-Link-CPE610-5GHz_1.png  used on input line 1
 49.
 (pdftex.def)             Requested size: 85.35826pt x 101.94185pt.
-<Images/dellr720.png, id=626, 1085.05376pt x 447.6725pt>
+<Images/dellr720.png, id=624, 1085.05376pt x 447.6725pt>
 File: Images/dellr720.png Graphic file (type png)
 <use Images/dellr720.png>
 Package pdftex.def Info: Images/dellr720.png  used on input line 153.
@@ -833,27 +833,27 @@ Overfull \hbox (37.59995pt too wide) in paragraph at lines 137--158
  []
 
 [7]
-<Images/Logo-GNS3.png, id=635, 402.19826pt x 402.19826pt>
+<Images/Logo-GNS3.png, id=633, 402.19826pt x 402.19826pt>
 File: Images/Logo-GNS3.png Graphic file (type png)
 <use Images/Logo-GNS3.png>
 Package pdftex.def Info: Images/Logo-GNS3.png  used on input line 174.
 (pdftex.def)             Requested size: 85.35826pt x 85.35399pt.
-<Images/Logo-VMWare.jpg, id=636, 301.125pt x 301.125pt>
+<Images/Logo-VMWare.jpg, id=634, 301.125pt x 301.125pt>
 File: Images/Logo-VMWare.jpg Graphic file (type jpg)
 <use Images/Logo-VMWare.jpg>
 Package pdftex.def Info: Images/Logo-VMWare.jpg  used on input line 178.
 (pdftex.def)             Requested size: 85.35826pt x 85.35744pt.
-<Images/Logo-VNCViewer.png, id=637, 513.92pt x 513.92pt>
+<Images/Logo-VNCViewer.png, id=635, 513.92pt x 513.92pt>
 File: Images/Logo-VNCViewer.png Graphic file (type png)
 <use Images/Logo-VNCViewer.png>
 Package pdftex.def Info: Images/Logo-VNCViewer.png  used on input line 182.
 (pdftex.def)             Requested size: 85.35826pt x 85.35774pt.
-<Images/Logo-IPScanner.png, id=638, 384.6872pt x 152.82094pt>
+<Images/Logo-IPScanner.png, id=636, 384.6872pt x 152.82094pt>
 File: Images/Logo-IPScanner.png Graphic file (type png)
 <use Images/Logo-IPScanner.png>
 Package pdftex.def Info: Images/Logo-IPScanner.png  used on input line 186.
 (pdftex.def)             Requested size: 85.35826pt x 33.90985pt.
-<Images/Logo-Fritzing.png, id=639, 682.9515pt x 273.1806pt>
+<Images/Logo-Fritzing.png, id=637, 682.9515pt x 273.1806pt>
 File: Images/Logo-Fritzing.png Graphic file (type png)
 <use Images/Logo-Fritzing.png>
 Package pdftex.def Info: Images/Logo-Fritzing.png  used on input line 190.
@@ -871,17 +871,17 @@ as been already used, duplicate ignored
 l.198 
        <./Images/ewall.png> <./Images/HP1910.png> <./Images/TP-Link-CPE610-5GHz
 _1.png> <./Images/dellr720.png>]
-<Images/Logo-Putty.png, id=648, 1204.5pt x 1204.5pt>
+<Images/Logo-Putty.png, id=646, 1204.5pt x 1204.5pt>
 File: Images/Logo-Putty.png Graphic file (type png)
 <use Images/Logo-Putty.png>
 Package pdftex.def Info: Images/Logo-Putty.png  used on input line 204.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
-<Images/Logo-Raspberry.png, id=649, 632.3625pt x 210.7875pt>
+<Images/Logo-Raspberry.png, id=647, 632.3625pt x 210.7875pt>
 File: Images/Logo-Raspberry.png Graphic file (type png)
 <use Images/Logo-Raspberry.png>
 Package pdftex.def Info: Images/Logo-Raspberry.png  used on input line 208.
 (pdftex.def)             Requested size: 85.35826pt x 28.45186pt.
-<Images/xminglogo.png, id=650, 481.8pt x 421.575pt>
+<Images/xminglogo.png, id=648, 481.8pt x 421.575pt>
 File: Images/xminglogo.png Graphic file (type png)
 <use Images/xminglogo.png>
 Package pdftex.def Info: Images/xminglogo.png  used on input line 212.
@@ -917,13 +917,13 @@ Chapitre 2.
 
 
 ]
-<Images/distance1.png, id=671, 633.86812pt x 505.89pt>
+<Images/distance1.png, id=669, 633.86812pt x 505.89pt>
 File: Images/distance1.png Graphic file (type png)
 <use Images/distance1.png>
 Package pdftex.def Info: Images/distance1.png  used on input line 32.
 (pdftex.def)             Requested size: 455.24408pt x 363.33736pt.
  [12]
-<Images/Distance2.png, id=676, 514.17094pt x 388.45125pt>
+<Images/Distance2.png, id=674, 514.17094pt x 388.45125pt>
 File: Images/Distance2.png Graphic file (type png)
 <use Images/Distance2.png>
 Package pdftex.def Info: Images/Distance2.png  used on input line 40.
@@ -941,7 +941,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.44 \newpage
               <./Images/Distance2.png>]
-<Images/DistanceTotal.png, id=689, 366.61969pt x 331.99031pt>
+<Images/DistanceTotal.png, id=687, 366.61969pt x 331.99031pt>
 File: Images/DistanceTotal.png Graphic file (type png)
 <use Images/DistanceTotal.png>
 Package pdftex.def Info: Images/DistanceTotal.png  used on input line 51.
@@ -953,7 +953,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.59 \subsection
                 {Définition du réseau MAN} <./Images/DistanceTotal.png>]
-<Images/network-man1.png, id=696, 642.4pt x 521.95pt>
+<Images/network-man1.png, id=694, 642.4pt x 521.95pt>
 File: Images/network-man1.png Graphic file (type png)
 <use Images/network-man1.png>
 Package pdftex.def Info: Images/network-man1.png  used on input line 66.
@@ -966,7 +966,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.76 \section
              {L'architecture réseau} <./Images/network-man1.png>]
-<Images/BRades-Topologie.png, id=705, 505.89pt x 601.4972pt>
+<Images/BRades-Topologie.png, id=703, 505.89pt x 601.4972pt>
 File: Images/BRades-Topologie.png Graphic file (type png)
 <use Images/BRades-Topologie.png>
 Package pdftex.def Info: Images/BRades-Topologie.png  used on input line 94.
@@ -979,13 +979,13 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.100 
        <./Images/BRades-Topologie.png>]
-<Images/BRadesMelian-Topologie.png, id=716, 517.935pt x 538.26094pt>
+<Images/BRadesMelian-Topologie.png, id=714, 517.935pt x 538.26094pt>
 File: Images/BRadesMelian-Topologie.png Graphic file (type png)
 <use Images/BRadesMelian-Topologie.png>
 Package pdftex.def Info: Images/BRadesMelian-Topologie.png  used on input line 
 103.
 (pdftex.def)             Requested size: 426.79134pt x 443.56154pt.
-<Images/BEzzahra-Topologie.png, id=718, 461.47406pt x 553.31718pt>
+<Images/BEzzahra-Topologie.png, id=716, 461.47406pt x 553.31718pt>
 File: Images/BEzzahra-Topologie.png Graphic file (type png)
 <use Images/BEzzahra-Topologie.png>
 Package pdftex.def Info: Images/BEzzahra-Topologie.png  used on input line 112.
@@ -998,7 +998,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.116 
        <./Images/BRadesMelian-Topologie.png>]
-<Images/BRades-Topologie1.png, id=726, 1154.06157pt x 627.09282pt>
+<Images/BRades-Topologie1.png, id=724, 1154.06157pt x 627.09282pt>
 File: Images/BRades-Topologie1.png Graphic file (type png)
 <use Images/BRades-Topologie1.png>
 Package pdftex.def Info: Images/BRades-Topologie1.png  used on input line 126.
@@ -1010,7 +1010,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.130 
        <./Images/BEzzahra-Topologie.png>]
-<Images/BRades-Topologie2.png, id=733, 667.74469pt x 502.87875pt>
+<Images/BRades-Topologie2.png, id=731, 667.74469pt x 502.87875pt>
 File: Images/BRades-Topologie2.png Graphic file (type png)
 <use Images/BRades-Topologie2.png>
 Package pdftex.def Info: Images/BRades-Topologie2.png  used on input line 137.
@@ -1027,7 +1027,7 @@ Overfull \hbox (14.80022pt too wide) in paragraph at lines 143--144
 vers "www.google.com"
  []
 
-<Images/BRades-Topologie3.png, id=740, 670.75594pt x 504.38437pt>
+<Images/BRades-Topologie3.png, id=738, 670.75594pt x 504.38437pt>
 File: Images/BRades-Topologie3.png Graphic file (type png)
 <use Images/BRades-Topologie3.png>
 Package pdftex.def Info: Images/BRades-Topologie3.png  used on input line 147.
@@ -1044,7 +1044,7 @@ Overfull \hbox (28.35902pt too wide) in paragraph at lines 152--153
  (LAN) "192.168.1.1/24"
  []
 
-<Images/BRades-Topologie4.png, id=747, 1079.53313pt x 581.92406pt>
+<Images/BRades-Topologie4.png, id=745, 1079.53313pt x 581.92406pt>
 File: Images/BRades-Topologie4.png Graphic file (type png)
 <use Images/BRades-Topologie4.png>
 Package pdftex.def Info: Images/BRades-Topologie4.png  used on input line 156.
@@ -1056,7 +1056,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10})
                                                   \__shipout_drop_firstpage_...
 l.160 
        <./Images/BRades-Topologie3.png>]
-<Images/BRades-Topologie5.png, id=754, 672.26157pt x 502.87875pt>
+<Images/BRades-Topologie5.png, id=752, 672.26157pt x 502.87875pt>
 File: Images/BRades-Topologie5.png Graphic file (type png)
 <use Images/BRades-Topologie5.png>
 Package pdftex.def Info: Images/BRades-Topologie5.png  used on input line 170.
@@ -1068,7 +1068,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11})
                                                   \__shipout_drop_firstpage_...
 l.174 
        <./Images/BRades-Topologie4.png>]
-<Images/BRades-Topologie6.png, id=761, 670.75594pt x 498.36188pt>
+<Images/BRades-Topologie6.png, id=759, 670.75594pt x 498.36188pt>
 File: Images/BRades-Topologie6.png Graphic file (type png)
 <use Images/BRades-Topologie6.png>
 Package pdftex.def Info: Images/BRades-Topologie6.png  used on input line 181.
@@ -1080,12 +1080,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12})
                                                   \__shipout_drop_firstpage_...
 l.185 
        <./Images/BRades-Topologie5.png>]
-<Images/BRades-Topologie8.png, id=769, 672.26157pt x 502.12593pt>
+<Images/BRades-Topologie8.png, id=767, 672.26157pt x 502.12593pt>
 File: Images/BRades-Topologie8.png Graphic file (type png)
 <use Images/BRades-Topologie8.png>
 Package pdftex.def Info: Images/BRades-Topologie8.png  used on input line 191.
 (pdftex.def)             Requested size: 441.01772pt x 329.4044pt.
-<Images/BRades-Topologie9.png, id=770, 672.26157pt x 501.37312pt>
+<Images/BRades-Topologie9.png, id=768, 672.26157pt x 501.37312pt>
 File: Images/BRades-Topologie9.png Graphic file (type png)
 <use Images/BRades-Topologie9.png>
 Package pdftex.def Info: Images/BRades-Topologie9.png  used on input line 192.
@@ -1103,7 +1103,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.14})
                                                   \__shipout_drop_firstpage_...
 l.199 
        <./Images/BRades-Topologie8.png> <./Images/BRades-Topologie9.png>]
-<Images/C891F_1.jpg, id=783, 803.0pt x 301.125pt>
+<Images/C891F_1.jpg, id=781, 803.0pt x 301.125pt>
 File: Images/C891F_1.jpg Graphic file (type jpg)
 <use Images/C891F_1.jpg>
 Package pdftex.def Info: Images/C891F_1.jpg  used on input line 216.
@@ -1116,18 +1116,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15})
                                                   \__shipout_drop_firstpage_...
 l.222 
        <./Images/C891F_1.jpg>]
-<Images/BRades-ArmoirePrincipal.jpg, id=789, 903.375pt x 1606.0pt>
+<Images/BRades-ArmoirePrincipal.jpg, id=787, 903.375pt x 1606.0pt>
 File: Images/BRades-ArmoirePrincipal.jpg Graphic file (type jpg)
 <use Images/BRades-ArmoirePrincipal.jpg>
 Package pdftex.def Info: Images/BRades-ArmoirePrincipal.jpg  used on input line
  226.
 (pdftex.def)             Requested size: 199.17043pt x 341.4359pt.
-<Images/Armoire-Ezzahara.jpg, id=790, 903.375pt x 1606.0pt>
+<Images/Armoire-Ezzahara.jpg, id=788, 903.375pt x 1606.0pt>
 File: Images/Armoire-Ezzahara.jpg Graphic file (type jpg)
 <use Images/Armoire-Ezzahara.jpg>
 Package pdftex.def Info: Images/Armoire-Ezzahara.jpg  used on input line 226.
 (pdftex.def)             Requested size: 199.17043pt x 341.4359pt.
-<Images/SetupTPL4.jpg, id=793, 1606.0pt x 903.375pt>
+<Images/SetupTPL4.jpg, id=791, 1606.0pt x 903.375pt>
 File: Images/SetupTPL4.jpg Graphic file (type jpg)
 <use Images/SetupTPL4.jpg>
 Package pdftex.def Info: Images/SetupTPL4.jpg  used on input line 241.
@@ -1139,12 +1139,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.16})
                                                   \__shipout_drop_firstpage_...
 l.245 
        <./Images/BRades-ArmoirePrincipal.jpg> <./Images/Armoire-Ezzahara.jpg>]
-<Images/SetupTPL1.jpg, id=798, 1606.0pt x 903.375pt>
+<Images/SetupTPL1.jpg, id=796, 1606.0pt x 903.375pt>
 File: Images/SetupTPL1.jpg Graphic file (type jpg)
 <use Images/SetupTPL1.jpg>
 Package pdftex.def Info: Images/SetupTPL1.jpg  used on input line 248.
 (pdftex.def)             Requested size: 426.79134pt x 240.06866pt.
-<Images/tplink3-2.png, id=800, 526.21594pt x 285.31593pt>
+<Images/tplink3-2.png, id=798, 526.21594pt x 285.31593pt>
 File: Images/tplink3-2.png Graphic file (type png)
 <use Images/tplink3-2.png>
 Package pdftex.def Info: Images/tplink3-2.png  used on input line 260.
@@ -1163,12 +1163,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18})
                                                   \__shipout_drop_firstpage_...
 l.264 
        <./Images/SetupTPL4.jpg> <./Images/SetupTPL1.jpg>]
-<Images/tplink33-2.png, id=806, 529.22719pt x 290.58563pt>
+<Images/tplink33-2.png, id=804, 529.22719pt x 290.58563pt>
 File: Images/tplink33-2.png Graphic file (type png)
 <use Images/tplink33-2.png>
 Package pdftex.def Info: Images/tplink33-2.png  used on input line 269.
 (pdftex.def)             Requested size: 426.79134pt x 234.33995pt.
-<Images/tplink34-2.png, id=808, 722.7pt x 304.13625pt>
+<Images/tplink34-2.png, id=806, 722.7pt x 304.13625pt>
 File: Images/tplink34-2.png Graphic file (type png)
 <use Images/tplink34-2.png>
 Package pdftex.def Info: Images/tplink34-2.png  used on input line 278.
@@ -1186,12 +1186,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.20})
                                                   \__shipout_drop_firstpage_...
 l.282 
        <./Images/tplink3-2.png> <./Images/tplink33-2.png>]
-<Images/tplink35-2.png, id=818, 721.19438pt x 543.53062pt>
+<Images/tplink35-2.png, id=816, 721.19438pt x 543.53062pt>
 File: Images/tplink35-2.png Graphic file (type png)
 <use Images/tplink35-2.png>
 Package pdftex.def Info: Images/tplink35-2.png  used on input line 287.
 (pdftex.def)             Requested size: 426.79134pt x 321.65063pt.
-<Images/tplink36-2.png, id=819, 720.44156pt x 545.78906pt>
+<Images/tplink36-2.png, id=817, 720.44156pt x 545.78906pt>
 File: Images/tplink36-2.png Graphic file (type png)
 <use Images/tplink36-2.png>
 Package pdftex.def Info: Images/tplink36-2.png  used on input line 294.
@@ -1209,12 +1209,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.22})
                                                   \__shipout_drop_firstpage_...
 l.298 
        <./Images/tplink34-2.png> <./Images/tplink35-2.png>]
-<Images/TPLink4.png, id=827, 932.48375pt x 193.72375pt>
+<Images/TPLink4.png, id=825, 932.48375pt x 193.72375pt>
 File: Images/TPLink4.png Graphic file (type png)
 <use Images/TPLink4.png>
 Package pdftex.def Info: Images/TPLink4.png  used on input line 304.
 (pdftex.def)             Requested size: 426.79134pt x 88.66469pt.
-<Images/BRadesMelian-TPLinkCEP610-1.jpeg, id=829, 1284.8pt x 722.7pt>
+<Images/BRadesMelian-TPLinkCEP610-1.jpeg, id=827, 1284.8pt x 722.7pt>
 File: Images/BRadesMelian-TPLinkCEP610-1.jpeg Graphic file (type jpg)
 <use Images/BRadesMelian-TPLinkCEP610-1.jpeg>
 Package pdftex.def Info: Images/BRadesMelian-TPLinkCEP610-1.jpeg  used on input
@@ -1245,84 +1245,81 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.25})
                                                   \__shipout_drop_firstpage_...
 l.328 
        <./Images/BRadesMelian-TPLinkCEP610-1.jpeg>]
-<Images/BRadesMelian-Topologie2.png, id=843, 536.75531pt x 344.78813pt>
-File: Images/BRadesMelian-Topologie2.png Graphic file (type png)
-<use Images/BRadesMelian-Topologie2.png>
-Package pdftex.def Info: Images/BRadesMelian-Topologie2.png  used on input line
- 342.
-(pdftex.def)             Requested size: 426.79134pt x 274.1526pt.
-<Images/BRadesMelian-Topologie3.png, id=844, 538.26094pt x 342.5297pt>
+
+LaTeX Warning: Reference `Chap3.3.2' on page 35 undefined on input line 338.
+
+<Images/BRadesMelian-Topologie3.png, id=840, 538.26094pt x 342.5297pt>
 File: Images/BRadesMelian-Topologie3.png Graphic file (type png)
 <use Images/BRadesMelian-Topologie3.png>
 Package pdftex.def Info: Images/BRadesMelian-Topologie3.png  used on input line
  349.
 (pdftex.def)             Requested size: 426.79134pt x 271.59898pt.
- [35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.26})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.353 
-       <./Images/BRadesMelian-Topologie2.png>]
-<Images/BRadesMelian-Topologie4.png, id=851, 537.50812pt x 344.03531pt>
+<Images/BRadesMelian-Topologie4.png, id=841, 537.50812pt x 344.03531pt>
 File: Images/BRadesMelian-Topologie4.png Graphic file (type png)
 <use Images/BRadesMelian-Topologie4.png>
 Package pdftex.def Info: Images/BRadesMelian-Topologie4.png  used on input line
  356.
 (pdftex.def)             Requested size: 426.79134pt x 273.17079pt.
-<Images/BRadesMelian-Topologie5.png, id=852, 536.75531pt x 342.5297pt>
+[35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.26})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.360 
+       <./Images/BRadesMelian-Topologie3.png>]
+<Images/BRadesMelian-Topologie5.png, id=848, 536.75531pt x 342.5297pt>
 File: Images/BRadesMelian-Topologie5.png Graphic file (type png)
 <use Images/BRadesMelian-Topologie5.png>
 Package pdftex.def Info: Images/BRadesMelian-Topologie5.png  used on input line
  363.
 (pdftex.def)             Requested size: 426.79134pt x 272.35684pt.
- [36
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.27})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.367 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.28})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.367 
-       <./Images/BRadesMelian-Topologie3.png> <./Images/BRadesMelian-Topologie4
-.png>]
-<Images/BRadesMelian-Topologie6.png, id=859, 540.51938pt x 345.54094pt>
+<Images/BRadesMelian-Topologie6.png, id=849, 540.51938pt x 345.54094pt>
 File: Images/BRadesMelian-Topologie6.png Graphic file (type png)
 <use Images/BRadesMelian-Topologie6.png>
 Package pdftex.def Info: Images/BRadesMelian-Topologie6.png  used on input line
  370.
 (pdftex.def)             Requested size: 426.79134pt x 272.84253pt.
-<Images/BRadesMelian-Topologie7.png, id=860, 539.01375pt x 343.2825pt>
+ [36
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.27})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.374 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.28})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.374 
+       <./Images/BRadesMelian-Topologie4.png> <./Images/BRadesMelian-Topologie5
+.png>]
+<Images/BRadesMelian-Topologie7.png, id=856, 539.01375pt x 343.2825pt>
 File: Images/BRadesMelian-Topologie7.png Graphic file (type png)
 <use Images/BRadesMelian-Topologie7.png>
 Package pdftex.def Info: Images/BRadesMelian-Topologie7.png  used on input line
  377.
 (pdftex.def)             Requested size: 426.79134pt x 271.81352pt.
- [37
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.29})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.381 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.30})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.381 
-       <./Images/BRadesMelian-Topologie5.png> <./Images/BRadesMelian-Topologie6
-.png>]
-<Images/BRadesMelian-Topologie8.png, id=868, 542.77782pt x 348.55219pt>
+<Images/BRadesMelian-Topologie8.png, id=857, 542.77782pt x 348.55219pt>
 File: Images/BRadesMelian-Topologie8.png Graphic file (type png)
 <use Images/BRadesMelian-Topologie8.png>
 Package pdftex.def Info: Images/BRadesMelian-Topologie8.png  used on input line
  384.
 (pdftex.def)             Requested size: 426.79134pt x 274.08208pt.
-<Images/BRadesMelian-Topologie14.png, id=869, 727.21687pt x 462.22687pt>
+ [37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.29})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.388 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.30})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.388 
+       <./Images/BRadesMelian-Topologie6.png> <./Images/BRadesMelian-Topologie7
+.png>]
+<Images/BRadesMelian-Topologie14.png, id=865, 727.21687pt x 462.22687pt>
 File: Images/BRadesMelian-Topologie14.png Graphic file (type png)
 <use Images/BRadesMelian-Topologie14.png>
 Package pdftex.def Info: Images/BRadesMelian-Topologie14.png  used on input lin
@@ -1333,44 +1330,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.31})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.395 
-      
+l.398 p
+       fSense offre une gamme d'options de configuration avancée, notamment...
+
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.32})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.395 
-       <./Images/BRadesMelian-Topologie7.png> <./Images/BRadesMelian-Topologie8
-.png>]
+l.398 p
+       fSense offre une gamme d'options de configuration avancée, notamment...
+ <./Images/BRadesMelian-Topologie8.png> <./Images/BRadesMelian-Topologie14.png>
+]
 Overfull \hbox (0.86946pt too wide) in paragraph at lines 400--401
 []\T1/lmr/m/n/14.4 En uti-li-sant ces fonc-tion-na-li-t�s, nous pou-vons per-so
 n-na-li-ser notre pare-
  []
 
-) [39
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.33})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.60 \include{Chapter2}
-                        <./Images/BRadesMelian-Topologie14.png>] [40]
+) [39]
 \openout2 = `Chapter3.aux'.
 
-
-(Chapter3.tex
+ (Chapter3.tex
 Chapitre 3.
-[41
+[40
 
 
 
 
-] [42
+] [41
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.57 
-     ] [43] [44] [45]
+     ] [42] [43] [44]
 Overfull \hbox (2.73302pt too wide) in paragraph at lines 142--143
 []\T1/lmr/m/n/14.4 Personnalisation : As-te-risk est hau-te-ment per-son-na-li-
 sable. Nous avons
@@ -1382,53 +1374,53 @@ Overfull \hbox (0.93912pt too wide) in paragraph at lines 166--167
 pour r�-pondre
  []
 
-[46] [47]
+[45] [46]
 Overfull \hbox (1.8431pt too wide) in paragraph at lines 202--203
 []\T1/lmr/m/n/14.4 Nos so-lu-tions choi-sies se r�-par-tissent en trois couches
  dis-tinctes, comme
  []
 
-<Images/diagsi.png, id=918, 683.55376pt x 231.86626pt>
+<Images/diagsi.png, id=909, 683.55376pt x 231.86626pt>
 File: Images/diagsi.png Graphic file (type png)
 <use Images/diagsi.png>
 Package pdftex.def Info: Images/diagsi.png  used on input line 207.
 (pdftex.def)             Requested size: 455.24408pt x 154.42616pt.
-<Images/ubuntu-install.png, id=920, 807.015pt x 568.1225pt>
+<Images/ubuntu-install.png, id=911, 807.015pt x 568.1225pt>
 File: Images/ubuntu-install.png Graphic file (type png)
 <use Images/ubuntu-install.png>
 Package pdftex.def Info: Images/ubuntu-install.png  used on input line 223.
 (pdftex.def)             Requested size: 426.79134pt x 300.45331pt.
-[48
+[47
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.227 
        <./Images/diagsi.png>]
-<Images/zetaserver.png, id=928, 396.7322pt x 364.36125pt>
+<Images/zetaserver.png, id=919, 396.7322pt x 364.36125pt>
 File: Images/zetaserver.png Graphic file (type png)
 <use Images/zetaserver.png>
 Package pdftex.def Info: Images/zetaserver.png  used on input line 232.
 (pdftex.def)             Requested size: 426.79134pt x 391.97536pt.
- [49
+ [48
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.236 
        <./Images/ubuntu-install.png>]
-<Images/neofetchzetasrv1.png, id=936, 602.25pt x 370.38374pt>
+<Images/neofetchzetasrv1.png, id=926, 602.25pt x 370.38374pt>
 File: Images/neofetchzetasrv1.png Graphic file (type png)
 <use Images/neofetchzetasrv1.png>
 Package pdftex.def Info: Images/neofetchzetasrv1.png  used on input line 241.
 (pdftex.def)             Requested size: 426.79134pt x 262.48825pt.
- [50
+ [49
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.245 
-       <./Images/zetaserver.png>] [51
+       <./Images/zetaserver.png>] [50
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1436,29 +1428,29 @@ has been already used, duplicate ignored
 l.260 ...m virtinst libvirt-clients bridge-utils"}
                                                    <./Images/neofetchzetasrv1.p
 ng>]
-<Images/installkvm1.png, id=950, 623.32875pt x 88.07906pt>
+<Images/installkvm1.png, id=941, 623.32875pt x 88.07906pt>
 File: Images/installkvm1.png Graphic file (type png)
 <use Images/installkvm1.png>
 Package pdftex.def Info: Images/installkvm1.png  used on input line 283.
 (pdftex.def)             Requested size: 426.79134pt x 60.30824pt.
-<Images/installkvm2.png, id=951, 618.81187pt x 325.215pt>
+<Images/installkvm2.png, id=942, 618.81187pt x 325.215pt>
 File: Images/installkvm2.png Graphic file (type png)
 <use Images/installkvm2.png>
 Package pdftex.def Info: Images/installkvm2.png  used on input line 290.
 (pdftex.def)             Requested size: 426.79134pt x 224.30927pt.
- [52
+ [51
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.294 
        <./Images/installkvm1.png>]
-<Images/resultvirtmanager.png, id=958, 1076.52188pt x 474.27188pt>
+<Images/resultvirtmanager.png, id=949, 1076.52188pt x 474.27188pt>
 File: Images/resultvirtmanager.png Graphic file (type png)
 <use Images/resultvirtmanager.png>
 Package pdftex.def Info: Images/resultvirtmanager.png  used on input line 299.
 (pdftex.def)             Requested size: 426.79134pt x 188.02644pt.
- [53
+ [52
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1473,24 +1465,24 @@ has been already used, duplicate ignored
 l.310 T
        out d'abord, nous effectuons une mise à jour du système Linux en ex...
  <./Images/installkvm2.png> <./Images/resultvirtmanager.png>]
-<Images/dhcp1.png, id=967, 766.36313pt x 613.54219pt>
+<Images/dhcp1.png, id=958, 766.36313pt x 613.54219pt>
 File: Images/dhcp1.png Graphic file (type png)
 <use Images/dhcp1.png>
 Package pdftex.def Info: Images/dhcp1.png  used on input line 314.
 (pdftex.def)             Requested size: 364.19667pt x 291.57599pt.
-<Images/dhcp2.png, id=969, 514.17094pt x 176.91093pt>
+<Images/dhcp2.png, id=960, 514.17094pt x 176.91093pt>
 File: Images/dhcp2.png Graphic file (type png)
 <use Images/dhcp2.png>
 Package pdftex.def Info: Images/dhcp2.png  used on input line 323.
 (pdftex.def)             Requested size: 364.19667pt x 125.31068pt.
- [54
+ [53
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.327 
        <./Images/dhcp1.png>]
-<Images/dhcp3.png, id=978, 484.81125pt x 73.02281pt>
+<Images/dhcp3.png, id=969, 484.81125pt x 73.02281pt>
 File: Images/dhcp3.png Graphic file (type png)
 <use Images/dhcp3.png>
 Package pdftex.def Info: Images/dhcp3.png  used on input line 332.
@@ -1501,7 +1493,7 @@ Overfull \hbox (11.89963pt too wide) in paragraph at lines 337--338
 -gu-ra-tion \T1/lmtt/m/n/14.4 dhcpd.conf\T1/lmr/m/n/14.4 . 
  []
 
-<Images/dhcp4.png, id=980, 437.38406pt x 197.23688pt>
+<Images/dhcp4.png, id=971, 437.38406pt x 197.23688pt>
 File: Images/dhcp4.png Graphic file (type png)
 <use Images/dhcp4.png>
 Package pdftex.def Info: Images/dhcp4.png  used on input line 341.
@@ -1512,12 +1504,12 @@ Overfull \hbox (17.52895pt too wide) in paragraph at lines 346--347
  sta-tus isc-dhcp-server.service"\T1/lmr/m/n/14.4 ,
  []
 
-<Images/dhcp5.png, id=982, 547.2947pt x 325.215pt>
+<Images/dhcp5.png, id=973, 547.2947pt x 325.215pt>
 File: Images/dhcp5.png Graphic file (type png)
 <use Images/dhcp5.png>
 Package pdftex.def Info: Images/dhcp5.png  used on input line 350.
 (pdftex.def)             Requested size: 364.19667pt x 216.41412pt.
-[55
+[54
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1536,12 +1528,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
                                                   \__shipout_drop_firstpage_...
 l.354 
        <./Images/dhcp2.png> <./Images/dhcp3.png> <./Images/dhcp4.png>]
-<Images/AsteriskServer1.png, id=993, 545.78906pt x 223.58531pt>
+<Images/AsteriskServer1.png, id=983, 545.78906pt x 223.58531pt>
 File: Images/AsteriskServer1.png Graphic file (type png)
 <use Images/AsteriskServer1.png>
 Package pdftex.def Info: Images/AsteriskServer1.png  used on input line 363.
 (pdftex.def)             Requested size: 364.19667pt x 149.19409pt.
- [56
+ [55
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1556,22 +1548,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13})
 l.374 N
        ous poursuivons avec la configuration et la vérification d'Odoo en u...
  <./Images/dhcp5.png> <./Images/AsteriskServer1.png>]
-<Images/post104722.png, id=1004, 533.74406pt x 200.24812pt>
+<Images/post104722.png, id=995, 533.74406pt x 200.24812pt>
 File: Images/post104722.png Graphic file (type png)
 <use Images/post104722.png>
 Package pdftex.def Info: Images/post104722.png  used on input line 378.
 (pdftex.def)             Requested size: 426.79134pt x 160.12843pt.
-<Images/104614.png, id=1006, 993.7125pt x 360.59718pt>
+<Images/104614.png, id=997, 993.7125pt x 360.59718pt>
 File: Images/104614.png Graphic file (type png)
 <use Images/104614.png>
 Package pdftex.def Info: Images/104614.png  used on input line 387.
 (pdftex.def)             Requested size: 426.79134pt x 154.8722pt.
-<Images/OdooServer2.png, id=1008, 1440.88312pt x 470.50781pt>
+<Images/OdooServer2.png, id=999, 1440.88312pt x 470.50781pt>
 File: Images/OdooServer2.png Graphic file (type png)
 <use Images/OdooServer2.png>
 Package pdftex.def Info: Images/OdooServer2.png  used on input line 396.
 (pdftex.def)             Requested size: 426.79134pt x 139.35858pt.
- [57
+ [56
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1584,12 +1576,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15})
                                                   \__shipout_drop_firstpage_...
 l.400 
        <./Images/post104722.png> <./Images/104614.png>]
-<Images/GLPI.png, id=1019, 764.10469pt x 506.6428pt>
+<Images/GLPI.png, id=1010, 764.10469pt x 506.6428pt>
 File: Images/GLPI.png Graphic file (type png)
 <use Images/GLPI.png>
 Package pdftex.def Info: Images/GLPI.png  used on input line 410.
 (pdftex.def)             Requested size: 426.79134pt x 282.98361pt.
- [58
+ [57
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1602,29 +1594,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17})
                                                   \__shipout_drop_firstpage_...
 l.416 
        <./Images/OdooServer2.png> <./Images/GLPI.png>]
-<Images/20230928102651.png, id=1029, 498.36188pt x 466.74374pt>
+<Images/20230928102651.png, id=1020, 498.36188pt x 466.74374pt>
 File: Images/20230928102651.png Graphic file (type png)
 <use Images/20230928102651.png>
 Package pdftex.def Info: Images/20230928102651.png  used on input line 420.
 (pdftex.def)             Requested size: 426.79134pt x 399.72527pt.
-<Images/ldapdashboard.png, id=1032, 343.2825pt x 161.85469pt>
+<Images/ldapdashboard.png, id=1023, 343.2825pt x 161.85469pt>
 File: Images/ldapdashboard.png Graphic file (type png)
 <use Images/ldapdashboard.png>
 Package pdftex.def Info: Images/ldapdashboard.png  used on input line 432.
 (pdftex.def)             Requested size: 426.79134pt x 201.22623pt.
- [59
+ [58
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.436 
        <./Images/20230928102651.png (PNG copy)>]
-<Images/virsh-listall.png, id=1039, 484.81125pt x 290.58563pt>
+<Images/virsh-listall.png, id=1030, 484.81125pt x 290.58563pt>
 File: Images/virsh-listall.png Graphic file (type png)
 <use Images/virsh-listall.png>
 Package pdftex.def Info: Images/virsh-listall.png  used on input line 442.
 (pdftex.def)             Requested size: 426.79134pt x 255.82256pt.
- [60
+ [59
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1636,74 +1628,74 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.454 
-       <./Images/ldapdashboard.png> <./Images/virsh-listall.png>]) [61]
+       <./Images/ldapdashboard.png> <./Images/virsh-listall.png>]) [60]
 \openout2 = `Chapter4.aux'.
 
 
 (Chapter4.tex
 Chapitre 4.
-[62
+[61
 
 
 
 
 ]
-<Images/IoT-Topo2.png, id=1061, 614.295pt x 240.9pt>
+<Images/IoT-Topo2.png, id=1052, 614.295pt x 240.9pt>
 File: Images/IoT-Topo2.png Graphic file (type png)
 <use Images/IoT-Topo2.png>
 Package pdftex.def Info: Images/IoT-Topo2.png  used on input line 25.
 (pdftex.def)             Requested size: 426.79134pt x 167.3717pt.
- [63
+ [62
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.34 
-      <./Images/IoT-Topo2.png>] [64]
-<Images/SmartPSS1.png, id=1075, 1440.13031pt x 730.98094pt>
+      <./Images/IoT-Topo2.png>] [63]
+<Images/SmartPSS1.png, id=1066, 1440.13031pt x 730.98094pt>
 File: Images/SmartPSS1.png Graphic file (type png)
 <use Images/SmartPSS1.png>
 Package pdftex.def Info: Images/SmartPSS1.png  used on input line 65.
 (pdftex.def)             Requested size: 426.79134pt x 216.6302pt.
-<Images/BRades-Pointage.jpg, id=1078, 224.33812pt x 462.22687pt>
+<Images/BRades-Pointage.jpg, id=1069, 224.33812pt x 462.22687pt>
 File: Images/BRades-Pointage.jpg Graphic file (type jpg)
 <use Images/BRades-Pointage.jpg>
 Package pdftex.def Info: Images/BRades-Pointage.jpg  used on input line 82.
 (pdftex.def)             Requested size: 113.80846pt x 284.52527pt.
-<Images/ZKTime.png, id=1079, 1024.82875pt x 725.71124pt>
+<Images/ZKTime.png, id=1070, 1024.82875pt x 725.71124pt>
 File: Images/ZKTime.png Graphic file (type png)
 <use Images/ZKTime.png>
 Package pdftex.def Info: Images/ZKTime.png  used on input line 82.
 (pdftex.def)             Requested size: 341.43306pt x 241.77765pt.
- [65
+ [64
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.87 
-      <./Images/SmartPSS1.png>] [66
+      <./Images/SmartPSS1.png>] [65
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.97 
-      <./Images/BRades-Pointage.jpg> <./Images/ZKTime.png>] [67]
-<Images/RaspberryPi3.png, id=1095, 602.25pt x 602.25pt>
+      <./Images/BRades-Pointage.jpg> <./Images/ZKTime.png>] [66]
+<Images/RaspberryPi3.png, id=1085, 602.25pt x 602.25pt>
 File: Images/RaspberryPi3.png Graphic file (type png)
 <use Images/RaspberryPi3.png>
 Package pdftex.def Info: Images/RaspberryPi3.png  used on input line 126.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
-<Images/DHT11.png, id=1096, 233.37187pt x 210.7875pt>
+<Images/DHT11.png, id=1086, 233.37187pt x 210.7875pt>
 File: Images/DHT11.png Graphic file (type png)
 <use Images/DHT11.png>
 Package pdftex.def Info: Images/DHT11.png  used on input line 128.
 (pdftex.def)             Requested size: 85.35826pt x 77.09601pt.
-<Images/DiodeLED.png, id=1097, 191.21437pt x 109.91063pt>
+<Images/DiodeLED.png, id=1087, 191.21437pt x 109.91063pt>
 File: Images/DiodeLED.png Graphic file (type png)
 <use Images/DiodeLED.png>
 Package pdftex.def Info: Images/DiodeLED.png  used on input line 130.
 (pdftex.def)             Requested size: 85.35826pt x 49.0635pt.
- [68
+ [67
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1711,61 +1703,61 @@ as been already used, duplicate ignored
 l.146 
        <./Images/RaspberryPi3.png> <./Images/DHT11.png> <./Images/DiodeLED.png>
 ]
-<Images/NodeRedInstall1.png, id=1109, 797.22844pt x 626.34pt>
+<Images/NodeRedInstall1.png, id=1100, 797.22844pt x 626.34pt>
 File: Images/NodeRedInstall1.png Graphic file (type png)
 <use Images/NodeRedInstall1.png>
 Package pdftex.def Info: Images/NodeRedInstall1.png  used on input line 167.
 (pdftex.def)             Requested size: 426.79134pt x 335.30362pt.
- [69]
-<Images/NodeRedInstall2.png, id=1118, 785.18344pt x 618.81187pt>
+ [68]
+<Images/NodeRedInstall2.png, id=1109, 785.18344pt x 618.81187pt>
 File: Images/NodeRedInstall2.png Graphic file (type png)
 <use Images/NodeRedInstall2.png>
 Package pdftex.def Info: Images/NodeRedInstall2.png  used on input line 176.
 (pdftex.def)             Requested size: 369.88582pt x 291.51202pt.
- [70
+ [69
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.180 
        <./Images/NodeRedInstall1.png>]
-<Images/NodeRedStart1.png, id=1125, 788.19469pt x 616.55344pt>
+<Images/NodeRedStart1.png, id=1116, 788.19469pt x 616.55344pt>
 File: Images/NodeRedStart1.png Graphic file (type png)
 <use Images/NodeRedStart1.png>
 Package pdftex.def Info: Images/NodeRedStart1.png  used on input line 185.
 (pdftex.def)             Requested size: 426.79134pt x 333.84645pt.
- [71
+ [70
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.189 
        <./Images/NodeRedInstall2.png>]
-<Images/NodeRedInterface.png, id=1131, 1458.95062pt x 781.41937pt>
+<Images/NodeRedInterface.png, id=1122, 1458.95062pt x 781.41937pt>
 File: Images/NodeRedInterface.png Graphic file (type png)
 <use Images/NodeRedInterface.png>
 Package pdftex.def Info: Images/NodeRedInterface.png  used on input line 199.
 (pdftex.def)             Requested size: 426.79134pt x 228.58511pt.
- [72
+ [71
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.203 
        <./Images/NodeRedStart1.png>]
-<Images/Node-Red-Dashboard-Installed.png, id=1138, 525.46312pt x 165.61874pt>
+<Images/Node-Red-Dashboard-Installed.png, id=1129, 525.46312pt x 165.61874pt>
 File: Images/Node-Red-Dashboard-Installed.png Graphic file (type png)
 <use Images/Node-Red-Dashboard-Installed.png>
 Package pdftex.def Info: Images/Node-Red-Dashboard-Installed.png  used on input
  line 210.
 (pdftex.def)             Requested size: 426.79134pt x 134.52446pt.
-<Images/DHT11-Node-Red-Install.png, id=1140, 442.65375pt x 156.585pt>
+<Images/DHT11-Node-Red-Install.png, id=1131, 442.65375pt x 156.585pt>
 File: Images/DHT11-Node-Red-Install.png Graphic file (type png)
 <use Images/DHT11-Node-Red-Install.png>
 Package pdftex.def Info: Images/DHT11-Node-Red-Install.png  used on input line 
 219.
 (pdftex.def)             Requested size: 426.79134pt x 150.98172pt.
- [73
+ [72
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1779,29 +1771,29 @@ has been already used, duplicate ignored
 l.223 
        <./Images/NodeRedInterface.png> <./Images/Node-Red-Dashboard-Installed.p
 ng>]
-<Images/Node-2.png, id=1149, 865.73438pt x 479.54156pt>
+<Images/Node-2.png, id=1139, 865.73438pt x 479.54156pt>
 File: Images/Node-2.png Graphic file (type png)
 <use Images/Node-2.png>
 Package pdftex.def Info: Images/Node-2.png  used on input line 235.
 (pdftex.def)             Requested size: 398.33858pt x 220.643pt.
- [74
+ [73
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.239 
        <./Images/DHT11-Node-Red-Install.png>]
-<Images/Node-3.png, id=1157, 959.08313pt x 450.9347pt>
+<Images/Node-3.png, id=1148, 959.08313pt x 450.9347pt>
 File: Images/Node-3.png Graphic file (type png)
 <use Images/Node-3.png>
 Package pdftex.def Info: Images/Node-3.png  used on input line 246.
 (pdftex.def)             Requested size: 426.79134pt x 200.66875pt.
-<Images/Node-4.png, id=1159, 717.43031pt x 140.02313pt>
+<Images/Node-4.png, id=1150, 717.43031pt x 140.02313pt>
 File: Images/Node-4.png Graphic file (type png)
 <use Images/Node-4.png>
 Package pdftex.def Info: Images/Node-4.png  used on input line 255.
 (pdftex.def)             Requested size: 426.79134pt x 83.29877pt.
- [75
+ [74
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1814,17 +1806,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11})
                                                   \__shipout_drop_firstpage_...
 l.258 \end{figure}
                    <./Images/Node-2.png> <./Images/Node-3.png>]
-<Images/Node-5.png, id=1167, 852.93657pt x 253.69781pt>
+<Images/Node-5.png, id=1158, 852.93657pt x 253.69781pt>
 File: Images/Node-5.png Graphic file (type png)
 <use Images/Node-5.png>
 Package pdftex.def Info: Images/Node-5.png  used on input line 264.
 (pdftex.def)             Requested size: 426.79134pt x 126.94536pt.
-<Images/RaspberryVisual.png, id=1169, 750.55406pt x 592.46344pt>
+<Images/RaspberryVisual.png, id=1160, 750.55406pt x 592.46344pt>
 File: Images/RaspberryVisual.png Graphic file (type png)
 <use Images/RaspberryVisual.png>
 Package pdftex.def Info: Images/RaspberryVisual.png  used on input line 277.
 (pdftex.def)             Requested size: 426.79134pt x 336.90308pt.
- [76
+ [75
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1837,89 +1829,89 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
                                                   \__shipout_drop_firstpage_...
 l.281 
        <./Images/Node-4.png> <./Images/Node-5.png>]
-<Images/Node-8.png, id=1176, 375.65344pt x 694.84593pt>
+<Images/Node-8.png, id=1167, 375.65344pt x 694.84593pt>
 File: Images/Node-8.png Graphic file (type png)
 <use Images/Node-8.png>
 Package pdftex.def Info: Images/Node-8.png  used on input line 286.
 (pdftex.def)             Requested size: 341.43306pt x 631.58981pt.
- [77
+ [76
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.290 
        <./Images/RaspberryVisual.png>]
-<Images/Node-9.png, id=1183, 435.12563pt x 248.42813pt>
+<Images/Node-9.png, id=1174, 435.12563pt x 248.42813pt>
 File: Images/Node-9.png Graphic file (type png)
 <use Images/Node-9.png>
 Package pdftex.def Info: Images/Node-9.png  used on input line 295.
 (pdftex.def)             Requested size: 426.79134pt x 243.68535pt.
- [78
+ [77
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.298 \end{figure}
                    <./Images/Node-8.png>]
-<Images/Node-10.png, id=1190, 551.81157pt x 489.32813pt>
+<Images/Node-10.png, id=1181, 551.81157pt x 489.32813pt>
 File: Images/Node-10.png Graphic file (type png)
 <use Images/Node-10.png>
 Package pdftex.def Info: Images/Node-10.png  used on input line 304.
 (pdftex.def)             Requested size: 426.79134pt x 378.47871pt.
- [79
+ [78
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.308 
        <./Images/Node-9.png>]
-<Images/Node-6.png, id=1198, 331.2375pt x 475.7775pt>
+<Images/Node-6.png, id=1188, 331.2375pt x 475.7775pt>
 File: Images/Node-6.png Graphic file (type png)
 <use Images/Node-6.png>
 Package pdftex.def Info: Images/Node-6.png  used on input line 316.
 (pdftex.def)             Requested size: 369.88582pt x 531.31355pt.
- [80
+ [79
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.320 
        <./Images/Node-10.png>]
-<Images/Node-7.png, id=1205, 393.72093pt x 663.98062pt>
+<Images/Node-7.png, id=1196, 393.72093pt x 663.98062pt>
 File: Images/Node-7.png Graphic file (type png)
 <use Images/Node-7.png>
 Package pdftex.def Info: Images/Node-7.png  used on input line 325.
 (pdftex.def)             Requested size: 341.43306pt x 575.79427pt.
- [81
+ [80
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.329 
        <./Images/Node-6.png>]
-<Images/Node-1.png, id=1212, 1445.4pt x 755.07094pt>
+<Images/Node-1.png, id=1203, 1445.4pt x 755.07094pt>
 File: Images/Node-1.png Graphic file (type png)
 <use Images/Node-1.png>
 Package pdftex.def Info: Images/Node-1.png  used on input line 336.
 (pdftex.def)             Requested size: 426.79134pt x 222.95137pt.
- [82
+ [81
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.339 \end{figure}
                    <./Images/Node-7.png>]
-<Images/Node-11.jpg, id=1219, 903.375pt x 1606.0pt>
+<Images/Node-11.jpg, id=1210, 903.375pt x 1606.0pt>
 File: Images/Node-11.jpg Graphic file (type jpg)
 <use Images/Node-11.jpg>
 Package pdftex.def Info: Images/Node-11.jpg  used on input line 345.
 (pdftex.def)             Requested size: 170.71652pt x 303.47679pt.
-<Images/Node-12.jpg, id=1220, 903.375pt x 1606.0pt>
+<Images/Node-12.jpg, id=1211, 903.375pt x 1606.0pt>
 File: Images/Node-12.jpg Graphic file (type jpg)
 <use Images/Node-12.jpg>
 Package pdftex.def Info: Images/Node-12.jpg  used on input line 345.
 (pdftex.def)             Requested size: 170.71652pt x 303.47679pt.
- [83
+ [82
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1932,7 +1924,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.21})
                                                   \__shipout_drop_firstpage_...
 l.352 
        <./Images/Node-1.png> <./Images/Node-11.jpg> <./Images/Node-12.jpg>]
-<Images/1006591.jpg, id=1227, 722.7pt x 1606.0pt>
+<Images/1006591.jpg, id=1218, 722.7pt x 1606.0pt>
 File: Images/1006591.jpg Graphic file (type jpg)
 <use Images/1006591.jpg>
 Package pdftex.def Info: Images/1006591.jpg  used on input line 355.
@@ -1943,41 +1935,41 @@ Overfull \hbox (7.12698pt too wide) in paragraph at lines 360--361
 192.168.3.192 :1880".
  []
 
-<Images/150131.png, id=1229, 1445.4pt x 763.35187pt>
+<Images/150131.png, id=1220, 1445.4pt x 763.35187pt>
 File: Images/150131.png Graphic file (type png)
 <use Images/150131.png>
 Package pdftex.def Info: Images/150131.png  used on input line 364.
 (pdftex.def)             Requested size: 426.79134pt x 225.3965pt.
-<Images/150156.png, id=1230, 1445.4pt x 777.65532pt>
+<Images/150156.png, id=1221, 1445.4pt x 777.65532pt>
 File: Images/150156.png Graphic file (type png)
 <use Images/150156.png>
 Package pdftex.def Info: Images/150156.png  used on input line 365.
 (pdftex.def)             Requested size: 426.79134pt x 229.61992pt.
-[84
+[83
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.22})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.369 
        <./Images/1006591.jpg>]
-<Images/raspberryfusion.png, id=1237, 950.04938pt x 534.49687pt>
+<Images/raspberryfusion.png, id=1228, 950.04938pt x 534.49687pt>
 File: Images/raspberryfusion.png Graphic file (type png)
 <use Images/raspberryfusion.png>
 Package pdftex.def Info: Images/raspberryfusion.png  used on input line 380.
 (pdftex.def)             Requested size: 426.79134pt x 240.11357pt.
- [85
+ [84
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.23})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.383 \end{figure}
                    <./Images/150131.png> <./Images/150156.png>]
-<Images/raspberryfusion1.png, id=1246, 958.3303pt x 532.23843pt>
+<Images/raspberryfusion1.png, id=1236, 958.3303pt x 532.23843pt>
 File: Images/raspberryfusion1.png Graphic file (type png)
 <use Images/raspberryfusion1.png>
 Package pdftex.def Info: Images/raspberryfusion1.png  used on input line 389.
 (pdftex.def)             Requested size: 426.79134pt x 237.02808pt.
-<Images/RASPBERRYPIGLPI.png, id=1248, 1142.01656pt x 570.63188pt>
+<Images/RASPBERRYPIGLPI.png, id=1238, 1142.01656pt x 570.63188pt>
 File: Images/RASPBERRYPIGLPI.png Graphic file (type png)
 <use Images/RASPBERRYPIGLPI.png>
 Package pdftex.def Info: Images/RASPBERRYPIGLPI.png  used on input line 398.
@@ -1987,7 +1979,7 @@ Overfull \hbox (14.22635pt too wide) in paragraph at lines 398--399
  [][] 
  []
 
-[86
+[85
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.24})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2000,7 +1992,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.25})
                                                   \__shipout_drop_firstpage_...
 l.401 \end{figure}
                    <./Images/raspberryfusion.png> <./Images/raspberryfusion1.pn
-g>]) [87
+g>]) [86
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.26})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2015,12 +2007,12 @@ Overfull \hbox (1.02657pt too wide) in paragraph at lines 7--8
 , nous avons con�u
  []
 
-) [88
+) [87
 
 
 
 
-] (Main.bbl [89
+] (Main.bbl [88
 
 
 
@@ -2036,151 +2028,151 @@ Overfull \hbox (11.13965pt too wide) in paragraph at lines 116--121
 ]dans-[]le-[]monde-[]2020/$[] 
  []
 
-) [90]
+) [89]
 \openout2 = `Acro.aux'.
 
  (Acro.tex
 
-LaTeX Warning: Hyper reference `acro:IP' on page 91 undefined on input line 7.
+LaTeX Warning: Hyper reference `acro:IP' on page 90 undefined on input line 7.
 
 
-LaTeX Warning: Hyper reference `acro:IP' on page 91 undefined on input line 7.
+LaTeX Warning: Hyper reference `acro:IP' on page 90 undefined on input line 7.
 
 
-LaTeX Warning: Hyper reference `acro:LAN' on page 91 undefined on input line 8.
-
-
-
-LaTeX Warning: Hyper reference `acro:LAN' on page 91 undefined on input line 8.
+LaTeX Warning: Hyper reference `acro:LAN' on page 90 undefined on input line 8.
 
 
 
-LaTeX Warning: Hyper reference `acro:WAN' on page 91 undefined on input line 9.
+LaTeX Warning: Hyper reference `acro:LAN' on page 90 undefined on input line 8.
 
 
 
-LaTeX Warning: Hyper reference `acro:WAN' on page 91 undefined on input line 9.
+LaTeX Warning: Hyper reference `acro:WAN' on page 90 undefined on input line 9.
 
 
 
-LaTeX Warning: Hyper reference `acro:MAN' on page 91 undefined on input line 10
+LaTeX Warning: Hyper reference `acro:WAN' on page 90 undefined on input line 9.
+
+
+
+LaTeX Warning: Hyper reference `acro:MAN' on page 90 undefined on input line 10
 .
 
 
-LaTeX Warning: Hyper reference `acro:MAN' on page 91 undefined on input line 10
+LaTeX Warning: Hyper reference `acro:MAN' on page 90 undefined on input line 10
 .
 
 
-LaTeX Warning: Hyper reference `acro:IT' on page 91 undefined on input line 11.
+LaTeX Warning: Hyper reference `acro:IT' on page 90 undefined on input line 11.
 
 
 
-LaTeX Warning: Hyper reference `acro:IT' on page 91 undefined on input line 11.
+LaTeX Warning: Hyper reference `acro:IT' on page 90 undefined on input line 11.
 
 
 
-LaTeX Warning: Hyper reference `acro:SI' on page 91 undefined on input line 12.
+LaTeX Warning: Hyper reference `acro:SI' on page 90 undefined on input line 12.
 
 
 
-LaTeX Warning: Hyper reference `acro:SI' on page 91 undefined on input line 12.
+LaTeX Warning: Hyper reference `acro:SI' on page 90 undefined on input line 12.
 
 
 
-LaTeX Warning: Hyper reference `acro:QoS' on page 91 undefined on input line 13
+LaTeX Warning: Hyper reference `acro:QoS' on page 90 undefined on input line 13
 .
 
 
-LaTeX Warning: Hyper reference `acro:QoS' on page 91 undefined on input line 13
+LaTeX Warning: Hyper reference `acro:QoS' on page 90 undefined on input line 13
 .
 
 
-LaTeX Warning: Hyper reference `acro:VPN' on page 91 undefined on input line 14
+LaTeX Warning: Hyper reference `acro:VPN' on page 90 undefined on input line 14
 .
 
 
-LaTeX Warning: Hyper reference `acro:VPN' on page 91 undefined on input line 14
+LaTeX Warning: Hyper reference `acro:VPN' on page 90 undefined on input line 14
 .
 
 
-LaTeX Warning: Hyper reference `acro:SNMP' on page 91 undefined on input line 1
+LaTeX Warning: Hyper reference `acro:SNMP' on page 90 undefined on input line 1
 5.
 
 
-LaTeX Warning: Hyper reference `acro:SNMP' on page 91 undefined on input line 1
+LaTeX Warning: Hyper reference `acro:SNMP' on page 90 undefined on input line 1
 5.
 
 
-LaTeX Warning: Hyper reference `acro:RMON' on page 91 undefined on input line 1
+LaTeX Warning: Hyper reference `acro:RMON' on page 90 undefined on input line 1
 6.
 
 
-LaTeX Warning: Hyper reference `acro:RMON' on page 91 undefined on input line 1
+LaTeX Warning: Hyper reference `acro:RMON' on page 90 undefined on input line 1
 6.
 
 
-LaTeX Warning: Hyper reference `acro:LLDP' on page 91 undefined on input line 1
+LaTeX Warning: Hyper reference `acro:LLDP' on page 90 undefined on input line 1
 7.
 
 
-LaTeX Warning: Hyper reference `acro:LLDP' on page 91 undefined on input line 1
+LaTeX Warning: Hyper reference `acro:LLDP' on page 90 undefined on input line 1
 7.
 
 
-LaTeX Warning: Hyper reference `acro:VLAN' on page 91 undefined on input line 1
+LaTeX Warning: Hyper reference `acro:VLAN' on page 90 undefined on input line 1
 8.
 
 
-LaTeX Warning: Hyper reference `acro:VLAN' on page 91 undefined on input line 1
+LaTeX Warning: Hyper reference `acro:VLAN' on page 90 undefined on input line 1
 8.
 
 
-LaTeX Warning: Hyper reference `acro:STP' on page 91 undefined on input line 19
+LaTeX Warning: Hyper reference `acro:STP' on page 90 undefined on input line 19
 .
 
 
-LaTeX Warning: Hyper reference `acro:STP' on page 91 undefined on input line 19
+LaTeX Warning: Hyper reference `acro:STP' on page 90 undefined on input line 19
 .
 
 
-LaTeX Warning: Hyper reference `acro:Mbps' on page 91 undefined on input line 2
+LaTeX Warning: Hyper reference `acro:Mbps' on page 90 undefined on input line 2
 0.
 
 
-LaTeX Warning: Hyper reference `acro:Mbps' on page 91 undefined on input line 2
+LaTeX Warning: Hyper reference `acro:Mbps' on page 90 undefined on input line 2
 0.
 
 
-LaTeX Warning: Hyper reference `acro:IoT' on page 91 undefined on input line 21
+LaTeX Warning: Hyper reference `acro:IoT' on page 90 undefined on input line 21
 .
 
 
-LaTeX Warning: Hyper reference `acro:IoT' on page 91 undefined on input line 21
+LaTeX Warning: Hyper reference `acro:IoT' on page 90 undefined on input line 21
 .
 
 
-LaTeX Warning: Hyper reference `acro:OS' on page 91 undefined on input line 22.
+LaTeX Warning: Hyper reference `acro:OS' on page 90 undefined on input line 22.
 
 
 
-LaTeX Warning: Hyper reference `acro:OS' on page 91 undefined on input line 22.
+LaTeX Warning: Hyper reference `acro:OS' on page 90 undefined on input line 22.
 
 
 
-LaTeX Warning: Hyper reference `acro:NVR' on page 91 undefined on input line 23
+LaTeX Warning: Hyper reference `acro:NVR' on page 90 undefined on input line 23
 .
 
 
-LaTeX Warning: Hyper reference `acro:NVR' on page 91 undefined on input line 23
+LaTeX Warning: Hyper reference `acro:NVR' on page 90 undefined on input line 23
 .
 
-) [91
+) [90
 
 
 ]
 \openout2 = `Annexe1.aux'.
 
- (Annexe1.tex) [92
+ (Annexe1.tex) [91
 
 
 
@@ -2205,10 +2197,10 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: DD440A8C5A66F9834948BF32D2341524;13015.
  ) 
 Here is how much of TeX's memory you used:
- 15652 strings out of 475248
- 263351 string characters out of 5757813
+ 15643 strings out of 475248
+ 263047 string characters out of 5757813
  1933785 words of memory out of 5000000
- 36546 multiletter control sequences out of 15000+600000
+ 36539 multiletter control sequences out of 15000+600000
  636000 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,107p,820b,802s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2220,9 +2212,9 @@ b><C:/Users/lenov/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb
 ><C:/Users/lenov/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb
 ><C:/Users/lenov/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb
 >
-Output written on Main.pdf (104 pages, 12486054 bytes).
+Output written on Main.pdf (103 pages, 12471227 bytes).
 PDF statistics:
- 1419 PDF objects out of 1440 (max. 8388607)
- 307 named destinations out of 1000 (max. 500000)
- 1067 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1409 PDF objects out of 1440 (max. 8388607)
+ 305 named destinations out of 1000 (max. 500000)
+ 1062 words of extra memory for PDF output out of 10000 (max. 10000000)
 
